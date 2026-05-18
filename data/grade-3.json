@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "M3Q1",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a cafeteria packed 4 trays with 5 lunches on each tray and had 22 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "108",
+      "20",
+      "42",
+      "31"
+    ],
+    "correctAnswer": "42",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M3Q2",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a garden has an area of 30 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "30",
+      "6",
+      "5",
+      "11"
+    ],
+    "correctAnswer": "6",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M3Q3",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a class supply count, which expression is equivalent to 1/4 + 1/4?",
+    "choices": [
+      "2/4",
+      "1/8",
+      "2/5",
+      "2/8"
+    ],
+    "correctAnswer": "2/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M3Q4",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a science notebook weighs 3.4 ounces. A pencil case weighs 0.65 ounces. What is the total weight?",
+    "choices": [
+      "2.75 ounces",
+      "5.05 ounces",
+      "2.21 ounces",
+      "4.05 ounces"
+    ],
+    "correctAnswer": "4.05 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M3Q5",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "advanced",
+    "question": "During a class supply count, point A is located at (5, 3) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(2, 3)",
+      "(8, 6)",
+      "(8, 3)",
+      "(5, 6)"
+    ],
+    "correctAnswer": "(8, 3)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M3Q6",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a class supply count, a line plot shows plant heights of 3, 4, 4, and 6 inches. What is the most common height?",
+    "choices": [
+      "6 inches",
+      "4 inches",
+      "3 inches",
+      "5 inches"
+    ],
+    "correctAnswer": "4 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M3Q7",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a class collected 60 cans in week 1 and 50 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "22",
+      "11",
+      "30",
+      "110"
+    ],
+    "correctAnswer": "22",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M3Q8",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a class supply count, which statement correctly compares 3.80 and 3.88?",
+    "choices": [
+      "3.80 > 3.88",
+      "3.80 = 3.88",
+      "3.88 < 3.80",
+      "3.80 < 3.88"
+    ],
+    "correctAnswer": "3.80 < 3.88",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M3Q9",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "At the school garden, a cafeteria packed 4 trays with 4 lunches on each tray and had 30 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "136",
+      "16",
+      "46",
+      "38"
+    ],
+    "correctAnswer": "46",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M3Q10",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "At the school garden, a garden has an area of 25 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "25",
+      "Not supported by the information 1",
+      "5",
+      "10"
+    ],
+    "correctAnswer": "5",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M3Q11",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "At the school garden, which expression is equivalent to 3/4 + 3/4?",
+    "choices": [
+      "6/8",
+      "6/4",
+      "3/8",
+      "4/5"
+    ],
+    "correctAnswer": "6/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M3Q12",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "At the school garden, a science notebook weighs 4.2 ounces. A pencil case weighs 0.75 ounces. What is the total weight?",
+    "choices": [
+      "4.95 ounces",
+      "3.45 ounces",
+      "5.95 ounces",
+      "3.15 ounces"
+    ],
+    "correctAnswer": "4.95 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M3Q13",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "At the school garden, point A is located at (1, 6) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(1, 9)",
+      "(-2, 6)",
+      "(4, 9)",
+      "(4, 6)"
+    ],
+    "correctAnswer": "(4, 6)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M3Q14",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "At the school garden, a line plot shows plant heights of 3, 4, 4, and 6 inches. What is the most common height?",
+    "choices": [
+      "5 inches",
+      "6 inches",
+      "4 inches",
+      "3 inches"
+    ],
+    "correctAnswer": "4 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M3Q15",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "advanced",
+    "question": "At the school garden, a class collected 60 cans in week 1 and 40 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "100",
+      "20",
+      "10",
+      "24"
+    ],
+    "correctAnswer": "20",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M3Q16",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "At the school garden, which statement correctly compares 4.60 and 4.68?",
+    "choices": [
+      "4.60 < 4.68",
+      "4.60 > 4.68",
+      "4.60 = 4.68",
+      "4.68 < 4.60"
+    ],
+    "correctAnswer": "4.60 < 4.68",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M3Q17",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "For a picture graph activity, a cafeteria packed 4 trays with 6 lunches on each tray and had 38 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "48",
+      "176",
+      "24",
+      "62"
+    ],
+    "correctAnswer": "62",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M3Q18",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a picture graph activity, a garden has an area of 20 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "9",
+      "20",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M3Q19",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a picture graph activity, which expression is equivalent to 2/4 + 2/4?",
+    "choices": [
+      "4/8",
+      "4/4",
+      "2/8",
+      "3/5"
+    ],
+    "correctAnswer": "4/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M3Q20",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a picture graph activity, a science notebook weighs 5.0 ounces. A pencil case weighs 0.85 ounces. What is the total weight?",
+    "choices": [
+      "4.25 ounces",
+      "5.85 ounces",
+      "4.15 ounces",
+      "6.85 ounces"
+    ],
+    "correctAnswer": "5.85 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M3Q21",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "medium",
+    "question": "For a picture graph activity, point A is located at (3, 4) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(6, 4)",
+      "(3, 7)",
+      "(0, 4)",
+      "(6, 7)"
+    ],
+    "correctAnswer": "(6, 4)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M3Q22",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a picture graph activity, a line plot shows plant heights of 3, 4, 4, and 6 inches. What is the most common height?",
+    "choices": [
+      "3 inches",
+      "5 inches",
+      "6 inches",
+      "4 inches"
+    ],
+    "correctAnswer": "4 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M3Q23",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "For a picture graph activity, a class collected 60 cans in week 1 and 60 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "36",
+      "120",
+      "24",
+      "12"
+    ],
+    "correctAnswer": "24",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M3Q24",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a picture graph activity, which statement correctly compares 5.40 and 5.48?",
+    "choices": [
+      "5.48 < 5.40",
+      "5.40 < 5.48",
+      "5.40 > 5.48",
+      "5.40 = 5.48"
+    ],
+    "correctAnswer": "5.40 < 5.48",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M3Q25",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "advanced",
+    "question": "During a class supply count, a cafeteria packed 4 trays with 5 lunches on each tray and had 46 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "66",
+      "55",
+      "204",
+      "20"
+    ],
+    "correctAnswer": "66",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M3Q26",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a garden has an area of 30 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "5",
+      "11",
+      "30",
+      "6"
+    ],
+    "correctAnswer": "6",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M3Q27",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a class supply count, which expression is equivalent to 1/4 + 1/4?",
+    "choices": [
+      "2/5",
+      "2/8",
+      "2/4",
+      "1/8"
+    ],
+    "correctAnswer": "2/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M3Q28",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a science notebook weighs 5.8 ounces. A pencil case weighs 0.25 ounces. What is the total weight?",
+    "choices": [
+      "1.45 ounces",
+      "6.05 ounces",
+      "5.55 ounces",
+      "7.05 ounces"
+    ],
+    "correctAnswer": "6.05 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M3Q29",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "During a class supply count, point A is located at (5, 7) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(8, 7)",
+      "(5, 10)",
+      "(2, 7)",
+      "(8, 10)"
+    ],
+    "correctAnswer": "(8, 7)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M3Q30",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "data_analysis",
+    "difficulty": "advanced",
+    "question": "During a class supply count, a line plot shows plant heights of 3, 4, 4, and 6 inches. What is the most common height?",
+    "choices": [
+      "4 inches",
+      "3 inches",
+      "5 inches",
+      "6 inches"
+    ],
+    "correctAnswer": "4 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M3Q31",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a class supply count, a class collected 60 cans in week 1 and 50 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "11",
+      "30",
+      "110",
+      "22"
+    ],
+    "correctAnswer": "22",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M3Q32",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a class supply count, which statement correctly compares 6.20 and 6.28?",
+    "choices": [
+      "6.20 = 6.28",
+      "6.28 < 6.20",
+      "6.20 < 6.28",
+      "6.20 > 6.28"
+    ],
+    "correctAnswer": "6.20 < 6.28",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M3Q33",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "At the school garden, a cafeteria packed 4 trays with 4 lunches on each tray and had 54 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "16",
+      "70",
+      "62",
+      "232"
+    ],
+    "correctAnswer": "70",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M3Q34",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "At the school garden, a garden has an area of 25 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "5",
+      "10",
+      "25",
+      "Not supported by the information 1"
+    ],
+    "correctAnswer": "5",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M3Q35",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "At the school garden, which expression is equivalent to 3/4 + 3/4?",
+    "choices": [
+      "3/8",
+      "4/5",
+      "6/8",
+      "6/4"
+    ],
+    "correctAnswer": "6/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M3Q36",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Represent and solve multiplication and division word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "At the school garden, a science notebook weighs 6.6 ounces. A pencil case weighs 0.35 ounces. What is the total weight?",
+    "choices": [
+      "7.95 ounces",
+      "2.31 ounces",
+      "6.95 ounces",
+      "6.25 ounces"
+    ],
+    "correctAnswer": "6.95 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M3Q37",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NBT.A.2",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Use place value strategies for addition and subtraction.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "At the school garden, point A is located at (1, 5) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(4, 8)",
+      "(4, 5)",
+      "(1, 8)",
+      "(-2, 5)"
+    ],
+    "correctAnswer": "(4, 5)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M3Q38",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.NF.A.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Explain equivalence of fractions.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "At the school garden, a line plot shows plant heights of 3, 4, 4, and 6 inches. What is the most common height?",
+    "choices": [
+      "4 inches",
+      "3 inches",
+      "5 inches",
+      "6 inches"
+    ],
+    "correctAnswer": "4 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M3Q39",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.M.A.2",
+    "domain": "Measurement",
+    "skill": "Solve problems involving measurement data.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "At the school garden, a class collected 60 cans in week 1 and 40 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "10",
+      "24",
+      "100",
+      "20"
+    ],
+    "correctAnswer": "20",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M3Q40",
+    "grade": 3,
+    "subject": "math",
+    "standard": "3.G.A.1",
+    "domain": "Geometry",
+    "skill": "Reason about attributes of shapes.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "At the school garden, which statement correctly compares 7.00 and 7.08?",
+    "choices": [
+      "7.00 > 7.08",
+      "7.00 = 7.08",
+      "7.08 < 7.00",
+      "7.00 < 7.08"
+    ],
+    "correctAnswer": "7.00 < 7.08",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "E3Q1",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Nia uses repeated observations to share reliable information.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q2",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "she measured the water and wrote the amount on a chart",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times"
+    ]
+  },
+  {
+    "id": "E3Q3",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. What does the word repeated most nearly mean as it is used?",
+    "choices": [
+      "did again",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "did again",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q4",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It tells events in the order they happened."
+    ],
+    "correctAnswer": "It tells events in the order they happened.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E3Q5",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Nia wants her conclusion to be based on careful observations.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "Nia wants her conclusion to be based on careful observations.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E3Q6",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Nia uses repeated observations to share reliable information. This is supported by details such as she measured the water and wrote the amount on a chart and She repeated the measurement two more times.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information. This is supported by details such as she measured the water and wrote the amount on a chart and She repeated the measurement two more times.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E3Q7",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which sentence best states the central idea?",
+    "choices": [
+      "Mateo's gentle actions help the animal feel safe.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Mateo's gentle actions help the animal feel safe.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q8",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "the guinea pig came out and began eating lettuce",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "Mateo spoke softly and moved slowly"
+    ],
+    "correctAnswer": "Mateo spoke softly and moved slowly",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Mateo spoke softly and moved slowly",
+      "the guinea pig came out and began eating lettuce"
+    ]
+  },
+  {
+    "id": "E3Q9",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. What does the word softly most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "in a quiet way",
+      "repairs"
+    ],
+    "correctAnswer": "in a quiet way",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q10",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It shows a problem and how a character responds.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It shows a problem and how a character responds.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E3Q11",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "Mateo understands that sudden movements might frighten the animal.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "Mateo understands that sudden movements might frighten the animal.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E3Q12",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which response would be the strongest short written answer?",
+    "choices": [
+      "Mateo's gentle actions help the animal feel safe. This is supported by details such as Mateo spoke softly and moved slowly and the guinea pig came out and began eating lettuce.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Mateo's gentle actions help the animal feel safe. This is supported by details such as Mateo spoke softly and moved slowly and the guinea pig came out and began eating lettuce.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E3Q13",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Nia uses repeated observations to share reliable information."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q14",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times"
+    ],
+    "correctAnswer": "she measured the water and wrote the amount on a chart",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times"
+    ]
+  },
+  {
+    "id": "E3Q15",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "advanced",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. What does the word repeated most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "did again",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "did again",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q16",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. How is the passage mainly organized?",
+    "choices": [
+      "It tells events in the order they happened.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It tells events in the order they happened.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E3Q17",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Nia wants her conclusion to be based on careful observations."
+    ],
+    "correctAnswer": "Nia wants her conclusion to be based on careful observations.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E3Q18",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Nia uses repeated observations to share reliable information. This is supported by details such as she measured the water and wrote the amount on a chart and She repeated the measurement two more times.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information. This is supported by details such as she measured the water and wrote the amount on a chart and She repeated the measurement two more times.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E3Q19",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Mateo's gentle actions help the animal feel safe.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Mateo's gentle actions help the animal feel safe.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q20",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "Mateo spoke softly and moved slowly",
+      "the guinea pig came out and began eating lettuce",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "Mateo spoke softly and moved slowly",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Mateo spoke softly and moved slowly",
+      "the guinea pig came out and began eating lettuce"
+    ]
+  },
+  {
+    "id": "E3Q21",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. What does the word softly most nearly mean as it is used?",
+    "choices": [
+      "in a quiet way",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "in a quiet way",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q22",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It shows a problem and how a character responds."
+    ],
+    "correctAnswer": "It shows a problem and how a character responds.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E3Q23",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Mateo understands that sudden movements might frighten the animal.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "Mateo understands that sudden movements might frighten the animal.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E3Q24",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Mateo's gentle actions help the animal feel safe. This is supported by details such as Mateo spoke softly and moved slowly and the guinea pig came out and began eating lettuce.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Mateo's gentle actions help the animal feel safe. This is supported by details such as Mateo spoke softly and moved slowly and the guinea pig came out and began eating lettuce.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E3Q25",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which sentence best states the central idea?",
+    "choices": [
+      "Nia uses repeated observations to share reliable information.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q26",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "She repeated the measurement two more times",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "she measured the water and wrote the amount on a chart"
+    ],
+    "correctAnswer": "she measured the water and wrote the amount on a chart",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times"
+    ]
+  },
+  {
+    "id": "E3Q27",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. What does the word repeated most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "did again",
+      "repairs"
+    ],
+    "correctAnswer": "did again",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q28",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It tells events in the order they happened.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It tells events in the order they happened.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E3Q29",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which inference is best supported?",
+    "choices": [
+      "Nia wants her conclusion to be based on careful observations.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "Nia wants her conclusion to be based on careful observations.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E3Q30",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "advanced",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which response would be the strongest short written answer?",
+    "choices": [
+      "Nia uses repeated observations to share reliable information. This is supported by details such as she measured the water and wrote the amount on a chart and She repeated the measurement two more times.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information. This is supported by details such as she measured the water and wrote the amount on a chart and She repeated the measurement two more times.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E3Q31",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Mateo's gentle actions help the animal feel safe."
+    ],
+    "correctAnswer": "Mateo's gentle actions help the animal feel safe.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q32",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "Mateo spoke softly and moved slowly",
+      "the guinea pig came out and began eating lettuce"
+    ],
+    "correctAnswer": "Mateo spoke softly and moved slowly",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Mateo spoke softly and moved slowly",
+      "the guinea pig came out and began eating lettuce"
+    ]
+  },
+  {
+    "id": "E3Q33",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. What does the word softly most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "in a quiet way",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "in a quiet way",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q34",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. How is the passage mainly organized?",
+    "choices": [
+      "It shows a problem and how a character responds.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It shows a problem and how a character responds.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E3Q35",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Mateo understands that sudden movements might frighten the animal."
+    ],
+    "correctAnswer": "Mateo understands that sudden movements might frighten the animal.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E3Q36",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. When the class pet hid under the paper towels, Mateo spoke softly and moved slowly. Soon the guinea pig came out and began eating lettuce from his hand. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Mateo's gentle actions help the animal feel safe. This is supported by details such as Mateo spoke softly and moved slowly and the guinea pig came out and began eating lettuce.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "Mateo's gentle actions help the animal feel safe. This is supported by details such as Mateo spoke softly and moved slowly and the guinea pig came out and began eating lettuce.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E3Q37",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Nia uses repeated observations to share reliable information.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Nia uses repeated observations to share reliable information.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E3Q38",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "she measured the water and wrote the amount on a chart",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "she measured the water and wrote the amount on a chart",
+      "She repeated the measurement two more times"
+    ]
+  },
+  {
+    "id": "E3Q39",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. What does the word repeated most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "did again"
+    ],
+    "correctAnswer": "did again",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E3Q40",
+    "grade": 3,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. Nia placed a bowl outside during a light rain. After ten minutes, she measured the water and wrote the amount on a chart. She repeated the measurement two more times before telling her class what she found. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It tells events in the order they happened."
+    ],
+    "correctAnswer": "It tells events in the order they happened.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "S3Q1",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which variable is being tested or compared?",
+    "choices": [
+      "amount of sunlight",
+      "same soil, pot size, and water",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "amount of sunlight",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q2",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a line graph showing each plant's height over time",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "plant height measured every two days"
+    ],
+    "correctAnswer": "plant height measured every two days",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time"
+    ]
+  },
+  {
+    "id": "S3Q3",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q4",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a line graph showing each plant's height over time",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a line graph showing each plant's height over time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S3Q5",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which claim is best supported by the investigation?",
+    "choices": [
+      "More sunlight may help Plant A grow taller.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "More sunlight may help Plant A grow taller.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S3Q6",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S3Q7",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "moisture level of the tray area",
+      "same tray, time, and number of pill bugs"
+    ],
+    "correctAnswer": "moisture level of the tray area",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q8",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "the number of pill bugs on each side of the tray",
+      "a bar graph comparing how many pill bugs chose each side",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "the number of pill bugs on each side of the tray",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "the number of pill bugs on each side of the tray",
+      "a bar graph comparing how many pill bugs chose each side"
+    ]
+  },
+  {
+    "id": "S3Q9",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same tray, time, and number of pill bugs consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same tray, time, and number of pill bugs consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q10",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a bar graph comparing how many pill bugs chose each side",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a bar graph comparing how many pill bugs chose each side",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S3Q11",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Pill bugs may prefer damp environments."
+    ],
+    "correctAnswer": "Pill bugs may prefer damp environments.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S3Q12",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S3Q13",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "amount of sunlight",
+      "same soil, pot size, and water",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "amount of sunlight",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q14",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "plant height measured every two days",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time"
+    ]
+  },
+  {
+    "id": "S3Q15",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same soil, pot size, and water consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q16",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a line graph showing each plant's height over time",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a line graph showing each plant's height over time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S3Q17",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "More sunlight may help Plant A grow taller.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "More sunlight may help Plant A grow taller.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S3Q18",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S3Q19",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which variable is being tested or compared?",
+    "choices": [
+      "same tray, time, and number of pill bugs",
+      "the students' favorite result",
+      "the title of the investigation",
+      "moisture level of the tray area"
+    ],
+    "correctAnswer": "moisture level of the tray area",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q20",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a bar graph comparing how many pill bugs chose each side",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "the number of pill bugs on each side of the tray"
+    ],
+    "correctAnswer": "the number of pill bugs on each side of the tray",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "the number of pill bugs on each side of the tray",
+      "a bar graph comparing how many pill bugs chose each side"
+    ]
+  },
+  {
+    "id": "S3Q21",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same tray, time, and number of pill bugs consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same tray, time, and number of pill bugs consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q22",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a bar graph comparing how many pill bugs chose each side",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a bar graph comparing how many pill bugs chose each side",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S3Q23",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which claim is best supported by the investigation?",
+    "choices": [
+      "Pill bugs may prefer damp environments.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Pill bugs may prefer damp environments.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S3Q24",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S3Q25",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "amount of sunlight",
+      "same soil, pot size, and water"
+    ],
+    "correctAnswer": "amount of sunlight",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q26",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "plant height measured every two days",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time"
+    ]
+  },
+  {
+    "id": "S3Q27",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q28",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a line graph showing each plant's height over time"
+    ],
+    "correctAnswer": "a line graph showing each plant's height over time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S3Q29",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "More sunlight may help Plant A grow taller.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "More sunlight may help Plant A grow taller.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S3Q30",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "scientific_practice",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S3Q31",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "moisture level of the tray area",
+      "same tray, time, and number of pill bugs",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "moisture level of the tray area",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q32",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the number of pill bugs on each side of the tray",
+      "a bar graph comparing how many pill bugs chose each side",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "the number of pill bugs on each side of the tray",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "the number of pill bugs on each side of the tray",
+      "a bar graph comparing how many pill bugs chose each side"
+    ]
+  },
+  {
+    "id": "S3Q33",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same tray, time, and number of pill bugs consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same tray, time, and number of pill bugs consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q34",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a bar graph comparing how many pill bugs chose each side",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a bar graph comparing how many pill bugs chose each side",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S3Q35",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Pill bugs may prefer damp environments.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Pill bugs may prefer damp environments.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S3Q36",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, students observe pill bugs in a tray with one damp side and one dry side. They count how many pill bugs move to each side after five minutes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S3Q37",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which variable is being tested or compared?",
+    "choices": [
+      "same soil, pot size, and water",
+      "the students' favorite result",
+      "the title of the investigation",
+      "amount of sunlight"
+    ],
+    "correctAnswer": "amount of sunlight",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S3Q38",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time"
+    ],
+    "correctAnswer": "plant height measured every two days",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "plant height measured every two days",
+      "a line graph showing each plant's height over time"
+    ]
+  },
+  {
+    "id": "S3Q39",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same soil, pot size, and water consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S3Q40",
+    "grade": 3,
+    "subject": "science",
+    "standard": "3-LS3-1",
+    "domain": "Life Science",
+    "skill": "Inheritance and variation of traits",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 3 science, a class compares two young tomato plants. Plant A receives morning sunlight, and Plant B stays on a shaded shelf. Both plants get the same soil, pot size, and water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a line graph showing each plant's height over time",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a line graph showing each plant's height over time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  }
+]

@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "M8Q1",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "equation_modeling",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, a printer makes 10 pages per minute. Which equation represents p, the number of pages printed in 3 minutes?",
+    "choices": [
+      "p = 10/3",
+      "p = 10 x 3",
+      "p = 10 + 3",
+      "p = 3 - 10"
+    ],
+    "correctAnswer": "p = 10 x 3",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M8Q2",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, solve for x: 3x + 2 = 32.",
+    "choices": [
+      "10",
+      "12",
+      "8",
+      "30"
+    ],
+    "correctAnswer": "10",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M8Q3",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "calculator_active",
+    "difficulty": "medium",
+    "question": "While analyzing a linear graph, a jacket costs $33. It is discounted by 18%. What is the sale price?",
+    "choices": [
+      "$15.00",
+      "$5.94",
+      "$51.00",
+      "$27.06"
+    ],
+    "correctAnswer": "$27.06",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M8Q4",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, the data set is 8, 10, 13, 13, 16. Which value is the median?",
+    "choices": [
+      "12",
+      "16",
+      "13",
+      "10"
+    ],
+    "correctAnswer": "13",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M8Q5",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "While analyzing a linear graph, a triangle has base 13 cm and height 6 cm. What is its area?",
+    "choices": [
+      "38 square cm",
+      "39 square cm",
+      "78 square cm",
+      "19 square cm"
+    ],
+    "correctAnswer": "39 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M8Q6",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "While analyzing a linear graph, line A has equation y = 10x + 3. What is the slope?",
+    "choices": [
+      "10",
+      "3",
+      "13",
+      "-10"
+    ],
+    "correctAnswer": "10",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M8Q7",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, a right triangle has legs 7 and 8. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(15)",
+      "15",
+      "56",
+      "sqrt(113)"
+    ],
+    "correctAnswer": "sqrt(113)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M8Q8",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, a proportional relationship includes the point (5, 50). What is the constant of proportionality?",
+    "choices": [
+      "50",
+      "15",
+      "10",
+      "5"
+    ],
+    "correctAnswer": "10",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M8Q9",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "equation_modeling",
+    "difficulty": "medium",
+    "question": "During a geometry proof warm-up, a printer makes 10 pages per minute. Which equation represents p, the number of pages printed in 6 minutes?",
+    "choices": [
+      "p = 10/6",
+      "p = 10 x 6",
+      "p = 10 + 6",
+      "p = 6 - 10"
+    ],
+    "correctAnswer": "p = 10 x 6",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M8Q10",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "During a geometry proof warm-up, solve for x: 3x + 10 = 43.",
+    "choices": [
+      "33",
+      "11",
+      "13",
+      "9"
+    ],
+    "correctAnswer": "11",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M8Q11",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "calculator_active",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, a jacket costs $41. It is discounted by 18%. What is the sale price?",
+    "choices": [
+      "$33.62",
+      "$23.00",
+      "$7.38",
+      "$59.00"
+    ],
+    "correctAnswer": "$33.62",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M8Q12",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a geometry proof warm-up, the data set is 8, 10, 13, 13, 16. Which value is the median?",
+    "choices": [
+      "10",
+      "12",
+      "16",
+      "13"
+    ],
+    "correctAnswer": "13",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M8Q13",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, a triangle has base 13 cm and height 9 cm. What is its area?",
+    "choices": [
+      "22 square cm",
+      "44 square cm",
+      "58.5 square cm",
+      "117 square cm"
+    ],
+    "correctAnswer": "58.5 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M8Q14",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, line A has equation y = 10x + 6. What is the slope?",
+    "choices": [
+      "-10",
+      "10",
+      "6",
+      "16"
+    ],
+    "correctAnswer": "10",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M8Q15",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "During a geometry proof warm-up, a right triangle has legs 5 and 6. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(61)",
+      "sqrt(11)",
+      "11",
+      "30"
+    ],
+    "correctAnswer": "sqrt(61)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M8Q16",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, a proportional relationship includes the point (3, 30). What is the constant of proportionality?",
+    "choices": [
+      "3",
+      "30",
+      "13",
+      "10"
+    ],
+    "correctAnswer": "10",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M8Q17",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "equation_modeling",
+    "difficulty": "foundational",
+    "question": "In a bivariate data investigation, a printer makes 10 pages per minute. Which equation represents p, the number of pages printed in 4 minutes?",
+    "choices": [
+      "p = 4 - 10",
+      "p = 10/4",
+      "p = 10 x 4",
+      "p = 10 + 4"
+    ],
+    "correctAnswer": "p = 10 x 4",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M8Q18",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "In a bivariate data investigation, solve for x: 3x + 18 = 54.",
+    "choices": [
+      "36",
+      "12",
+      "14",
+      "10"
+    ],
+    "correctAnswer": "12",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M8Q19",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "calculator_active",
+    "difficulty": "foundational",
+    "question": "In a bivariate data investigation, a jacket costs $49. It is discounted by 18%. What is the sale price?",
+    "choices": [
+      "$40.18",
+      "$31.00",
+      "$8.82",
+      "$67.00"
+    ],
+    "correctAnswer": "$40.18",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M8Q20",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "data_analysis",
+    "difficulty": "advanced",
+    "question": "In a bivariate data investigation, the data set is 8, 10, 13, 13, 16. Which value is the median?",
+    "choices": [
+      "13",
+      "10",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "13",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M8Q21",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "In a bivariate data investigation, a triangle has base 13 cm and height 7 cm. What is its area?",
+    "choices": [
+      "91 square cm",
+      "20 square cm",
+      "40 square cm",
+      "45.5 square cm"
+    ],
+    "correctAnswer": "45.5 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M8Q22",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "In a bivariate data investigation, line A has equation y = 10x + 4. What is the slope?",
+    "choices": [
+      "14",
+      "-10",
+      "10",
+      "4"
+    ],
+    "correctAnswer": "10",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M8Q23",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "In a bivariate data investigation, a right triangle has legs 8 and 9. Which expression gives the hypotenuse?",
+    "choices": [
+      "72",
+      "sqrt(145)",
+      "sqrt(17)",
+      "17"
+    ],
+    "correctAnswer": "sqrt(145)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M8Q24",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "medium",
+    "question": "In a bivariate data investigation, a proportional relationship includes the point (6, 60). What is the constant of proportionality?",
+    "choices": [
+      "10",
+      "6",
+      "60",
+      "16"
+    ],
+    "correctAnswer": "10",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M8Q25",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "equation_modeling",
+    "difficulty": "advanced",
+    "question": "While analyzing a linear graph, a printer makes 10 pages per minute. Which equation represents p, the number of pages printed in 2 minutes?",
+    "choices": [
+      "p = 10 + 2",
+      "p = 2 - 10",
+      "p = 10/2",
+      "p = 10 x 2"
+    ],
+    "correctAnswer": "p = 10 x 2",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M8Q26",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, solve for x: 3x + 26 = 65.",
+    "choices": [
+      "11",
+      "39",
+      "13",
+      "15"
+    ],
+    "correctAnswer": "13",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M8Q27",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "calculator_active",
+    "difficulty": "medium",
+    "question": "While analyzing a linear graph, a jacket costs $57. It is discounted by 18%. What is the sale price?",
+    "choices": [
+      "$75.00",
+      "$46.74",
+      "$39.00",
+      "$10.26"
+    ],
+    "correctAnswer": "$46.74",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M8Q28",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, the data set is 8, 10, 13, 13, 16. Which value is the median?",
+    "choices": [
+      "13",
+      "10",
+      "12",
+      "16"
+    ],
+    "correctAnswer": "13",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M8Q29",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, a triangle has base 13 cm and height 10 cm. What is its area?",
+    "choices": [
+      "130 square cm",
+      "23 square cm",
+      "46 square cm",
+      "65 square cm"
+    ],
+    "correctAnswer": "65 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M8Q30",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "While analyzing a linear graph, line A has equation y = 10x + 2. What is the slope?",
+    "choices": [
+      "2",
+      "12",
+      "-10",
+      "10"
+    ],
+    "correctAnswer": "10",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M8Q31",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, a right triangle has legs 6 and 7. Which expression gives the hypotenuse?",
+    "choices": [
+      "13",
+      "42",
+      "sqrt(85)",
+      "sqrt(13)"
+    ],
+    "correctAnswer": "sqrt(85)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M8Q32",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "While analyzing a linear graph, a proportional relationship includes the point (4, 40). What is the constant of proportionality?",
+    "choices": [
+      "14",
+      "10",
+      "4",
+      "40"
+    ],
+    "correctAnswer": "10",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M8Q33",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "equation_modeling",
+    "difficulty": "medium",
+    "question": "During a geometry proof warm-up, a printer makes 10 pages per minute. Which equation represents p, the number of pages printed in 5 minutes?",
+    "choices": [
+      "p = 10 x 5",
+      "p = 10 + 5",
+      "p = 5 - 10",
+      "p = 10/5"
+    ],
+    "correctAnswer": "p = 10 x 5",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M8Q34",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, solve for x: 3x + 34 = 76.",
+    "choices": [
+      "16",
+      "12",
+      "42",
+      "14"
+    ],
+    "correctAnswer": "14",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M8Q35",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "calculator_active",
+    "difficulty": "advanced",
+    "question": "During a geometry proof warm-up, a jacket costs $65. It is discounted by 18%. What is the sale price?",
+    "choices": [
+      "$11.70",
+      "$83.00",
+      "$53.30",
+      "$47.00"
+    ],
+    "correctAnswer": "$53.30",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M8Q36",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.F.A.3",
+    "domain": "Functions",
+    "skill": "Interpret linear and nonlinear functions.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a geometry proof warm-up, the data set is 8, 10, 13, 13, 16. Which value is the median?",
+    "choices": [
+      "16",
+      "13",
+      "10",
+      "12"
+    ],
+    "correctAnswer": "13",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M8Q37",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.EE.B.5",
+    "domain": "Expressions and Equations",
+    "skill": "Graph proportional relationships and interpret slope.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, a triangle has base 13 cm and height 8 cm. What is its area?",
+    "choices": [
+      "52 square cm",
+      "104 square cm",
+      "21 square cm",
+      "42 square cm"
+    ],
+    "correctAnswer": "52 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M8Q38",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.G.B.7",
+    "domain": "Geometry",
+    "skill": "Apply the Pythagorean Theorem.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a geometry proof warm-up, line A has equation y = 10x + 5. What is the slope?",
+    "choices": [
+      "5",
+      "15",
+      "-10",
+      "10"
+    ],
+    "correctAnswer": "10",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M8Q39",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.SP.A.2",
+    "domain": "Statistics and Probability",
+    "skill": "Analyze patterns of association in bivariate data.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a geometry proof warm-up, a right triangle has legs 9 and 10. Which expression gives the hypotenuse?",
+    "choices": [
+      "19",
+      "90",
+      "sqrt(181)",
+      "sqrt(19)"
+    ],
+    "correctAnswer": "sqrt(181)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M8Q40",
+    "grade": 8,
+    "subject": "math",
+    "standard": "8.NS.A.2",
+    "domain": "The Number System",
+    "skill": "Use rational approximations of irrational numbers.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "advanced",
+    "question": "During a geometry proof warm-up, a proportional relationship includes the point (2, 20). What is the constant of proportionality?",
+    "choices": [
+      "20",
+      "12",
+      "10",
+      "2"
+    ],
+    "correctAnswer": "10",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "E8Q1",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Lila must make a careful decision under time pressure.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q2",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "the last train arrives before sunset",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week"
+    ]
+  },
+  {
+    "id": "E8Q3",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. What does the word faded most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "less clear or bright than before"
+    ],
+    "correctAnswer": "less clear or bright than before",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q4",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It builds tension by explaining what is at stake.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It builds tension by explaining what is at stake.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E8Q5",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "The train schedule is important to Lila's family's plans.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "The train schedule is important to Lila's family's plans.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E8Q6",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which response would be the strongest short written answer?",
+    "choices": [
+      "Lila must make a careful decision under time pressure. This is supported by details such as the last train arrives before sunset and missing it would force her family to wait another week.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure. This is supported by details such as the last train arrives before sunset and missing it would force her family to wait another week.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E8Q7",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Persistence and analysis help the inventor improve her work."
+    ],
+    "correctAnswer": "Persistence and analysis help the inventor improve her work.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q8",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "recorded each flaw",
+      "adjusted the next model"
+    ],
+    "correctAnswer": "recorded each flaw",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "recorded each flaw",
+      "adjusted the next model"
+    ]
+  },
+  {
+    "id": "E8Q9",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. What does the word prototypes most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "early models used for testing",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "early models used for testing",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q10",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It shows repeated problems followed by responses.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It shows repeated problems followed by responses.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E8Q11",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which inference is best supported?",
+    "choices": [
+      "The inventor treats mistakes as useful information.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "The inventor treats mistakes as useful information.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E8Q12",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Persistence and analysis help the inventor improve her work. This is supported by details such as recorded each flaw and adjusted the next model."
+    ],
+    "correctAnswer": "Persistence and analysis help the inventor improve her work. This is supported by details such as recorded each flaw and adjusted the next model.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E8Q13",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Lila must make a careful decision under time pressure.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q14",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "the last train arrives before sunset",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week"
+    ]
+  },
+  {
+    "id": "E8Q15",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "advanced",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. What does the word faded most nearly mean as it is used?",
+    "choices": [
+      "less clear or bright than before",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "less clear or bright than before",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q16",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It builds tension by explaining what is at stake."
+    ],
+    "correctAnswer": "It builds tension by explaining what is at stake.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E8Q17",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The train schedule is important to Lila's family's plans.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "The train schedule is important to Lila's family's plans.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E8Q18",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Lila must make a careful decision under time pressure. This is supported by details such as the last train arrives before sunset and missing it would force her family to wait another week.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure. This is supported by details such as the last train arrives before sunset and missing it would force her family to wait another week.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E8Q19",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which sentence best states the central idea?",
+    "choices": [
+      "Persistence and analysis help the inventor improve her work.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Persistence and analysis help the inventor improve her work.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q20",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "recorded each flaw",
+      "adjusted the next model",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "recorded each flaw",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "recorded each flaw",
+      "adjusted the next model"
+    ]
+  },
+  {
+    "id": "E8Q21",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. What does the word prototypes most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "early models used for testing"
+    ],
+    "correctAnswer": "early models used for testing",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q22",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It shows repeated problems followed by responses.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It shows repeated problems followed by responses.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E8Q23",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "The inventor treats mistakes as useful information.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "The inventor treats mistakes as useful information.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E8Q24",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which response would be the strongest short written answer?",
+    "choices": [
+      "Persistence and analysis help the inventor improve her work. This is supported by details such as recorded each flaw and adjusted the next model.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Persistence and analysis help the inventor improve her work. This is supported by details such as recorded each flaw and adjusted the next model.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E8Q25",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Lila must make a careful decision under time pressure."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q26",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week"
+    ],
+    "correctAnswer": "the last train arrives before sunset",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week"
+    ]
+  },
+  {
+    "id": "E8Q27",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. What does the word faded most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "less clear or bright than before",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "less clear or bright than before",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q28",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. How is the passage mainly organized?",
+    "choices": [
+      "It builds tension by explaining what is at stake.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It builds tension by explaining what is at stake.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E8Q29",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The train schedule is important to Lila's family's plans."
+    ],
+    "correctAnswer": "The train schedule is important to Lila's family's plans.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E8Q30",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "advanced",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Lila must make a careful decision under time pressure. This is supported by details such as the last train arrives before sunset and missing it would force her family to wait another week."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure. This is supported by details such as the last train arrives before sunset and missing it would force her family to wait another week.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E8Q31",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Persistence and analysis help the inventor improve her work.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Persistence and analysis help the inventor improve her work.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q32",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "recorded each flaw",
+      "adjusted the next model",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "recorded each flaw",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "recorded each flaw",
+      "adjusted the next model"
+    ]
+  },
+  {
+    "id": "E8Q33",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. What does the word prototypes most nearly mean as it is used?",
+    "choices": [
+      "early models used for testing",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "early models used for testing",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q34",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It shows repeated problems followed by responses."
+    ],
+    "correctAnswer": "It shows repeated problems followed by responses.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E8Q35",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The inventor treats mistakes as useful information.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "The inventor treats mistakes as useful information.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E8Q36",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A profile of a young inventor describes years of prototypes that collapsed, overheated, or moved too slowly. Instead of quitting, she recorded each flaw and adjusted the next model. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Persistence and analysis help the inventor improve her work. This is supported by details such as recorded each flaw and adjusted the next model.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Persistence and analysis help the inventor improve her work. This is supported by details such as recorded each flaw and adjusted the next model.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E8Q37",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Which sentence best states the central idea?",
+    "choices": [
+      "Lila must make a careful decision under time pressure.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Lila must make a careful decision under time pressure.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E8Q38",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "missing it would force her family to wait another week",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "the last train arrives before sunset"
+    ],
+    "correctAnswer": "the last train arrives before sunset",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the last train arrives before sunset",
+      "missing it would force her family to wait another week"
+    ]
+  },
+  {
+    "id": "E8Q39",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. What does the word faded most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "less clear or bright than before",
+      "repairs"
+    ],
+    "correctAnswer": "less clear or bright than before",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E8Q40",
+    "grade": 8,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. In the historical fiction excerpt, Lila studies a faded train schedule before leaving home. She knows the last train arrives before sunset, and missing it would force her family to wait another week. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It builds tension by explaining what is at stake.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It builds tension by explaining what is at stake.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "S8Q1",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which variable is being tested or compared?",
+    "choices": [
+      "same fossil identification method",
+      "the students' favorite result",
+      "the title of the investigation",
+      "rock layer location on each side of the fault"
+    ],
+    "correctAnswer": "rock layer location on each side of the fault",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q2",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault"
+    ],
+    "correctAnswer": "fossil types and relative positions of rock layers",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault"
+    ]
+  },
+  {
+    "id": "S8Q3",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same fossil identification method consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same fossil identification method consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q4",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which model would best communicate the investigation results?",
+    "choices": [
+      "a cross-section diagram of matching layers across the fault",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a cross-section diagram of matching layers across the fault",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S8Q5",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Rock layers can provide evidence of past geologic movement."
+    ],
+    "correctAnswer": "Rock layers can provide evidence of past geologic movement.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S8Q6",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S8Q7",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "water flow speed",
+      "same sediment mixture and stream table slope",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "water flow speed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q8",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "water speed, sediment size, and channel shape",
+      "a before-and-after map of the stream channel",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "water speed, sediment size, and channel shape",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "water speed, sediment size, and channel shape",
+      "a before-and-after map of the stream channel"
+    ]
+  },
+  {
+    "id": "S8Q9",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same sediment mixture and stream table slope consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same sediment mixture and stream table slope consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q10",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a before-and-after map of the stream channel"
+    ],
+    "correctAnswer": "a before-and-after map of the stream channel",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S8Q11",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Water flow can change Earth's surface through erosion and deposition.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "Water flow can change Earth's surface through erosion and deposition.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S8Q12",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S8Q13",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which variable is being tested or compared?",
+    "choices": [
+      "rock layer location on each side of the fault",
+      "same fossil identification method",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "rock layer location on each side of the fault",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q14",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a cross-section diagram of matching layers across the fault",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "fossil types and relative positions of rock layers"
+    ],
+    "correctAnswer": "fossil types and relative positions of rock layers",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault"
+    ]
+  },
+  {
+    "id": "S8Q15",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same fossil identification method consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same fossil identification method consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q16",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a cross-section diagram of matching layers across the fault",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a cross-section diagram of matching layers across the fault",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S8Q17",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which claim is best supported by the investigation?",
+    "choices": [
+      "Rock layers can provide evidence of past geologic movement.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Rock layers can provide evidence of past geologic movement.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S8Q18",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S8Q19",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "water flow speed",
+      "same sediment mixture and stream table slope"
+    ],
+    "correctAnswer": "water flow speed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q20",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "water speed, sediment size, and channel shape",
+      "a before-and-after map of the stream channel"
+    ],
+    "correctAnswer": "water speed, sediment size, and channel shape",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "water speed, sediment size, and channel shape",
+      "a before-and-after map of the stream channel"
+    ]
+  },
+  {
+    "id": "S8Q21",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same sediment mixture and stream table slope consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same sediment mixture and stream table slope consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q22",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which model would best communicate the investigation results?",
+    "choices": [
+      "a before-and-after map of the stream channel",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a before-and-after map of the stream channel",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S8Q23",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Water flow can change Earth's surface through erosion and deposition."
+    ],
+    "correctAnswer": "Water flow can change Earth's surface through erosion and deposition.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S8Q24",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S8Q25",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "rock layer location on each side of the fault",
+      "same fossil identification method",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "rock layer location on each side of the fault",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q26",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "fossil types and relative positions of rock layers",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault"
+    ]
+  },
+  {
+    "id": "S8Q27",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same fossil identification method consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same fossil identification method consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q28",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a cross-section diagram of matching layers across the fault",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a cross-section diagram of matching layers across the fault",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S8Q29",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Rock layers can provide evidence of past geologic movement.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Rock layers can provide evidence of past geologic movement.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S8Q30",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "scientific_practice",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S8Q31",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which variable is being tested or compared?",
+    "choices": [
+      "water flow speed",
+      "same sediment mixture and stream table slope",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "water flow speed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q32",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a before-and-after map of the stream channel",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "water speed, sediment size, and channel shape"
+    ],
+    "correctAnswer": "water speed, sediment size, and channel shape",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "water speed, sediment size, and channel shape",
+      "a before-and-after map of the stream channel"
+    ]
+  },
+  {
+    "id": "S8Q33",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same sediment mixture and stream table slope consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same sediment mixture and stream table slope consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q34",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a before-and-after map of the stream channel",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a before-and-after map of the stream channel",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S8Q35",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. Which claim is best supported by the investigation?",
+    "choices": [
+      "Water flow can change Earth's surface through erosion and deposition.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Water flow can change Earth's surface through erosion and deposition.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S8Q36",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, a stream table investigation shows that faster water carries larger sediment and changes the shape of a channel more quickly. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S8Q37",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "rock layer location on each side of the fault",
+      "same fossil identification method"
+    ],
+    "correctAnswer": "rock layer location on each side of the fault",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S8Q38",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "fossil types and relative positions of rock layers",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "fossil types and relative positions of rock layers",
+      "a cross-section diagram of matching layers across the fault"
+    ]
+  },
+  {
+    "id": "S8Q39",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same fossil identification method consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same fossil identification method consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S8Q40",
+    "grade": 8,
+    "subject": "science",
+    "standard": "MS-ESS2-2",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to explain geoscience processes",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 8 science, students examine rock layers on two sides of a valley. Several layers contain the same fossils, but one side is shifted upward along a fault. Which model would best communicate the investigation results?",
+    "choices": [
+      "a cross-section diagram of matching layers across the fault",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a cross-section diagram of matching layers across the fault",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  }
+]

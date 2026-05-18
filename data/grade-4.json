@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "M4Q1",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a cafeteria packed 4 trays with 6 lunches on each tray and had 23 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "24",
+      "47",
+      "33",
+      "116"
+    ],
+    "correctAnswer": "47",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M4Q2",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a garden has an area of 35 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "7",
+      "5",
+      "12",
+      "35"
+    ],
+    "correctAnswer": "7",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M4Q3",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a field day plan, which expression is equivalent to 1/4 + 1/4?",
+    "choices": [
+      "1/8",
+      "2/5",
+      "2/8",
+      "2/4"
+    ],
+    "correctAnswer": "2/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M4Q4",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a science notebook weighs 4.4 ounces. A pencil case weighs 0.65 ounces. What is the total weight?",
+    "choices": [
+      "6.05 ounces",
+      "2.86 ounces",
+      "5.05 ounces",
+      "3.75 ounces"
+    ],
+    "correctAnswer": "5.05 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M4Q5",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "advanced",
+    "question": "During a field day plan, point A is located at (5, 4) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(8, 7)",
+      "(8, 4)",
+      "(5, 7)",
+      "(2, 4)"
+    ],
+    "correctAnswer": "(8, 4)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M4Q6",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a field day plan, a line plot shows plant heights of 4, 5, 5, and 7 inches. What is the most common height?",
+    "choices": [
+      "5 inches",
+      "4 inches",
+      "6 inches",
+      "7 inches"
+    ],
+    "correctAnswer": "5 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M4Q7",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a class collected 60 cans in week 1 and 60 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "12",
+      "36",
+      "120",
+      "24"
+    ],
+    "correctAnswer": "24",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M4Q8",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a field day plan, which statement correctly compares 4.80 and 4.88?",
+    "choices": [
+      "4.80 = 4.88",
+      "4.88 < 4.80",
+      "4.80 < 4.88",
+      "4.80 > 4.88"
+    ],
+    "correctAnswer": "4.80 < 4.88",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M4Q9",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "For a library display, a cafeteria packed 4 trays with 5 lunches on each tray and had 31 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "20",
+      "51",
+      "40",
+      "144"
+    ],
+    "correctAnswer": "51",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M4Q10",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a library display, a garden has an area of 30 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "30",
+      "6",
+      "5",
+      "11"
+    ],
+    "correctAnswer": "6",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M4Q11",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a library display, which expression is equivalent to 3/4 + 3/4?",
+    "choices": [
+      "6/4",
+      "3/8",
+      "4/5",
+      "6/8"
+    ],
+    "correctAnswer": "6/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M4Q12",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a library display, a science notebook weighs 5.2 ounces. A pencil case weighs 0.75 ounces. What is the total weight?",
+    "choices": [
+      "4.45 ounces",
+      "6.95 ounces",
+      "3.90 ounces",
+      "5.95 ounces"
+    ],
+    "correctAnswer": "5.95 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M4Q13",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "For a library display, point A is located at (1, 7) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(-2, 7)",
+      "(4, 10)",
+      "(4, 7)",
+      "(1, 10)"
+    ],
+    "correctAnswer": "(4, 7)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M4Q14",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a library display, a line plot shows plant heights of 4, 5, 5, and 7 inches. What is the most common height?",
+    "choices": [
+      "7 inches",
+      "5 inches",
+      "4 inches",
+      "6 inches"
+    ],
+    "correctAnswer": "5 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M4Q15",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "advanced",
+    "question": "For a library display, a class collected 60 cans in week 1 and 50 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "22",
+      "11",
+      "30",
+      "110"
+    ],
+    "correctAnswer": "22",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M4Q16",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a library display, which statement correctly compares 5.60 and 5.68?",
+    "choices": [
+      "5.60 > 5.68",
+      "5.60 = 5.68",
+      "5.68 < 5.60",
+      "5.60 < 5.68"
+    ],
+    "correctAnswer": "5.60 < 5.68",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M4Q17",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "While comparing measurement data, a cafeteria packed 4 trays with 7 lunches on each tray and had 39 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "184",
+      "28",
+      "67",
+      "50"
+    ],
+    "correctAnswer": "67",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M4Q18",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "While comparing measurement data, a garden has an area of 25 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "Not supported by the information 1",
+      "5",
+      "10",
+      "25"
+    ],
+    "correctAnswer": "5",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M4Q19",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "While comparing measurement data, which expression is equivalent to 2/4 + 2/4?",
+    "choices": [
+      "4/4",
+      "2/8",
+      "3/5",
+      "4/8"
+    ],
+    "correctAnswer": "4/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M4Q20",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "While comparing measurement data, a science notebook weighs 6.0 ounces. A pencil case weighs 0.85 ounces. What is the total weight?",
+    "choices": [
+      "6.85 ounces",
+      "5.15 ounces",
+      "7.85 ounces",
+      "5.10 ounces"
+    ],
+    "correctAnswer": "6.85 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M4Q21",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "medium",
+    "question": "While comparing measurement data, point A is located at (3, 5) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(3, 8)",
+      "(0, 5)",
+      "(6, 8)",
+      "(6, 5)"
+    ],
+    "correctAnswer": "(6, 5)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M4Q22",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "While comparing measurement data, a line plot shows plant heights of 4, 5, 5, and 7 inches. What is the most common height?",
+    "choices": [
+      "6 inches",
+      "7 inches",
+      "5 inches",
+      "4 inches"
+    ],
+    "correctAnswer": "5 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M4Q23",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "While comparing measurement data, a class collected 60 cans in week 1 and 70 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "130",
+      "26",
+      "13",
+      "42"
+    ],
+    "correctAnswer": "26",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M4Q24",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "While comparing measurement data, which statement correctly compares 6.40 and 6.48?",
+    "choices": [
+      "6.40 < 6.48",
+      "6.40 > 6.48",
+      "6.40 = 6.48",
+      "6.48 < 6.40"
+    ],
+    "correctAnswer": "6.40 < 6.48",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M4Q25",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "advanced",
+    "question": "During a field day plan, a cafeteria packed 4 trays with 6 lunches on each tray and had 47 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "57",
+      "212",
+      "24",
+      "71"
+    ],
+    "correctAnswer": "71",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M4Q26",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a garden has an area of 35 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "12",
+      "35",
+      "7",
+      "5"
+    ],
+    "correctAnswer": "7",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M4Q27",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a field day plan, which expression is equivalent to 1/4 + 1/4?",
+    "choices": [
+      "2/8",
+      "2/4",
+      "1/8",
+      "2/5"
+    ],
+    "correctAnswer": "2/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M4Q28",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a science notebook weighs 6.8 ounces. A pencil case weighs 0.25 ounces. What is the total weight?",
+    "choices": [
+      "7.05 ounces",
+      "6.55 ounces",
+      "8.05 ounces",
+      "1.70 ounces"
+    ],
+    "correctAnswer": "7.05 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M4Q29",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "During a field day plan, point A is located at (5, 8) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(5, 11)",
+      "(2, 8)",
+      "(8, 11)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, 8)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M4Q30",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "data_analysis",
+    "difficulty": "advanced",
+    "question": "During a field day plan, a line plot shows plant heights of 4, 5, 5, and 7 inches. What is the most common height?",
+    "choices": [
+      "4 inches",
+      "6 inches",
+      "7 inches",
+      "5 inches"
+    ],
+    "correctAnswer": "5 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M4Q31",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a field day plan, a class collected 60 cans in week 1 and 60 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "36",
+      "120",
+      "24",
+      "12"
+    ],
+    "correctAnswer": "24",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M4Q32",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a field day plan, which statement correctly compares 7.20 and 7.28?",
+    "choices": [
+      "7.28 < 7.20",
+      "7.20 < 7.28",
+      "7.20 > 7.28",
+      "7.20 = 7.28"
+    ],
+    "correctAnswer": "7.20 < 7.28",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M4Q33",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "For a library display, a cafeteria packed 4 trays with 5 lunches on each tray and had 55 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "75",
+      "64",
+      "240",
+      "20"
+    ],
+    "correctAnswer": "75",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M4Q34",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a library display, a garden has an area of 30 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "5",
+      "11",
+      "30",
+      "6"
+    ],
+    "correctAnswer": "6",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M4Q35",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a library display, which expression is equivalent to 3/4 + 3/4?",
+    "choices": [
+      "4/5",
+      "6/8",
+      "6/4",
+      "3/8"
+    ],
+    "correctAnswer": "6/4",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M4Q36",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.OA.A.3",
+    "domain": "Operations and Algebraic Thinking",
+    "skill": "Solve multistep word problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a library display, a science notebook weighs 7.6 ounces. A pencil case weighs 0.35 ounces. What is the total weight?",
+    "choices": [
+      "2.66 ounces",
+      "7.95 ounces",
+      "7.25 ounces",
+      "8.95 ounces"
+    ],
+    "correctAnswer": "7.95 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M4Q37",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NBT.B.4",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Fluently add and subtract multi-digit whole numbers.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "For a library display, point A is located at (1, 6) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(4, 6)",
+      "(1, 9)",
+      "(-2, 6)",
+      "(4, 9)"
+    ],
+    "correctAnswer": "(4, 6)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M4Q38",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.NF.B.3",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with like denominators.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a library display, a line plot shows plant heights of 4, 5, 5, and 7 inches. What is the most common height?",
+    "choices": [
+      "4 inches",
+      "6 inches",
+      "7 inches",
+      "5 inches"
+    ],
+    "correctAnswer": "5 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M4Q39",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.M.A.3",
+    "domain": "Measurement",
+    "skill": "Apply area and perimeter formulas.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "For a library display, a class collected 60 cans in week 1 and 50 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "30",
+      "110",
+      "22",
+      "11"
+    ],
+    "correctAnswer": "22",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M4Q40",
+    "grade": 4,
+    "subject": "math",
+    "standard": "4.DL.A.1",
+    "domain": "Data Literacy",
+    "skill": "Represent and interpret numerical data.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a library display, which statement correctly compares 8.00 and 8.08?",
+    "choices": [
+      "8.00 = 8.08",
+      "8.08 < 8.00",
+      "8.00 < 8.08",
+      "8.00 > 8.08"
+    ],
+    "correctAnswer": "8.00 < 8.08",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "E4Q1",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "The town library grew as more people used it.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "The town library grew as more people used it.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q2",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "more families borrowed books",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building"
+    ]
+  },
+  {
+    "id": "E4Q3",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. What does the word volunteers most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "people who choose to help without being paid"
+    ],
+    "correctAnswer": "people who choose to help without being paid",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q4",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It describes changes over time.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It describes changes over time.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E4Q5",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "The library became important to the community.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "The library became important to the community.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E4Q6",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which response would be the strongest short written answer?",
+    "choices": [
+      "The town library grew as more people used it. This is supported by details such as more families borrowed books and volunteers moved the shelves to a larger building.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "The town library grew as more people used it. This is supported by details such as more families borrowed books and volunteers moved the shelves to a larger building.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E4Q7",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Paper maps and digital maps each have useful features."
+    ],
+    "correctAnswer": "Paper maps and digital maps each have useful features.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q8",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "Paper maps do not need batteries",
+      "digital maps can update quickly"
+    ],
+    "correctAnswer": "Paper maps do not need batteries",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Paper maps do not need batteries",
+      "digital maps can update quickly"
+    ]
+  },
+  {
+    "id": "E4Q9",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. What does the word update most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "change to include new information",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "change to include new information",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q10",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It compares two tools.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It compares two tools.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E4Q11",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which inference is best supported?",
+    "choices": [
+      "The best map choice may depend on the situation.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "The best map choice may depend on the situation.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E4Q12",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Paper maps and digital maps each have useful features. This is supported by details such as Paper maps do not need batteries and digital maps can update quickly."
+    ],
+    "correctAnswer": "Paper maps and digital maps each have useful features. This is supported by details such as Paper maps do not need batteries and digital maps can update quickly.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E4Q13",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "The town library grew as more people used it.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "The town library grew as more people used it.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q14",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "more families borrowed books",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building"
+    ]
+  },
+  {
+    "id": "E4Q15",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "advanced",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. What does the word volunteers most nearly mean as it is used?",
+    "choices": [
+      "people who choose to help without being paid",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "people who choose to help without being paid",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q16",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It describes changes over time."
+    ],
+    "correctAnswer": "It describes changes over time.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E4Q17",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The library became important to the community.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "The library became important to the community.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E4Q18",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "The town library grew as more people used it. This is supported by details such as more families borrowed books and volunteers moved the shelves to a larger building.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "The town library grew as more people used it. This is supported by details such as more families borrowed books and volunteers moved the shelves to a larger building.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E4Q19",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which sentence best states the central idea?",
+    "choices": [
+      "Paper maps and digital maps each have useful features.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Paper maps and digital maps each have useful features.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q20",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "Paper maps do not need batteries",
+      "digital maps can update quickly",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "Paper maps do not need batteries",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Paper maps do not need batteries",
+      "digital maps can update quickly"
+    ]
+  },
+  {
+    "id": "E4Q21",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. What does the word update most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "change to include new information"
+    ],
+    "correctAnswer": "change to include new information",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q22",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It compares two tools.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It compares two tools.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E4Q23",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "The best map choice may depend on the situation.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "The best map choice may depend on the situation.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E4Q24",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which response would be the strongest short written answer?",
+    "choices": [
+      "Paper maps and digital maps each have useful features. This is supported by details such as Paper maps do not need batteries and digital maps can update quickly.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Paper maps and digital maps each have useful features. This is supported by details such as Paper maps do not need batteries and digital maps can update quickly.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E4Q25",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "The town library grew as more people used it."
+    ],
+    "correctAnswer": "The town library grew as more people used it.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q26",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building"
+    ],
+    "correctAnswer": "more families borrowed books",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building"
+    ]
+  },
+  {
+    "id": "E4Q27",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. What does the word volunteers most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "people who choose to help without being paid",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "people who choose to help without being paid",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q28",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. How is the passage mainly organized?",
+    "choices": [
+      "It describes changes over time.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It describes changes over time.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E4Q29",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The library became important to the community."
+    ],
+    "correctAnswer": "The library became important to the community.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E4Q30",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "advanced",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "The town library grew as more people used it. This is supported by details such as more families borrowed books and volunteers moved the shelves to a larger building."
+    ],
+    "correctAnswer": "The town library grew as more people used it. This is supported by details such as more families borrowed books and volunteers moved the shelves to a larger building.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E4Q31",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Paper maps and digital maps each have useful features.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Paper maps and digital maps each have useful features.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q32",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "Paper maps do not need batteries",
+      "digital maps can update quickly",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "Paper maps do not need batteries",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Paper maps do not need batteries",
+      "digital maps can update quickly"
+    ]
+  },
+  {
+    "id": "E4Q33",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. What does the word update most nearly mean as it is used?",
+    "choices": [
+      "change to include new information",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "change to include new information",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q34",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It compares two tools."
+    ],
+    "correctAnswer": "It compares two tools.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E4Q35",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The best map choice may depend on the situation.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "The best map choice may depend on the situation.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E4Q36",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. The article compares paper maps with digital maps. Paper maps do not need batteries, but digital maps can update quickly when roads close. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Paper maps and digital maps each have useful features. This is supported by details such as Paper maps do not need batteries and digital maps can update quickly.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Paper maps and digital maps each have useful features. This is supported by details such as Paper maps do not need batteries and digital maps can update quickly.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E4Q37",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Which sentence best states the central idea?",
+    "choices": [
+      "The town library grew as more people used it.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "The town library grew as more people used it.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E4Q38",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "volunteers moved the shelves to a larger building",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "more families borrowed books"
+    ],
+    "correctAnswer": "more families borrowed books",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "more families borrowed books",
+      "volunteers moved the shelves to a larger building"
+    ]
+  },
+  {
+    "id": "E4Q39",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. What does the word volunteers most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "people who choose to help without being paid",
+      "repairs"
+    ],
+    "correctAnswer": "people who choose to help without being paid",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E4Q40",
+    "grade": 4,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. A local history article explains that the town's first library began in one room above a bakery. As more families borrowed books, volunteers moved the shelves to a larger building near the train station. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It describes changes over time.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It describes changes over time.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "S4Q1",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which variable is being tested or compared?",
+    "choices": [
+      "same car, ramp height, and starting position",
+      "the students' favorite result",
+      "the title of the investigation",
+      "surface material"
+    ],
+    "correctAnswer": "surface material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q2",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled"
+    ],
+    "correctAnswer": "distance traveled by the toy car on each surface",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled"
+    ]
+  },
+  {
+    "id": "S4Q3",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q4",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which model would best communicate the investigation results?",
+    "choices": [
+      "a table comparing surface material and distance traveled",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a table comparing surface material and distance traveled",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S4Q5",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Rougher surfaces reduce the distance the car travels."
+    ],
+    "correctAnswer": "Rougher surfaces reduce the distance the car travels.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S4Q6",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S4Q7",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "wrapping material",
+      "same ice cube size, room, and time",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "wrapping material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q8",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "ice cube mass remaining after ten minutes",
+      "a bar graph of remaining ice mass for each material",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "ice cube mass remaining after ten minutes",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "ice cube mass remaining after ten minutes",
+      "a bar graph of remaining ice mass for each material"
+    ]
+  },
+  {
+    "id": "S4Q9",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same ice cube size, room, and time consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same ice cube size, room, and time consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q10",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a bar graph of remaining ice mass for each material"
+    ],
+    "correctAnswer": "a bar graph of remaining ice mass for each material",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S4Q11",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Some materials slow heat transfer better than others.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "Some materials slow heat transfer better than others.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S4Q12",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S4Q13",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which variable is being tested or compared?",
+    "choices": [
+      "surface material",
+      "same car, ramp height, and starting position",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "surface material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q14",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a table comparing surface material and distance traveled",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "distance traveled by the toy car on each surface"
+    ],
+    "correctAnswer": "distance traveled by the toy car on each surface",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled"
+    ]
+  },
+  {
+    "id": "S4Q15",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q16",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a table comparing surface material and distance traveled",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a table comparing surface material and distance traveled",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S4Q17",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which claim is best supported by the investigation?",
+    "choices": [
+      "Rougher surfaces reduce the distance the car travels.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Rougher surfaces reduce the distance the car travels.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S4Q18",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S4Q19",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "wrapping material",
+      "same ice cube size, room, and time"
+    ],
+    "correctAnswer": "wrapping material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q20",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "ice cube mass remaining after ten minutes",
+      "a bar graph of remaining ice mass for each material"
+    ],
+    "correctAnswer": "ice cube mass remaining after ten minutes",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "ice cube mass remaining after ten minutes",
+      "a bar graph of remaining ice mass for each material"
+    ]
+  },
+  {
+    "id": "S4Q21",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same ice cube size, room, and time consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same ice cube size, room, and time consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q22",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a bar graph of remaining ice mass for each material",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a bar graph of remaining ice mass for each material",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S4Q23",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Some materials slow heat transfer better than others."
+    ],
+    "correctAnswer": "Some materials slow heat transfer better than others.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S4Q24",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S4Q25",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "surface material",
+      "same car, ramp height, and starting position",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "surface material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q26",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "distance traveled by the toy car on each surface",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled"
+    ]
+  },
+  {
+    "id": "S4Q27",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same car, ramp height, and starting position consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q28",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a table comparing surface material and distance traveled",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a table comparing surface material and distance traveled",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S4Q29",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Rougher surfaces reduce the distance the car travels.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Rougher surfaces reduce the distance the car travels.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S4Q30",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "scientific_practice",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S4Q31",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which variable is being tested or compared?",
+    "choices": [
+      "wrapping material",
+      "same ice cube size, room, and time",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "wrapping material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q32",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a bar graph of remaining ice mass for each material",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "ice cube mass remaining after ten minutes"
+    ],
+    "correctAnswer": "ice cube mass remaining after ten minutes",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "ice cube mass remaining after ten minutes",
+      "a bar graph of remaining ice mass for each material"
+    ]
+  },
+  {
+    "id": "S4Q33",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same ice cube size, room, and time consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same ice cube size, room, and time consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q34",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a bar graph of remaining ice mass for each material",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a bar graph of remaining ice mass for each material",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S4Q35",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. Which claim is best supported by the investigation?",
+    "choices": [
+      "Some materials slow heat transfer better than others.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Some materials slow heat transfer better than others.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S4Q36",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, a class tests which material keeps an ice cube from melting quickly. They wrap equal-size ice cubes in foil, cloth, and paper and measure mass after ten minutes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S4Q37",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "surface material",
+      "same car, ramp height, and starting position"
+    ],
+    "correctAnswer": "surface material",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S4Q38",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "distance traveled by the toy car on each surface",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "distance traveled by the toy car on each surface",
+      "a table comparing surface material and distance traveled"
+    ]
+  },
+  {
+    "id": "S4Q39",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same car, ramp height, and starting position consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S4Q40",
+    "grade": 4,
+    "subject": "science",
+    "standard": "4-PS3-2",
+    "domain": "Physical Science",
+    "skill": "Energy transfer and evidence from observations",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 4 science, students roll toy cars down ramps covered with felt, cardboard, and sandpaper. They measure how far each car travels after leaving the ramp. Which model would best communicate the investigation results?",
+    "choices": [
+      "a table comparing surface material and distance traveled",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a table comparing surface material and distance traveled",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  }
+]

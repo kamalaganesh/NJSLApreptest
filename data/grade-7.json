@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "M7Q1",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "equation_modeling",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, a printer makes 9 pages per minute. Which equation represents p, the number of pages printed in 3 minutes?",
+    "choices": [
+      "p = 3 - 9",
+      "p = 9/3",
+      "p = 9 x 3",
+      "p = 9 + 3"
+    ],
+    "correctAnswer": "p = 9 x 3",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M7Q2",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, solve for x: 3x + 2 = 29.",
+    "choices": [
+      "27",
+      "9",
+      "11",
+      "7"
+    ],
+    "correctAnswer": "9",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M7Q3",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "calculator_active",
+    "difficulty": "medium",
+    "question": "For a proportional relationship investigation, a jacket costs $33. It is discounted by 17%. What is the sale price?",
+    "choices": [
+      "$27.39",
+      "$16.00",
+      "$5.61",
+      "$50.00"
+    ],
+    "correctAnswer": "$27.39",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M7Q4",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, the data set is 7, 9, 12, 12, 15. Which value is the median?",
+    "choices": [
+      "9",
+      "11",
+      "15",
+      "12"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M7Q5",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a proportional relationship investigation, a triangle has base 12 cm and height 6 cm. What is its area?",
+    "choices": [
+      "18 square cm",
+      "Not supported by the information 1",
+      "36 square cm",
+      "72 square cm"
+    ],
+    "correctAnswer": "36 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M7Q6",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a proportional relationship investigation, line A has equation y = 9x + 3. What is the slope?",
+    "choices": [
+      "-9",
+      "9",
+      "3",
+      "12"
+    ],
+    "correctAnswer": "9",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M7Q7",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, a right triangle has legs 7 and 8. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(113)",
+      "sqrt(15)",
+      "15",
+      "56"
+    ],
+    "correctAnswer": "sqrt(113)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M7Q8",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, a proportional relationship includes the point (5, 45). What is the constant of proportionality?",
+    "choices": [
+      "5",
+      "45",
+      "14",
+      "9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M7Q9",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "equation_modeling",
+    "difficulty": "medium",
+    "question": "During a probability simulation, a printer makes 9 pages per minute. Which equation represents p, the number of pages printed in 6 minutes?",
+    "choices": [
+      "p = 6 - 9",
+      "p = 9/6",
+      "p = 9 x 6",
+      "p = 9 + 6"
+    ],
+    "correctAnswer": "p = 9 x 6",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M7Q10",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "During a probability simulation, solve for x: 3x + 10 = 40.",
+    "choices": [
+      "8",
+      "30",
+      "10",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M7Q11",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "calculator_active",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, a jacket costs $41. It is discounted by 17%. What is the sale price?",
+    "choices": [
+      "$58.00",
+      "$34.03",
+      "$24.00",
+      "$6.97"
+    ],
+    "correctAnswer": "$34.03",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M7Q12",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a probability simulation, the data set is 7, 9, 12, 12, 15. Which value is the median?",
+    "choices": [
+      "12",
+      "9",
+      "11",
+      "15"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M7Q13",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, a triangle has base 12 cm and height 9 cm. What is its area?",
+    "choices": [
+      "108 square cm",
+      "21 square cm",
+      "42 square cm",
+      "54 square cm"
+    ],
+    "correctAnswer": "54 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M7Q14",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, line A has equation y = 9x + 6. What is the slope?",
+    "choices": [
+      "15",
+      "-9",
+      "9",
+      "6"
+    ],
+    "correctAnswer": "9",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M7Q15",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "During a probability simulation, a right triangle has legs 5 and 6. Which expression gives the hypotenuse?",
+    "choices": [
+      "30",
+      "sqrt(61)",
+      "sqrt(11)",
+      "11"
+    ],
+    "correctAnswer": "sqrt(61)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M7Q16",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, a proportional relationship includes the point (3, 27). What is the constant of proportionality?",
+    "choices": [
+      "9",
+      "3",
+      "27",
+      "12"
+    ],
+    "correctAnswer": "9",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M7Q17",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "equation_modeling",
+    "difficulty": "foundational",
+    "question": "In a scale drawing task, a printer makes 9 pages per minute. Which equation represents p, the number of pages printed in 4 minutes?",
+    "choices": [
+      "p = 9 + 4",
+      "p = 4 - 9",
+      "p = 9/4",
+      "p = 9 x 4"
+    ],
+    "correctAnswer": "p = 9 x 4",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M7Q18",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "In a scale drawing task, solve for x: 3x + 18 = 51.",
+    "choices": [
+      "9",
+      "33",
+      "11",
+      "13"
+    ],
+    "correctAnswer": "11",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M7Q19",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "calculator_active",
+    "difficulty": "foundational",
+    "question": "In a scale drawing task, a jacket costs $49. It is discounted by 17%. What is the sale price?",
+    "choices": [
+      "$66.00",
+      "$40.67",
+      "$32.00",
+      "$8.33"
+    ],
+    "correctAnswer": "$40.67",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M7Q20",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "data_analysis",
+    "difficulty": "advanced",
+    "question": "In a scale drawing task, the data set is 7, 9, 12, 12, 15. Which value is the median?",
+    "choices": [
+      "15",
+      "12",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M7Q21",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "In a scale drawing task, a triangle has base 12 cm and height 7 cm. What is its area?",
+    "choices": [
+      "42 square cm",
+      "84 square cm",
+      "19 square cm",
+      "38 square cm"
+    ],
+    "correctAnswer": "42 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M7Q22",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "In a scale drawing task, line A has equation y = 9x + 4. What is the slope?",
+    "choices": [
+      "4",
+      "13",
+      "-9",
+      "9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M7Q23",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "In a scale drawing task, a right triangle has legs 8 and 9. Which expression gives the hypotenuse?",
+    "choices": [
+      "17",
+      "72",
+      "sqrt(145)",
+      "sqrt(17)"
+    ],
+    "correctAnswer": "sqrt(145)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M7Q24",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "medium",
+    "question": "In a scale drawing task, a proportional relationship includes the point (6, 54). What is the constant of proportionality?",
+    "choices": [
+      "15",
+      "9",
+      "6",
+      "54"
+    ],
+    "correctAnswer": "9",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M7Q25",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "equation_modeling",
+    "difficulty": "advanced",
+    "question": "For a proportional relationship investigation, a printer makes 9 pages per minute. Which equation represents p, the number of pages printed in 2 minutes?",
+    "choices": [
+      "p = 9 x 2",
+      "p = 9 + 2",
+      "p = 2 - 9",
+      "p = 9/2"
+    ],
+    "correctAnswer": "p = 9 x 2",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M7Q26",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, solve for x: 3x + 26 = 62.",
+    "choices": [
+      "14",
+      "10",
+      "36",
+      "12"
+    ],
+    "correctAnswer": "12",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M7Q27",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "calculator_active",
+    "difficulty": "medium",
+    "question": "For a proportional relationship investigation, a jacket costs $57. It is discounted by 17%. What is the sale price?",
+    "choices": [
+      "$9.69",
+      "$74.00",
+      "$47.31",
+      "$40.00"
+    ],
+    "correctAnswer": "$47.31",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M7Q28",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, the data set is 7, 9, 12, 12, 15. Which value is the median?",
+    "choices": [
+      "15",
+      "12",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M7Q29",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, a triangle has base 12 cm and height 10 cm. What is its area?",
+    "choices": [
+      "60 square cm",
+      "120 square cm",
+      "22 square cm",
+      "44 square cm"
+    ],
+    "correctAnswer": "60 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M7Q30",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a proportional relationship investigation, line A has equation y = 9x + 2. What is the slope?",
+    "choices": [
+      "9",
+      "2",
+      "11",
+      "-9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M7Q31",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, a right triangle has legs 6 and 7. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(13)",
+      "13",
+      "42",
+      "sqrt(85)"
+    ],
+    "correctAnswer": "sqrt(85)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M7Q32",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "For a proportional relationship investigation, a proportional relationship includes the point (4, 36). What is the constant of proportionality?",
+    "choices": [
+      "36",
+      "13",
+      "9",
+      "4"
+    ],
+    "correctAnswer": "9",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M7Q33",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "equation_modeling",
+    "difficulty": "medium",
+    "question": "During a probability simulation, a printer makes 9 pages per minute. Which equation represents p, the number of pages printed in 5 minutes?",
+    "choices": [
+      "p = 9/5",
+      "p = 9 x 5",
+      "p = 9 + 5",
+      "p = 5 - 9"
+    ],
+    "correctAnswer": "p = 9 x 5",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M7Q34",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, solve for x: 3x + 34 = 73.",
+    "choices": [
+      "13",
+      "15",
+      "11",
+      "39"
+    ],
+    "correctAnswer": "13",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M7Q35",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "calculator_active",
+    "difficulty": "advanced",
+    "question": "During a probability simulation, a jacket costs $65. It is discounted by 17%. What is the sale price?",
+    "choices": [
+      "$48.00",
+      "$11.05",
+      "$82.00",
+      "$53.95"
+    ],
+    "correctAnswer": "$53.95",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M7Q36",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.RP.A.2",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Recognize and represent proportional relationships.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a probability simulation, the data set is 7, 9, 12, 12, 15. Which value is the median?",
+    "choices": [
+      "11",
+      "15",
+      "12",
+      "9"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M7Q37",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.NS.A.3",
+    "domain": "The Number System",
+    "skill": "Solve real-world problems with rational numbers.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, a triangle has base 12 cm and height 8 cm. What is its area?",
+    "choices": [
+      "40 square cm",
+      "48 square cm",
+      "96 square cm",
+      "20 square cm"
+    ],
+    "correctAnswer": "48 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M7Q38",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.EE.B.4",
+    "domain": "Expressions and Equations",
+    "skill": "Use equations and inequalities to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a probability simulation, line A has equation y = 9x + 5. What is the slope?",
+    "choices": [
+      "9",
+      "5",
+      "14",
+      "-9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M7Q39",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.G.B.6",
+    "domain": "Geometry",
+    "skill": "Solve area, volume, and surface area problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a probability simulation, a right triangle has legs 9 and 10. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(19)",
+      "19",
+      "90",
+      "sqrt(181)"
+    ],
+    "correctAnswer": "sqrt(181)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M7Q40",
+    "grade": 7,
+    "subject": "math",
+    "standard": "7.SP.C.7",
+    "domain": "Statistics and Probability",
+    "skill": "Develop probability models.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "advanced",
+    "question": "During a probability simulation, a proportional relationship includes the point (2, 18). What is the constant of proportionality?",
+    "choices": [
+      "2",
+      "18",
+      "11",
+      "9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "E7Q1",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Failure can guide better engineering decisions.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q2",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "students often revise designs",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement"
+    ]
+  },
+  {
+    "id": "E7Q3",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. What does the word revise most nearly mean as it is used?",
+    "choices": [
+      "change to improve",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "change to improve",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q4",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It states a claim and supports it with a reason."
+    ],
+    "correctAnswer": "It states a claim and supports it with a reason.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E7Q5",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The writer values testing as part of learning.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "The writer values testing as part of learning.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E7Q6",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Failure can guide better engineering decisions. This is supported by details such as students often revise designs and failures are useful because they reveal exactly what needs improvement.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions. This is supported by details such as students often revise designs and failures are useful because they reveal exactly what needs improvement.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E7Q7",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which sentence best states the central idea?",
+    "choices": [
+      "Different note-taking methods have different strengths.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Different note-taking methods have different strengths.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q8",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "handwritten notes may help some students remember ideas",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "Typed notes are faster to search"
+    ],
+    "correctAnswer": "Typed notes are faster to search",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Typed notes are faster to search",
+      "handwritten notes may help some students remember ideas"
+    ]
+  },
+  {
+    "id": "E7Q9",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. What does the word key most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "most important",
+      "repairs"
+    ],
+    "correctAnswer": "most important",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q10",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It compares advantages of two methods.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It compares advantages of two methods.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E7Q11",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "Students may choose a method based on their goal.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "Students may choose a method based on their goal.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E7Q12",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which response would be the strongest short written answer?",
+    "choices": [
+      "Different note-taking methods have different strengths. This is supported by details such as Typed notes are faster to search and handwritten notes may help some students remember ideas.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Different note-taking methods have different strengths. This is supported by details such as Typed notes are faster to search and handwritten notes may help some students remember ideas.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E7Q13",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Failure can guide better engineering decisions."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q14",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement"
+    ],
+    "correctAnswer": "students often revise designs",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement"
+    ]
+  },
+  {
+    "id": "E7Q15",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "advanced",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. What does the word revise most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "change to improve",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "change to improve",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q16",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. How is the passage mainly organized?",
+    "choices": [
+      "It states a claim and supports it with a reason.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It states a claim and supports it with a reason.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E7Q17",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The writer values testing as part of learning."
+    ],
+    "correctAnswer": "The writer values testing as part of learning.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E7Q18",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Failure can guide better engineering decisions. This is supported by details such as students often revise designs and failures are useful because they reveal exactly what needs improvement.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions. This is supported by details such as students often revise designs and failures are useful because they reveal exactly what needs improvement.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E7Q19",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Different note-taking methods have different strengths.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Different note-taking methods have different strengths.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q20",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "Typed notes are faster to search",
+      "handwritten notes may help some students remember ideas",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "Typed notes are faster to search",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Typed notes are faster to search",
+      "handwritten notes may help some students remember ideas"
+    ]
+  },
+  {
+    "id": "E7Q21",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. What does the word key most nearly mean as it is used?",
+    "choices": [
+      "most important",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "most important",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q22",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It compares advantages of two methods."
+    ],
+    "correctAnswer": "It compares advantages of two methods.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E7Q23",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Students may choose a method based on their goal.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "Students may choose a method based on their goal.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E7Q24",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Different note-taking methods have different strengths. This is supported by details such as Typed notes are faster to search and handwritten notes may help some students remember ideas.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Different note-taking methods have different strengths. This is supported by details such as Typed notes are faster to search and handwritten notes may help some students remember ideas.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E7Q25",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which sentence best states the central idea?",
+    "choices": [
+      "Failure can guide better engineering decisions.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q26",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "failures are useful because they reveal exactly what needs improvement",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "students often revise designs"
+    ],
+    "correctAnswer": "students often revise designs",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement"
+    ]
+  },
+  {
+    "id": "E7Q27",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. What does the word revise most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "change to improve",
+      "repairs"
+    ],
+    "correctAnswer": "change to improve",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q28",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It states a claim and supports it with a reason.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It states a claim and supports it with a reason.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E7Q29",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which inference is best supported?",
+    "choices": [
+      "The writer values testing as part of learning.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "The writer values testing as part of learning.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E7Q30",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "advanced",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which response would be the strongest short written answer?",
+    "choices": [
+      "Failure can guide better engineering decisions. This is supported by details such as students often revise designs and failures are useful because they reveal exactly what needs improvement.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions. This is supported by details such as students often revise designs and failures are useful because they reveal exactly what needs improvement.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E7Q31",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Different note-taking methods have different strengths."
+    ],
+    "correctAnswer": "Different note-taking methods have different strengths.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q32",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "Typed notes are faster to search",
+      "handwritten notes may help some students remember ideas"
+    ],
+    "correctAnswer": "Typed notes are faster to search",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Typed notes are faster to search",
+      "handwritten notes may help some students remember ideas"
+    ]
+  },
+  {
+    "id": "E7Q33",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. What does the word key most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "most important",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "most important",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q34",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. How is the passage mainly organized?",
+    "choices": [
+      "It compares advantages of two methods.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It compares advantages of two methods.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E7Q35",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Students may choose a method based on their goal."
+    ],
+    "correctAnswer": "Students may choose a method based on their goal.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E7Q36",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A technology column compares handwritten notes with typed notes. Typed notes are faster to search, but handwritten notes may help some students remember ideas because they must choose key points. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Different note-taking methods have different strengths. This is supported by details such as Typed notes are faster to search and handwritten notes may help some students remember ideas.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "Different note-taking methods have different strengths. This is supported by details such as Typed notes are faster to search and handwritten notes may help some students remember ideas.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E7Q37",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Failure can guide better engineering decisions.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Failure can guide better engineering decisions.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E7Q38",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "students often revise designs",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "students often revise designs",
+      "failures are useful because they reveal exactly what needs improvement"
+    ]
+  },
+  {
+    "id": "E7Q39",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. What does the word revise most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "change to improve"
+    ],
+    "correctAnswer": "change to improve",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E7Q40",
+    "grade": 7,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. An article about school robotics teams explains that students often revise designs after a robot fails a task. The writer argues that these failures are useful because they reveal exactly what needs improvement. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It states a claim and supports it with a reason."
+    ],
+    "correctAnswer": "It states a claim and supports it with a reason.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "S7Q1",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which variable is being tested or compared?",
+    "choices": [
+      "amount of duckweed",
+      "same pond model and observation schedule",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "amount of duckweed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q2",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a food web with arrows showing interactions",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "duckweed coverage, light level, and snail population"
+    ],
+    "correctAnswer": "duckweed coverage, light level, and snail population",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions"
+    ]
+  },
+  {
+    "id": "S7Q3",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q4",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a food web with arrows showing interactions",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a food web with arrows showing interactions",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S7Q5",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which claim is best supported by the investigation?",
+    "choices": [
+      "Changes in one population can affect other parts of an ecosystem.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Changes in one population can affect other parts of an ecosystem.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S7Q6",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S7Q7",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "water availability during the summer",
+      "same observation method and time of day"
+    ],
+    "correctAnswer": "water availability during the summer",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q8",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "number of flowering plants and pollinator visits",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "number of flowering plants and pollinator visits",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "number of flowering plants and pollinator visits",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators"
+    ]
+  },
+  {
+    "id": "S7Q9",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same observation method and time of day consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same observation method and time of day consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q10",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which model would best communicate the investigation results?",
+    "choices": [
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S7Q11",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Resource availability can affect populations in an ecosystem."
+    ],
+    "correctAnswer": "Resource availability can affect populations in an ecosystem.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S7Q12",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S7Q13",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "amount of duckweed",
+      "same pond model and observation schedule",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "amount of duckweed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q14",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "duckweed coverage, light level, and snail population",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions"
+    ]
+  },
+  {
+    "id": "S7Q15",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same pond model and observation schedule consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q16",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a food web with arrows showing interactions",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a food web with arrows showing interactions",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S7Q17",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Changes in one population can affect other parts of an ecosystem.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Changes in one population can affect other parts of an ecosystem.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S7Q18",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S7Q19",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which variable is being tested or compared?",
+    "choices": [
+      "same observation method and time of day",
+      "the students' favorite result",
+      "the title of the investigation",
+      "water availability during the summer"
+    ],
+    "correctAnswer": "water availability during the summer",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q20",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "number of flowering plants and pollinator visits"
+    ],
+    "correctAnswer": "number of flowering plants and pollinator visits",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "number of flowering plants and pollinator visits",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators"
+    ]
+  },
+  {
+    "id": "S7Q21",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same observation method and time of day consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same observation method and time of day consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q22",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S7Q23",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which claim is best supported by the investigation?",
+    "choices": [
+      "Resource availability can affect populations in an ecosystem.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Resource availability can affect populations in an ecosystem.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S7Q24",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S7Q25",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "amount of duckweed",
+      "same pond model and observation schedule"
+    ],
+    "correctAnswer": "amount of duckweed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q26",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "duckweed coverage, light level, and snail population",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions"
+    ]
+  },
+  {
+    "id": "S7Q27",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q28",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a food web with arrows showing interactions"
+    ],
+    "correctAnswer": "a food web with arrows showing interactions",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S7Q29",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Changes in one population can affect other parts of an ecosystem.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "Changes in one population can affect other parts of an ecosystem.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S7Q30",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "scientific_practice",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S7Q31",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "water availability during the summer",
+      "same observation method and time of day",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "water availability during the summer",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q32",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "number of flowering plants and pollinator visits",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "number of flowering plants and pollinator visits",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "number of flowering plants and pollinator visits",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators"
+    ]
+  },
+  {
+    "id": "S7Q33",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same observation method and time of day consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same observation method and time of day consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q34",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a cause-and-effect diagram linking rainfall, flowers, and pollinators",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S7Q35",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Resource availability can affect populations in an ecosystem.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Resource availability can affect populations in an ecosystem.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S7Q36",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, a class compares two habitats after a dry summer. One habitat has fewer flowering plants, and students record a decrease in pollinator visits. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S7Q37",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which variable is being tested or compared?",
+    "choices": [
+      "same pond model and observation schedule",
+      "the students' favorite result",
+      "the title of the investigation",
+      "amount of duckweed"
+    ],
+    "correctAnswer": "amount of duckweed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S7Q38",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions"
+    ],
+    "correctAnswer": "duckweed coverage, light level, and snail population",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "duckweed coverage, light level, and snail population",
+      "a food web with arrows showing interactions"
+    ]
+  },
+  {
+    "id": "S7Q39",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same pond model and observation schedule consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S7Q40",
+    "grade": 7,
+    "subject": "science",
+    "standard": "MS-LS2-1",
+    "domain": "Life Science",
+    "skill": "Analyze ecosystem interactions and resource availability",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 7 science, students study a pond model. When the amount of duckweed increases, less light reaches underwater plants and the snail population changes. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a food web with arrows showing interactions",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a food web with arrows showing interactions",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  }
+]

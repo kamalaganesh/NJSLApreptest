@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "M5Q1",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a cafeteria packed 4 trays with 7 lunches on each tray and had 24 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "52",
+      "35",
+      "124",
+      "28"
+    ],
+    "correctAnswer": "52",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M5Q2",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a garden has an area of 40 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "5",
+      "13",
+      "40",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M5Q3",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a science fair budget task, which expression is equivalent to 1/6 + 1/6?",
+    "choices": [
+      "2/7",
+      "2/12",
+      "2/6",
+      "1/12"
+    ],
+    "correctAnswer": "2/6",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M5Q4",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a science notebook weighs 5.4 ounces. A pencil case weighs 0.65 ounces. What is the total weight?",
+    "choices": [
+      "3.51 ounces",
+      "6.05 ounces",
+      "4.75 ounces",
+      "7.05 ounces"
+    ],
+    "correctAnswer": "6.05 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M5Q5",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "advanced",
+    "question": "During a science fair budget task, point A is located at (5, 5) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(8, 5)",
+      "(5, 8)",
+      "(2, 5)",
+      "(8, 8)"
+    ],
+    "correctAnswer": "(8, 5)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M5Q6",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a science fair budget task, a line plot shows plant heights of 5, 6, 6, and 8 inches. What is the most common height?",
+    "choices": [
+      "5 inches",
+      "7 inches",
+      "8 inches",
+      "6 inches"
+    ],
+    "correctAnswer": "6 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M5Q7",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a class collected 60 cans in week 1 and 70 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "42",
+      "130",
+      "26",
+      "13"
+    ],
+    "correctAnswer": "26",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M5Q8",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, which statement correctly compares 5.80 and 5.88?",
+    "choices": [
+      "5.88 < 5.80",
+      "5.80 < 5.88",
+      "5.80 > 5.88",
+      "5.80 = 5.88"
+    ],
+    "correctAnswer": "5.80 < 5.88",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M5Q9",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "On a coordinate-grid map of the school, a cafeteria packed 4 trays with 6 lunches on each tray and had 32 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "56",
+      "42",
+      "152",
+      "24"
+    ],
+    "correctAnswer": "56",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M5Q10",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "On a coordinate-grid map of the school, a garden has an area of 35 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "7",
+      "5",
+      "12",
+      "35"
+    ],
+    "correctAnswer": "7",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M5Q11",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, which expression is equivalent to 3/6 + 3/6?",
+    "choices": [
+      "3/12",
+      "4/7",
+      "6/12",
+      "6/6"
+    ],
+    "correctAnswer": "6/6",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M5Q12",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "On a coordinate-grid map of the school, a science notebook weighs 6.2 ounces. A pencil case weighs 0.75 ounces. What is the total weight?",
+    "choices": [
+      "7.95 ounces",
+      "4.65 ounces",
+      "6.95 ounces",
+      "5.45 ounces"
+    ],
+    "correctAnswer": "6.95 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M5Q13",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, point A is located at (1, 8) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(4, 11)",
+      "(4, 8)",
+      "(1, 11)",
+      "(-2, 8)"
+    ],
+    "correctAnswer": "(4, 8)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M5Q14",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, a line plot shows plant heights of 5, 6, 6, and 8 inches. What is the most common height?",
+    "choices": [
+      "6 inches",
+      "5 inches",
+      "7 inches",
+      "8 inches"
+    ],
+    "correctAnswer": "6 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M5Q15",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "advanced",
+    "question": "On a coordinate-grid map of the school, a class collected 60 cans in week 1 and 60 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "12",
+      "36",
+      "120",
+      "24"
+    ],
+    "correctAnswer": "24",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M5Q16",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, which statement correctly compares 6.60 and 6.68?",
+    "choices": [
+      "6.60 = 6.68",
+      "6.68 < 6.60",
+      "6.60 < 6.68",
+      "6.60 > 6.68"
+    ],
+    "correctAnswer": "6.60 < 6.68",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M5Q17",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "For a recipe conversion problem, a cafeteria packed 4 trays with 8 lunches on each tray and had 40 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "32",
+      "72",
+      "52",
+      "192"
+    ],
+    "correctAnswer": "72",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M5Q18",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a recipe conversion problem, a garden has an area of 30 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "6",
+      "5",
+      "11",
+      "30"
+    ],
+    "correctAnswer": "6",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M5Q19",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a recipe conversion problem, which expression is equivalent to 2/6 + 2/6?",
+    "choices": [
+      "2/12",
+      "3/7",
+      "4/12",
+      "4/6"
+    ],
+    "correctAnswer": "4/6",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M5Q20",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a recipe conversion problem, a science notebook weighs 7.0 ounces. A pencil case weighs 0.85 ounces. What is the total weight?",
+    "choices": [
+      "6.15 ounces",
+      "8.85 ounces",
+      "5.95 ounces",
+      "7.85 ounces"
+    ],
+    "correctAnswer": "7.85 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M5Q21",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "medium",
+    "question": "For a recipe conversion problem, point A is located at (3, 6) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(0, 6)",
+      "(6, 9)",
+      "(6, 6)",
+      "(3, 9)"
+    ],
+    "correctAnswer": "(6, 6)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M5Q22",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a recipe conversion problem, a line plot shows plant heights of 5, 6, 6, and 8 inches. What is the most common height?",
+    "choices": [
+      "8 inches",
+      "6 inches",
+      "5 inches",
+      "7 inches"
+    ],
+    "correctAnswer": "6 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M5Q23",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "For a recipe conversion problem, a class collected 60 cans in week 1 and 80 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "28",
+      "14",
+      "48",
+      "140"
+    ],
+    "correctAnswer": "28",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M5Q24",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a recipe conversion problem, which statement correctly compares 7.40 and 7.48?",
+    "choices": [
+      "7.40 > 7.48",
+      "7.40 = 7.48",
+      "7.48 < 7.40",
+      "7.40 < 7.48"
+    ],
+    "correctAnswer": "7.40 < 7.48",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M5Q25",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "advanced",
+    "question": "During a science fair budget task, a cafeteria packed 4 trays with 7 lunches on each tray and had 48 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "220",
+      "28",
+      "76",
+      "59"
+    ],
+    "correctAnswer": "76",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M5Q26",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a garden has an area of 40 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "40",
+      "8",
+      "5",
+      "13"
+    ],
+    "correctAnswer": "8",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M5Q27",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a science fair budget task, which expression is equivalent to 1/6 + 1/6?",
+    "choices": [
+      "2/6",
+      "1/12",
+      "2/7",
+      "2/12"
+    ],
+    "correctAnswer": "2/6",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M5Q28",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a science notebook weighs 7.8 ounces. A pencil case weighs 0.25 ounces. What is the total weight?",
+    "choices": [
+      "7.55 ounces",
+      "9.05 ounces",
+      "1.95 ounces",
+      "8.05 ounces"
+    ],
+    "correctAnswer": "8.05 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M5Q29",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, point A is located at (5, 9) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(2, 9)",
+      "(8, 12)",
+      "(8, 9)",
+      "(5, 12)"
+    ],
+    "correctAnswer": "(8, 9)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M5Q30",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "data_analysis",
+    "difficulty": "advanced",
+    "question": "During a science fair budget task, a line plot shows plant heights of 5, 6, 6, and 8 inches. What is the most common height?",
+    "choices": [
+      "7 inches",
+      "8 inches",
+      "6 inches",
+      "5 inches"
+    ],
+    "correctAnswer": "6 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M5Q31",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, a class collected 60 cans in week 1 and 70 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "130",
+      "26",
+      "13",
+      "42"
+    ],
+    "correctAnswer": "26",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M5Q32",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a science fair budget task, which statement correctly compares 8.20 and 8.28?",
+    "choices": [
+      "8.20 < 8.28",
+      "8.20 > 8.28",
+      "8.20 = 8.28",
+      "8.28 < 8.20"
+    ],
+    "correctAnswer": "8.20 < 8.28",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "M5Q33",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "On a coordinate-grid map of the school, a cafeteria packed 4 trays with 6 lunches on each tray and had 56 extra lunches. How many lunches were packed in all?",
+    "choices": [
+      "66",
+      "248",
+      "24",
+      "80"
+    ],
+    "correctAnswer": "80",
+    "explanation": "Multiply to find lunches on trays, then add the extra lunches."
+  },
+  {
+    "id": "M5Q34",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, a garden has an area of 35 square feet. One side is 5 feet long. What is the missing side length?",
+    "choices": [
+      "12",
+      "35",
+      "7",
+      "5"
+    ],
+    "correctAnswer": "7",
+    "explanation": "Use area = length x width, so divide the area by the known side."
+  },
+  {
+    "id": "M5Q35",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "On a coordinate-grid map of the school, which expression is equivalent to 3/6 + 3/6?",
+    "choices": [
+      "6/12",
+      "6/6",
+      "3/12",
+      "4/7"
+    ],
+    "correctAnswer": "6/6",
+    "explanation": "When denominators are the same, add the numerators and keep the denominator."
+  },
+  {
+    "id": "M5Q36",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NBT.B.7",
+    "domain": "Number and Operations in Base Ten",
+    "skill": "Perform operations with decimals to hundredths.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "On a coordinate-grid map of the school, a science notebook weighs 8.6 ounces. A pencil case weighs 0.35 ounces. What is the total weight?",
+    "choices": [
+      "8.95 ounces",
+      "8.25 ounces",
+      "9.95 ounces",
+      "3.01 ounces"
+    ],
+    "correctAnswer": "8.95 ounces",
+    "explanation": "Add the decimal weights and keep the units in the answer."
+  },
+  {
+    "id": "M5Q37",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.A.1",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Add and subtract fractions with unlike denominators.",
+    "itemType": "coordinate_reasoning",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, point A is located at (1, 7) on a coordinate grid. Which point is 3 units to the right of A?",
+    "choices": [
+      "(1, 10)",
+      "(-2, 7)",
+      "(4, 10)",
+      "(4, 7)"
+    ],
+    "correctAnswer": "(4, 7)",
+    "explanation": "Moving right changes the x-coordinate and keeps the y-coordinate the same."
+  },
+  {
+    "id": "M5Q38",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.NF.B.4",
+    "domain": "Number and Operations - Fractions",
+    "skill": "Apply multiplication to fractions.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "On a coordinate-grid map of the school, a line plot shows plant heights of 5, 6, 6, and 8 inches. What is the most common height?",
+    "choices": [
+      "7 inches",
+      "8 inches",
+      "6 inches",
+      "5 inches"
+    ],
+    "correctAnswer": "6 inches",
+    "explanation": "The most common value is the one that appears most often."
+  },
+  {
+    "id": "M5Q39",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.M.A.1",
+    "domain": "Measurement",
+    "skill": "Convert among measurement units.",
+    "itemType": "multi_step_word_problem",
+    "difficulty": "medium",
+    "question": "On a coordinate-grid map of the school, a class collected 60 cans in week 1 and 60 cans in week 2. They packed the cans equally into 5 boxes. How many cans were in each box?",
+    "choices": [
+      "120",
+      "24",
+      "12",
+      "36"
+    ],
+    "correctAnswer": "24",
+    "explanation": "Add the cans from both weeks, then divide by the number of boxes."
+  },
+  {
+    "id": "M5Q40",
+    "grade": 5,
+    "subject": "math",
+    "standard": "5.G.A.2",
+    "domain": "Geometry",
+    "skill": "Represent real-world problems on a coordinate plane.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "On a coordinate-grid map of the school, which statement correctly compares 9.00 and 9.08?",
+    "choices": [
+      "9.08 < 9.00",
+      "9.00 < 9.08",
+      "9.00 > 9.08",
+      "9.00 = 9.08"
+    ],
+    "correctAnswer": "9.00 < 9.08",
+    "explanation": "Compare place values from left to right. The second decimal is greater."
+  },
+  {
+    "id": "E5Q1",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which sentence best states the central idea?",
+    "choices": [
+      "Observations can help explain why plants grow differently.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q2",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "the taller plants stayed damp longer",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "the basil plants near the rain barrel were taller"
+    ],
+    "correctAnswer": "the basil plants near the rain barrel were taller",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer"
+    ]
+  },
+  {
+    "id": "E5Q3",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. What does the word observations most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "details noticed and recorded",
+      "repairs"
+    ],
+    "correctAnswer": "details noticed and recorded",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q4",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It presents an observation and evidence that helps explain it.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It presents an observation and evidence that helps explain it.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E5Q5",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which inference is best supported?",
+    "choices": [
+      "Water availability may have affected the basil plants.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "Water availability may have affected the basil plants.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E5Q6",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Observations can help explain why plants grow differently. This is supported by details such as the basil plants near the rain barrel were taller and the taller plants stayed damp longer."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently. This is supported by details such as the basil plants near the rain barrel were taller and the taller plants stayed damp longer.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E5Q7",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "The students planned the book swap so others could use it easily.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "The students planned the book swap so others could use it easily.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q8",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "Students first counted donated books by genre",
+      "made signs so younger students could find books",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "Students first counted donated books by genre",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Students first counted donated books by genre",
+      "made signs so younger students could find books"
+    ]
+  },
+  {
+    "id": "E5Q9",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. What does the word genre most nearly mean as it is used?",
+    "choices": [
+      "a category or type of book",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "a category or type of book",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q10",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. How is the passage mainly organized?",
+    "choices": [
+      "It explains steps in a process.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It explains steps in a process.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E5Q11",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The students considered what younger readers would need."
+    ],
+    "correctAnswer": "The students considered what younger readers would need.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E5Q12",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "The students planned the book swap so others could use it easily. This is supported by details such as Students first counted donated books by genre and made signs so younger students could find books.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "The students planned the book swap so others could use it easily. This is supported by details such as Students first counted donated books by genre and made signs so younger students could find books.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E5Q13",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Observations can help explain why plants grow differently.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q14",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "the basil plants near the rain barrel were taller",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer"
+    ]
+  },
+  {
+    "id": "E5Q15",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "advanced",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. What does the word observations most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "details noticed and recorded"
+    ],
+    "correctAnswer": "details noticed and recorded",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q16",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It presents an observation and evidence that helps explain it.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It presents an observation and evidence that helps explain it.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E5Q17",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "Water availability may have affected the basil plants.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "Water availability may have affected the basil plants.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E5Q18",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which response would be the strongest short written answer?",
+    "choices": [
+      "Observations can help explain why plants grow differently. This is supported by details such as the basil plants near the rain barrel were taller and the taller plants stayed damp longer.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently. This is supported by details such as the basil plants near the rain barrel were taller and the taller plants stayed damp longer.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E5Q19",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "The students planned the book swap so others could use it easily."
+    ],
+    "correctAnswer": "The students planned the book swap so others could use it easily.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q20",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "made signs so younger students could find books",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "Students first counted donated books by genre"
+    ],
+    "correctAnswer": "Students first counted donated books by genre",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Students first counted donated books by genre",
+      "made signs so younger students could find books"
+    ]
+  },
+  {
+    "id": "E5Q21",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. What does the word genre most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "a category or type of book",
+      "repairs"
+    ],
+    "correctAnswer": "a category or type of book",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q22",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It explains steps in a process.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It explains steps in a process.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E5Q23",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which inference is best supported?",
+    "choices": [
+      "The students considered what younger readers would need.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "The students considered what younger readers would need.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E5Q24",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "The students planned the book swap so others could use it easily. This is supported by details such as Students first counted donated books by genre and made signs so younger students could find books."
+    ],
+    "correctAnswer": "The students planned the book swap so others could use it easily. This is supported by details such as Students first counted donated books by genre and made signs so younger students could find books.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E5Q25",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Observations can help explain why plants grow differently.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q26",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "the basil plants near the rain barrel were taller",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer"
+    ]
+  },
+  {
+    "id": "E5Q27",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. What does the word observations most nearly mean as it is used?",
+    "choices": [
+      "details noticed and recorded",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "details noticed and recorded",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q28",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It presents an observation and evidence that helps explain it."
+    ],
+    "correctAnswer": "It presents an observation and evidence that helps explain it.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E5Q29",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "Water availability may have affected the basil plants.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "Water availability may have affected the basil plants.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E5Q30",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "advanced",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Observations can help explain why plants grow differently. This is supported by details such as the basil plants near the rain barrel were taller and the taller plants stayed damp longer.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently. This is supported by details such as the basil plants near the rain barrel were taller and the taller plants stayed damp longer.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E5Q31",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "The students planned the book swap so others could use it easily.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "The students planned the book swap so others could use it easily.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q32",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "Students first counted donated books by genre",
+      "made signs so younger students could find books",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "Students first counted donated books by genre",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "Students first counted donated books by genre",
+      "made signs so younger students could find books"
+    ]
+  },
+  {
+    "id": "E5Q33",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. What does the word genre most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "a category or type of book"
+    ],
+    "correctAnswer": "a category or type of book",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q34",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It explains steps in a process.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It explains steps in a process.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E5Q35",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "The students considered what younger readers would need.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "The students considered what younger readers would need.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E5Q36",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RL.CR",
+    "domain": "Close Reading",
+    "skill": "Use explicit details to answer questions about a literary text.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A school newspaper feature describes how fifth graders organized a book swap. Students first counted donated books by genre, then made signs so younger students could find mysteries, biographies, and comics easily. Which response would be the strongest short written answer?",
+    "choices": [
+      "The students planned the book swap so others could use it easily. This is supported by details such as Students first counted donated books by genre and made signs so younger students could find books.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage."
+    ],
+    "correctAnswer": "The students planned the book swap so others could use it easily. This is supported by details such as Students first counted donated books by genre and made signs so younger students could find books.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E5Q37",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.CI",
+    "domain": "Central Idea",
+    "skill": "Determine the main idea and supporting details.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Observations can help explain why plants grow differently."
+    ],
+    "correctAnswer": "Observations can help explain why plants grow differently.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E5Q38",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "L.VL",
+    "domain": "Vocabulary",
+    "skill": "Use context to determine word meaning.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer"
+    ],
+    "correctAnswer": "the basil plants near the rain barrel were taller",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the basil plants near the rain barrel were taller",
+      "the taller plants stayed damp longer"
+    ]
+  },
+  {
+    "id": "E5Q39",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.IT",
+    "domain": "Text Structure",
+    "skill": "Analyze sequence, cause/effect, or comparison.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. What does the word observations most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "details noticed and recorded",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "details noticed and recorded",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E5Q40",
+    "grade": 5,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Author's Purpose",
+    "skill": "Explain how an author supports a point.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. At the edge of the school garden, Amira noticed that the basil plants near the rain barrel were taller than the plants by the fence. She checked the soil and found that the taller plants stayed damp longer after hot afternoons. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It presents an observation and evidence that helps explain it.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It presents an observation and evidence that helps explain it.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "S5Q1",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "distance from the wall",
+      "same flashlight and wall surface"
+    ],
+    "correctAnswer": "distance from the wall",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q2",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "brightness of the light spot at each distance",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness"
+    ]
+  },
+  {
+    "id": "S5Q3",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q4",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a graph showing distance and observed brightness"
+    ],
+    "correctAnswer": "a graph showing distance and observed brightness",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S5Q5",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "A light source can appear dimmer when it is farther away.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "A light source can appear dimmer when it is farther away.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S5Q6",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S5Q7",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which variable is being tested or compared?",
+    "choices": [
+      "water temperature",
+      "same amount of water, salt, and stirring",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "water temperature",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q8",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a table comparing water temperature and dissolving time",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "time needed for salt to dissolve"
+    ],
+    "correctAnswer": "time needed for salt to dissolve",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "time needed for salt to dissolve",
+      "a table comparing water temperature and dissolving time"
+    ]
+  },
+  {
+    "id": "S5Q9",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same amount of water, salt, and stirring consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same amount of water, salt, and stirring consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q10",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a table comparing water temperature and dissolving time",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a table comparing water temperature and dissolving time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S5Q11",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Water temperature can affect how quickly salt dissolves.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Water temperature can affect how quickly salt dissolves.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S5Q12",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S5Q13",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which variable is being tested or compared?",
+    "choices": [
+      "same flashlight and wall surface",
+      "the students' favorite result",
+      "the title of the investigation",
+      "distance from the wall"
+    ],
+    "correctAnswer": "distance from the wall",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q14",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness"
+    ],
+    "correctAnswer": "brightness of the light spot at each distance",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness"
+    ]
+  },
+  {
+    "id": "S5Q15",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q16",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which model would best communicate the investigation results?",
+    "choices": [
+      "a graph showing distance and observed brightness",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a graph showing distance and observed brightness",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S5Q17",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "A light source can appear dimmer when it is farther away."
+    ],
+    "correctAnswer": "A light source can appear dimmer when it is farther away.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S5Q18",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S5Q19",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "water temperature",
+      "same amount of water, salt, and stirring",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "water temperature",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q20",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "time needed for salt to dissolve",
+      "a table comparing water temperature and dissolving time",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "time needed for salt to dissolve",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "time needed for salt to dissolve",
+      "a table comparing water temperature and dissolving time"
+    ]
+  },
+  {
+    "id": "S5Q21",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same amount of water, salt, and stirring consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same amount of water, salt, and stirring consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q22",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a table comparing water temperature and dissolving time"
+    ],
+    "correctAnswer": "a table comparing water temperature and dissolving time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S5Q23",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Water temperature can affect how quickly salt dissolves.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "Water temperature can affect how quickly salt dissolves.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S5Q24",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S5Q25",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which variable is being tested or compared?",
+    "choices": [
+      "distance from the wall",
+      "same flashlight and wall surface",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "distance from the wall",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q26",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a graph showing distance and observed brightness",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "brightness of the light spot at each distance"
+    ],
+    "correctAnswer": "brightness of the light spot at each distance",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness"
+    ]
+  },
+  {
+    "id": "S5Q27",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q28",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a graph showing distance and observed brightness",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a graph showing distance and observed brightness",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S5Q29",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which claim is best supported by the investigation?",
+    "choices": [
+      "A light source can appear dimmer when it is farther away.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "A light source can appear dimmer when it is farther away.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S5Q30",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "scientific_practice",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S5Q31",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which variable is being tested or compared?",
+    "choices": [
+      "same amount of water, salt, and stirring",
+      "the students' favorite result",
+      "the title of the investigation",
+      "water temperature"
+    ],
+    "correctAnswer": "water temperature",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q32",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "time needed for salt to dissolve",
+      "a table comparing water temperature and dissolving time"
+    ],
+    "correctAnswer": "time needed for salt to dissolve",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "time needed for salt to dissolve",
+      "a table comparing water temperature and dissolving time"
+    ]
+  },
+  {
+    "id": "S5Q33",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same amount of water, salt, and stirring consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same amount of water, salt, and stirring consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q34",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which model would best communicate the investigation results?",
+    "choices": [
+      "a table comparing water temperature and dissolving time",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a table comparing water temperature and dissolving time",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S5Q35",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Water temperature can affect how quickly salt dissolves."
+    ],
+    "correctAnswer": "Water temperature can affect how quickly salt dissolves.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S5Q36",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, students mix salt into three cups of water at different temperatures. They record how long it takes the salt to dissolve in each cup. What should students do before drawing a final conclusion?",
+    "choices": [
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S5Q37",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "distance from the wall",
+      "same flashlight and wall surface",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "distance from the wall",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S5Q38",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "brightness of the light spot at each distance",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "brightness of the light spot at each distance",
+      "a graph showing distance and observed brightness"
+    ]
+  },
+  {
+    "id": "S5Q39",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same flashlight and wall surface consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same flashlight and wall surface consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S5Q40",
+    "grade": 5,
+    "subject": "science",
+    "standard": "5-ESS1-1",
+    "domain": "Earth and Space Science",
+    "skill": "Use evidence to support explanations about stars and brightness",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 5 science, a group models star brightness using flashlights at different distances from a wall. The same flashlight appears dimmer as it moves farther away. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a graph showing distance and observed brightness"
+    ],
+    "correctAnswer": "a graph showing distance and observed brightness",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  }
+]

@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "M6Q1",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "equation_modeling",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, a printer makes 8 pages per minute. Which equation represents p, the number of pages printed in 3 minutes?",
+    "choices": [
+      "p = 8 + 3",
+      "p = 3 - 8",
+      "p = 8/3",
+      "p = 8 x 3"
+    ],
+    "correctAnswer": "p = 8 x 3",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M6Q2",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, solve for x: 3x + 2 = 26.",
+    "choices": [
+      "6",
+      "24",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M6Q3",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "calculator_active",
+    "difficulty": "medium",
+    "question": "For a robotics club rate problem, a jacket costs $33. It is discounted by 16%. What is the sale price?",
+    "choices": [
+      "$49.00",
+      "$27.72",
+      "$17.00",
+      "$5.28"
+    ],
+    "correctAnswer": "$27.72",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M6Q4",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, the data set is 6, 8, 11, 11, 14. Which value is the median?",
+    "choices": [
+      "11",
+      "8",
+      "10",
+      "14"
+    ],
+    "correctAnswer": "11",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M6Q5",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a robotics club rate problem, a triangle has base 11 cm and height 6 cm. What is its area?",
+    "choices": [
+      "66 square cm",
+      "17 square cm",
+      "34 square cm",
+      "33 square cm"
+    ],
+    "correctAnswer": "33 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M6Q6",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "For a robotics club rate problem, line A has equation y = 8x + 3. What is the slope?",
+    "choices": [
+      "11",
+      "-8",
+      "8",
+      "3"
+    ],
+    "correctAnswer": "8",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M6Q7",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, a right triangle has legs 7 and 8. Which expression gives the hypotenuse?",
+    "choices": [
+      "56",
+      "sqrt(113)",
+      "sqrt(15)",
+      "15"
+    ],
+    "correctAnswer": "sqrt(113)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M6Q8",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, a proportional relationship includes the point (5, 40). What is the constant of proportionality?",
+    "choices": [
+      "8",
+      "5",
+      "40",
+      "13"
+    ],
+    "correctAnswer": "8",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M6Q9",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "equation_modeling",
+    "difficulty": "medium",
+    "question": "During a data summary task, a printer makes 8 pages per minute. Which equation represents p, the number of pages printed in 6 minutes?",
+    "choices": [
+      "p = 8 + 6",
+      "p = 6 - 8",
+      "p = 8/6",
+      "p = 8 x 6"
+    ],
+    "correctAnswer": "p = 8 x 6",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M6Q10",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "During a data summary task, solve for x: 3x + 10 = 37.",
+    "choices": [
+      "11",
+      "7",
+      "27",
+      "9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M6Q11",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "calculator_active",
+    "difficulty": "foundational",
+    "question": "During a data summary task, a jacket costs $41. It is discounted by 16%. What is the sale price?",
+    "choices": [
+      "$6.56",
+      "$57.00",
+      "$34.44",
+      "$25.00"
+    ],
+    "correctAnswer": "$34.44",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M6Q12",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a data summary task, the data set is 6, 8, 11, 11, 14. Which value is the median?",
+    "choices": [
+      "14",
+      "11",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "11",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M6Q13",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a data summary task, a triangle has base 11 cm and height 9 cm. What is its area?",
+    "choices": [
+      "49.5 square cm",
+      "99 square cm",
+      "20 square cm",
+      "40 square cm"
+    ],
+    "correctAnswer": "49.5 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M6Q14",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a data summary task, line A has equation y = 8x + 6. What is the slope?",
+    "choices": [
+      "6",
+      "14",
+      "-8",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M6Q15",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "During a data summary task, a right triangle has legs 5 and 6. Which expression gives the hypotenuse?",
+    "choices": [
+      "11",
+      "30",
+      "sqrt(61)",
+      "sqrt(11)"
+    ],
+    "correctAnswer": "sqrt(61)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M6Q16",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "During a data summary task, a proportional relationship includes the point (3, 24). What is the constant of proportionality?",
+    "choices": [
+      "11",
+      "8",
+      "3",
+      "24"
+    ],
+    "correctAnswer": "8",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M6Q17",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "equation_modeling",
+    "difficulty": "foundational",
+    "question": "In a school store discount problem, a printer makes 8 pages per minute. Which equation represents p, the number of pages printed in 4 minutes?",
+    "choices": [
+      "p = 8 x 4",
+      "p = 8 + 4",
+      "p = 4 - 8",
+      "p = 8/4"
+    ],
+    "correctAnswer": "p = 8 x 4",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M6Q18",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "In a school store discount problem, solve for x: 3x + 18 = 48.",
+    "choices": [
+      "12",
+      "8",
+      "30",
+      "10"
+    ],
+    "correctAnswer": "10",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M6Q19",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "calculator_active",
+    "difficulty": "foundational",
+    "question": "In a school store discount problem, a jacket costs $49. It is discounted by 16%. What is the sale price?",
+    "choices": [
+      "$7.84",
+      "$65.00",
+      "$41.16",
+      "$33.00"
+    ],
+    "correctAnswer": "$41.16",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M6Q20",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "data_analysis",
+    "difficulty": "advanced",
+    "question": "In a school store discount problem, the data set is 6, 8, 11, 11, 14. Which value is the median?",
+    "choices": [
+      "10",
+      "14",
+      "11",
+      "8"
+    ],
+    "correctAnswer": "11",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M6Q21",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "In a school store discount problem, a triangle has base 11 cm and height 7 cm. What is its area?",
+    "choices": [
+      "36 square cm",
+      "38.5 square cm",
+      "77 square cm",
+      "18 square cm"
+    ],
+    "correctAnswer": "38.5 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M6Q22",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "In a school store discount problem, line A has equation y = 8x + 4. What is the slope?",
+    "choices": [
+      "8",
+      "4",
+      "12",
+      "-8"
+    ],
+    "correctAnswer": "8",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M6Q23",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "In a school store discount problem, a right triangle has legs 8 and 9. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(17)",
+      "17",
+      "72",
+      "sqrt(145)"
+    ],
+    "correctAnswer": "sqrt(145)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M6Q24",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "medium",
+    "question": "In a school store discount problem, a proportional relationship includes the point (6, 48). What is the constant of proportionality?",
+    "choices": [
+      "48",
+      "14",
+      "8",
+      "6"
+    ],
+    "correctAnswer": "8",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M6Q25",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "equation_modeling",
+    "difficulty": "advanced",
+    "question": "For a robotics club rate problem, a printer makes 8 pages per minute. Which equation represents p, the number of pages printed in 2 minutes?",
+    "choices": [
+      "p = 8/2",
+      "p = 8 x 2",
+      "p = 8 + 2",
+      "p = 2 - 8"
+    ],
+    "correctAnswer": "p = 8 x 2",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M6Q26",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, solve for x: 3x + 26 = 59.",
+    "choices": [
+      "11",
+      "13",
+      "9",
+      "33"
+    ],
+    "correctAnswer": "11",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M6Q27",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "calculator_active",
+    "difficulty": "medium",
+    "question": "For a robotics club rate problem, a jacket costs $57. It is discounted by 16%. What is the sale price?",
+    "choices": [
+      "$41.00",
+      "$9.12",
+      "$73.00",
+      "$47.88"
+    ],
+    "correctAnswer": "$47.88",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M6Q28",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "data_analysis",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, the data set is 6, 8, 11, 11, 14. Which value is the median?",
+    "choices": [
+      "10",
+      "14",
+      "11",
+      "8"
+    ],
+    "correctAnswer": "11",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M6Q29",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, a triangle has base 11 cm and height 10 cm. What is its area?",
+    "choices": [
+      "42 square cm",
+      "55 square cm",
+      "110 square cm",
+      "21 square cm"
+    ],
+    "correctAnswer": "55 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M6Q30",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "For a robotics club rate problem, line A has equation y = 8x + 2. What is the slope?",
+    "choices": [
+      "-8",
+      "8",
+      "2",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M6Q31",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, a right triangle has legs 6 and 7. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(85)",
+      "sqrt(13)",
+      "13",
+      "42"
+    ],
+    "correctAnswer": "sqrt(85)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M6Q32",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "foundational",
+    "question": "For a robotics club rate problem, a proportional relationship includes the point (4, 32). What is the constant of proportionality?",
+    "choices": [
+      "4",
+      "32",
+      "12",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "M6Q33",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "equation_modeling",
+    "difficulty": "medium",
+    "question": "During a data summary task, a printer makes 8 pages per minute. Which equation represents p, the number of pages printed in 5 minutes?",
+    "choices": [
+      "p = 5 - 8",
+      "p = 8/5",
+      "p = 8 x 5",
+      "p = 8 + 5"
+    ],
+    "correctAnswer": "p = 8 x 5",
+    "explanation": "A constant rate is multiplied by time to find the total."
+  },
+  {
+    "id": "M6Q34",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a data summary task, solve for x: 3x + 34 = 70.",
+    "choices": [
+      "36",
+      "12",
+      "14",
+      "10"
+    ],
+    "correctAnswer": "12",
+    "explanation": "Subtract the constant from both sides, then divide by 3."
+  },
+  {
+    "id": "M6Q35",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "calculator_active",
+    "difficulty": "advanced",
+    "question": "During a data summary task, a jacket costs $65. It is discounted by 16%. What is the sale price?",
+    "choices": [
+      "$54.60",
+      "$49.00",
+      "$10.40",
+      "$81.00"
+    ],
+    "correctAnswer": "$54.60",
+    "explanation": "Find the percent discount and subtract it from the original price."
+  },
+  {
+    "id": "M6Q36",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.RP.A.3",
+    "domain": "Ratios and Proportional Relationships",
+    "skill": "Use ratio and rate reasoning to solve problems.",
+    "itemType": "data_analysis",
+    "difficulty": "medium",
+    "question": "During a data summary task, the data set is 6, 8, 11, 11, 14. Which value is the median?",
+    "choices": [
+      "8",
+      "10",
+      "14",
+      "11"
+    ],
+    "correctAnswer": "11",
+    "explanation": "The median is the middle value when the data are ordered."
+  },
+  {
+    "id": "M6Q37",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.NS.B.3",
+    "domain": "The Number System",
+    "skill": "Compute fluently with multi-digit decimals.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a data summary task, a triangle has base 11 cm and height 8 cm. What is its area?",
+    "choices": [
+      "19 square cm",
+      "38 square cm",
+      "44 square cm",
+      "88 square cm"
+    ],
+    "correctAnswer": "44 square cm",
+    "explanation": "Use area of a triangle = 1/2 x base x height."
+  },
+  {
+    "id": "M6Q38",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.EE.B.7",
+    "domain": "Expressions and Equations",
+    "skill": "Solve one-variable equations.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "During a data summary task, line A has equation y = 8x + 5. What is the slope?",
+    "choices": [
+      "-8",
+      "8",
+      "5",
+      "13"
+    ],
+    "correctAnswer": "8",
+    "explanation": "In y = mx + b, the coefficient of x is the slope."
+  },
+  {
+    "id": "M6Q39",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.G.A.1",
+    "domain": "Geometry",
+    "skill": "Find area of polygons.",
+    "itemType": "multiple_choice",
+    "difficulty": "medium",
+    "question": "During a data summary task, a right triangle has legs 9 and 10. Which expression gives the hypotenuse?",
+    "choices": [
+      "sqrt(181)",
+      "sqrt(19)",
+      "19",
+      "90"
+    ],
+    "correctAnswer": "sqrt(181)",
+    "explanation": "Use the Pythagorean Theorem: a^2 + b^2 = c^2."
+  },
+  {
+    "id": "M6Q40",
+    "grade": 6,
+    "subject": "math",
+    "standard": "6.SP.B.5",
+    "domain": "Statistics and Probability",
+    "skill": "Summarize numerical data sets.",
+    "itemType": "proportional_reasoning",
+    "difficulty": "advanced",
+    "question": "During a data summary task, a proportional relationship includes the point (2, 16). What is the constant of proportionality?",
+    "choices": [
+      "8",
+      "2",
+      "16",
+      "10"
+    ],
+    "correctAnswer": "8",
+    "explanation": "For y = kx, divide y by x to find k."
+  },
+  {
+    "id": "E6Q1",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which sentence best states the central idea?",
+    "choices": [
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "The tray proposal has both environmental benefits and cost concerns."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q2",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment"
+    ],
+    "correctAnswer": "the change would reduce waste",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment"
+    ]
+  },
+  {
+    "id": "E6Q3",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. What does the word proposed most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "suggested for consideration",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "suggested for consideration",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q4",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. How is the passage mainly organized?",
+    "choices": [
+      "It presents a proposal and opposing viewpoints.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It presents a proposal and opposing viewpoints.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E6Q5",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "The council needs evidence about both waste and cost."
+    ],
+    "correctAnswer": "The council needs evidence about both waste and cost.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E6Q6",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "The tray proposal has both environmental benefits and cost concerns. This is supported by details such as the change would reduce waste and opponents worried about the cost of new equipment.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns. This is supported by details such as the change would reduce waste and opponents worried about the cost of new equipment.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E6Q7",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "Composting can help reduce trash but requires maintenance.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "Composting can help reduce trash but requires maintenance.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q8",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "can reduce trash",
+      "require regular turning and careful monitoring",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "can reduce trash",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "can reduce trash",
+      "require regular turning and careful monitoring"
+    ]
+  },
+  {
+    "id": "E6Q9",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. What does the word monitoring most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "checking regularly"
+    ],
+    "correctAnswer": "checking regularly",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q10",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. How is the passage mainly organized?",
+    "choices": [
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It explains benefits and responsibilities."
+    ],
+    "correctAnswer": "It explains benefits and responsibilities.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E6Q11",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which inference is best supported?",
+    "choices": [
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "A compost program needs a clear plan to succeed.",
+      "The first idea mentioned is always correct."
+    ],
+    "correctAnswer": "A compost program needs a clear plan to succeed.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E6Q12",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "Composting can help reduce trash but requires maintenance. This is supported by details such as can reduce trash and require regular turning and careful monitoring.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "Composting can help reduce trash but requires maintenance. This is supported by details such as can reduce trash and require regular turning and careful monitoring.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E6Q13",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which sentence best states the central idea?",
+    "choices": [
+      "The tray proposal has both environmental benefits and cost concerns.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q14",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "opponents worried about the cost of new equipment",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "the change would reduce waste"
+    ],
+    "correctAnswer": "the change would reduce waste",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment"
+    ]
+  },
+  {
+    "id": "E6Q15",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "advanced",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. What does the word proposed most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "suggested for consideration",
+      "repairs"
+    ],
+    "correctAnswer": "suggested for consideration",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q16",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It presents a proposal and opposing viewpoints.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It presents a proposal and opposing viewpoints.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E6Q17",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which inference is best supported?",
+    "choices": [
+      "The council needs evidence about both waste and cost.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "The council needs evidence about both waste and cost.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E6Q18",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "The tray proposal has both environmental benefits and cost concerns. This is supported by details such as the change would reduce waste and opponents worried about the cost of new equipment."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns. This is supported by details such as the change would reduce waste and opponents worried about the cost of new equipment.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E6Q19",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "Composting can help reduce trash but requires maintenance.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "Composting can help reduce trash but requires maintenance.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q20",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "can reduce trash",
+      "require regular turning and careful monitoring"
+    ],
+    "correctAnswer": "can reduce trash",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "can reduce trash",
+      "require regular turning and careful monitoring"
+    ]
+  },
+  {
+    "id": "E6Q21",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. What does the word monitoring most nearly mean as it is used?",
+    "choices": [
+      "measures",
+      "checking regularly",
+      "repairs",
+      "hides"
+    ],
+    "correctAnswer": "checking regularly",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q22",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. How is the passage mainly organized?",
+    "choices": [
+      "It explains benefits and responsibilities.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It explains benefits and responsibilities.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E6Q23",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which inference is best supported?",
+    "choices": [
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses.",
+      "A compost program needs a clear plan to succeed."
+    ],
+    "correctAnswer": "A compost program needs a clear plan to succeed.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E6Q24",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which response would be the strongest short written answer?",
+    "choices": [
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Composting can help reduce trash but requires maintenance. This is supported by details such as can reduce trash and require regular turning and careful monitoring.",
+      "The passage is mostly about lunch and plants, so no evidence is needed."
+    ],
+    "correctAnswer": "Composting can help reduce trash but requires maintenance. This is supported by details such as can reduce trash and require regular turning and careful monitoring.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E6Q25",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which sentence best states the central idea?",
+    "choices": [
+      "The passage explains why evidence should be ignored.",
+      "The tray proposal has both environmental benefits and cost concerns.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q26",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment",
+      "The passage gives no useful details.",
+      "The characters choose randomly."
+    ],
+    "correctAnswer": "the change would reduce waste",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment"
+    ]
+  },
+  {
+    "id": "E6Q27",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. What does the word proposed most nearly mean as it is used?",
+    "choices": [
+      "repairs",
+      "hides",
+      "measures",
+      "suggested for consideration"
+    ],
+    "correctAnswer": "suggested for consideration",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q28",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. How is the passage mainly organized?",
+    "choices": [
+      "It compares two fictional characters.",
+      "It gives only definitions.",
+      "It presents a proposal and opposing viewpoints.",
+      "It lists events with no relationship."
+    ],
+    "correctAnswer": "It presents a proposal and opposing viewpoints.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E6Q29",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "inference",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which inference is best supported?",
+    "choices": [
+      "Observations are less useful than guesses.",
+      "The council needs evidence about both waste and cost.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision."
+    ],
+    "correctAnswer": "The council needs evidence about both waste and cost.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E6Q30",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "advanced",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which response would be the strongest short written answer?",
+    "choices": [
+      "The best answer should only repeat one phrase from the passage.",
+      "The tray proposal has both environmental benefits and cost concerns. This is supported by details such as the change would reduce waste and opponents worried about the cost of new equipment.",
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns. This is supported by details such as the change would reduce waste and opponents worried about the cost of new equipment.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E6Q31",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which sentence best states the central idea?",
+    "choices": [
+      "Composting can help reduce trash but requires maintenance.",
+      "The passage is mostly a list of unrelated facts.",
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored."
+    ],
+    "correctAnswer": "Composting can help reduce trash but requires maintenance.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q32",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "require regular turning and careful monitoring",
+      "The passage gives no useful details.",
+      "The characters choose randomly.",
+      "can reduce trash"
+    ],
+    "correctAnswer": "can reduce trash",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "can reduce trash",
+      "require regular turning and careful monitoring"
+    ]
+  },
+  {
+    "id": "E6Q33",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. What does the word monitoring most nearly mean as it is used?",
+    "choices": [
+      "hides",
+      "measures",
+      "checking regularly",
+      "repairs"
+    ],
+    "correctAnswer": "checking regularly",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q34",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "text_structure",
+    "difficulty": "foundational",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. How is the passage mainly organized?",
+    "choices": [
+      "It gives only definitions.",
+      "It explains benefits and responsibilities.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters."
+    ],
+    "correctAnswer": "It explains benefits and responsibilities.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "E6Q35",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "inference",
+    "difficulty": "advanced",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which inference is best supported?",
+    "choices": [
+      "A compost program needs a clear plan to succeed.",
+      "The first idea mentioned is always correct.",
+      "Cost never matters in a decision.",
+      "Observations are less useful than guesses."
+    ],
+    "correctAnswer": "A compost program needs a clear plan to succeed.",
+    "explanation": "A supported inference must follow from details in the passage."
+  },
+  {
+    "id": "E6Q36",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RL.IT",
+    "domain": "Literary Analysis",
+    "skill": "Analyze theme, character change, and structure.",
+    "itemType": "constructed_response_selected",
+    "difficulty": "medium",
+    "question": "Read the passage. A science club article explains that composting cafeteria scraps can reduce trash. The article also notes that compost bins require regular turning and careful monitoring. Which response would be the strongest short written answer?",
+    "choices": [
+      "The passage is mostly about lunch and plants, so no evidence is needed.",
+      "The author says the problem is impossible to solve.",
+      "The best answer should only repeat one phrase from the passage.",
+      "Composting can help reduce trash but requires maintenance. This is supported by details such as can reduce trash and require regular turning and careful monitoring."
+    ],
+    "correctAnswer": "Composting can help reduce trash but requires maintenance. This is supported by details such as can reduce trash and require regular turning and careful monitoring.",
+    "explanation": "A strong response makes a claim and supports it with several relevant details."
+  },
+  {
+    "id": "E6Q37",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.CR",
+    "domain": "Close Reading",
+    "skill": "Cite textual evidence to support analysis.",
+    "itemType": "multiple_choice",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Which sentence best states the central idea?",
+    "choices": [
+      "The passage shows that planning is never useful.",
+      "The passage explains why evidence should be ignored.",
+      "The tray proposal has both environmental benefits and cost concerns.",
+      "The passage is mostly a list of unrelated facts."
+    ],
+    "correctAnswer": "The tray proposal has both environmental benefits and cost concerns.",
+    "explanation": "The central idea should cover the whole passage, not just one small detail."
+  },
+  {
+    "id": "E6Q38",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.AA",
+    "domain": "Argument",
+    "skill": "Evaluate claims and relevant evidence.",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. Select two details that best support the idea that the decision should be evidence-based.",
+    "choices": [
+      "The characters choose randomly.",
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment",
+      "The passage gives no useful details."
+    ],
+    "correctAnswer": "the change would reduce waste",
+    "explanation": "Both correct choices are details from the passage that support the central idea.",
+    "correctAnswers": [
+      "the change would reduce waste",
+      "opponents worried about the cost of new equipment"
+    ]
+  },
+  {
+    "id": "E6Q39",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "L.VI",
+    "domain": "Vocabulary",
+    "skill": "Interpret figurative and academic language.",
+    "itemType": "vocabulary_in_context",
+    "difficulty": "medium",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. What does the word proposed most nearly mean as it is used?",
+    "choices": [
+      "suggested for consideration",
+      "repairs",
+      "hides",
+      "measures"
+    ],
+    "correctAnswer": "suggested for consideration",
+    "explanation": "Use the surrounding sentence to determine how the word functions in context."
+  },
+  {
+    "id": "E6Q40",
+    "grade": 6,
+    "subject": "ela",
+    "standard": "RI.PP",
+    "domain": "Point of View",
+    "skill": "Compare how authors shape perspective.",
+    "itemType": "text_structure",
+    "difficulty": "advanced",
+    "question": "Read the passage. The student council proposed replacing disposable lunch trays with washable trays. Supporters argued that the change would reduce waste, while opponents worried about the cost of new equipment. How is the passage mainly organized?",
+    "choices": [
+      "It presents a proposal and opposing viewpoints.",
+      "It lists events with no relationship.",
+      "It compares two fictional characters.",
+      "It gives only definitions."
+    ],
+    "correctAnswer": "It presents a proposal and opposing viewpoints.",
+    "explanation": "The structure describes how the ideas in the passage are arranged."
+  },
+  {
+    "id": "S6Q1",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which variable is being tested or compared?",
+    "choices": [
+      "the title of the investigation",
+      "type of solid being tested",
+      "same water amount and measuring tools",
+      "the students' favorite result"
+    ],
+    "correctAnswer": "type of solid being tested",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q2",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "density and solubility data for each solid",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid"
+    ]
+  },
+  {
+    "id": "S6Q3",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same water amount and measuring tools consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q4",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a data table listing properties of each solid",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a data table listing properties of each solid",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S6Q5",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Characteristic properties can help identify substances.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Characteristic properties can help identify substances.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S6Q6",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S6Q7",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which variable is being tested or compared?",
+    "choices": [
+      "sealed bag and same amounts of reactants",
+      "the students' favorite result",
+      "the title of the investigation",
+      "whether the reactants are mixed"
+    ],
+    "correctAnswer": "whether the reactants are mixed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q8",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "total mass before and after the reaction",
+      "a before-and-after particle diagram"
+    ],
+    "correctAnswer": "total mass before and after the reaction",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "total mass before and after the reaction",
+      "a before-and-after particle diagram"
+    ]
+  },
+  {
+    "id": "S6Q9",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps sealed bag and same amounts of reactants consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps sealed bag and same amounts of reactants consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q10",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which model would best communicate the investigation results?",
+    "choices": [
+      "a lunch menu from the same day",
+      "a before-and-after particle diagram",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels"
+    ],
+    "correctAnswer": "a before-and-after particle diagram",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S6Q11",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which claim is best supported by the investigation?",
+    "choices": [
+      "Mass is conserved when the reaction occurs in a closed system.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern."
+    ],
+    "correctAnswer": "Mass is conserved when the reaction occurs in a closed system.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S6Q12",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S6Q13",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "type of solid being tested",
+      "same water amount and measuring tools"
+    ],
+    "correctAnswer": "type of solid being tested",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q14",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "density and solubility data for each solid",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid"
+    ]
+  },
+  {
+    "id": "S6Q15",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Why is the controlled condition important?",
+    "choices": [
+      "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q16",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a data table listing properties of each solid"
+    ],
+    "correctAnswer": "a data table listing properties of each solid",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S6Q17",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Characteristic properties can help identify substances.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "Characteristic properties can help identify substances.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S6Q18",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S6Q19",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which variable is being tested or compared?",
+    "choices": [
+      "whether the reactants are mixed",
+      "sealed bag and same amounts of reactants",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "whether the reactants are mixed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q20",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "total mass before and after the reaction",
+      "a before-and-after particle diagram",
+      "the color of the notebook",
+      "the order of names on the lab sheet"
+    ],
+    "correctAnswer": "total mass before and after the reaction",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "total mass before and after the reaction",
+      "a before-and-after particle diagram"
+    ]
+  },
+  {
+    "id": "S6Q21",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Why is the controlled condition important?",
+    "choices": [
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps sealed bag and same amounts of reactants consistent so the comparison is fair."
+    ],
+    "correctAnswer": "It keeps sealed bag and same amounts of reactants consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q22",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a before-and-after particle diagram",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a before-and-after particle diagram",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S6Q23",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which claim is best supported by the investigation?",
+    "choices": [
+      "Only opinions can explain the pattern.",
+      "Mass is conserved when the reaction occurs in a closed system.",
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected."
+    ],
+    "correctAnswer": "Mass is conserved when the reaction occurs in a closed system.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S6Q24",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. What should students do before drawing a final conclusion?",
+    "choices": [
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S6Q25",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which variable is being tested or compared?",
+    "choices": [
+      "same water amount and measuring tools",
+      "the students' favorite result",
+      "the title of the investigation",
+      "type of solid being tested"
+    ],
+    "correctAnswer": "type of solid being tested",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q26",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid"
+    ],
+    "correctAnswer": "density and solubility data for each solid",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid"
+    ]
+  },
+  {
+    "id": "S6Q27",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Why is the controlled condition important?",
+    "choices": [
+      "It guarantees the claim is correct.",
+      "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data."
+    ],
+    "correctAnswer": "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q28",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a data table listing properties of each solid",
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day"
+    ],
+    "correctAnswer": "a data table listing properties of each solid",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S6Q29",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which claim is best supported by the investigation?",
+    "choices": [
+      "The investigation has no variables.",
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Characteristic properties can help identify substances."
+    ],
+    "correctAnswer": "Characteristic properties can help identify substances.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S6Q30",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "scientific_practice",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. What should students do before drawing a final conclusion?",
+    "choices": [
+      "change all variables at once",
+      "ignore measurements that are inconvenient",
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S6Q31",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which variable is being tested or compared?",
+    "choices": [
+      "the students' favorite result",
+      "the title of the investigation",
+      "whether the reactants are mixed",
+      "sealed bag and same amounts of reactants"
+    ],
+    "correctAnswer": "whether the reactants are mixed",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q32",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "the order of names on the lab sheet",
+      "total mass before and after the reaction",
+      "a before-and-after particle diagram",
+      "the color of the notebook"
+    ],
+    "correctAnswer": "total mass before and after the reaction",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "total mass before and after the reaction",
+      "a before-and-after particle diagram"
+    ]
+  },
+  {
+    "id": "S6Q33",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Why is the controlled condition important?",
+    "choices": [
+      "It keeps sealed bag and same amounts of reactants consistent so the comparison is fair.",
+      "It changes every factor at the same time.",
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct."
+    ],
+    "correctAnswer": "It keeps sealed bag and same amounts of reactants consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q34",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which model would best communicate the investigation results?",
+    "choices": [
+      "a list of unrelated vocabulary words",
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a before-and-after particle diagram"
+    ],
+    "correctAnswer": "a before-and-after particle diagram",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  },
+  {
+    "id": "S6Q35",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "claim_evidence_reasoning",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. Which claim is best supported by the investigation?",
+    "choices": [
+      "The results should be chosen before data are collected.",
+      "Only opinions can explain the pattern.",
+      "Mass is conserved when the reaction occurs in a closed system.",
+      "The investigation has no variables."
+    ],
+    "correctAnswer": "Mass is conserved when the reaction occurs in a closed system.",
+    "explanation": "The claim must match the scenario and the type of evidence collected."
+  },
+  {
+    "id": "S6Q36",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "scientific_practice",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, a class observes a sealed bag containing baking soda and vinegar. The bag inflates, but the total mass before and after mixing is nearly the same. What should students do before drawing a final conclusion?",
+    "choices": [
+      "choose the answer that sounds easiest",
+      "repeat the investigation or collect more data",
+      "change all variables at once",
+      "ignore measurements that are inconvenient"
+    ],
+    "correctAnswer": "repeat the investigation or collect more data",
+    "explanation": "Repeated trials and more data improve reliability."
+  },
+  {
+    "id": "S6Q37",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which variable is being tested or compared?",
+    "choices": [
+      "type of solid being tested",
+      "same water amount and measuring tools",
+      "the students' favorite result",
+      "the title of the investigation"
+    ],
+    "correctAnswer": "type of solid being tested",
+    "explanation": "The tested variable is the factor intentionally changed or compared."
+  },
+  {
+    "id": "S6Q38",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "multiple_select",
+    "difficulty": "foundational",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Select two pieces of evidence that would best support the claim.",
+    "choices": [
+      "a data table listing properties of each solid",
+      "the color of the notebook",
+      "the order of names on the lab sheet",
+      "density and solubility data for each solid"
+    ],
+    "correctAnswer": "density and solubility data for each solid",
+    "explanation": "Relevant evidence includes measured data and a model or representation connected to the claim.",
+    "correctAnswers": [
+      "density and solubility data for each solid",
+      "a data table listing properties of each solid"
+    ]
+  },
+  {
+    "id": "S6Q39",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "experimental_design",
+    "difficulty": "medium",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Why is the controlled condition important?",
+    "choices": [
+      "It removes the need to collect data.",
+      "It guarantees the claim is correct.",
+      "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+      "It changes every factor at the same time."
+    ],
+    "correctAnswer": "It keeps same water amount and measuring tools consistent so the comparison is fair.",
+    "explanation": "Controlled conditions make it easier to connect results to the tested variable."
+  },
+  {
+    "id": "S6Q40",
+    "grade": 6,
+    "subject": "science",
+    "standard": "MS-PS1-2",
+    "domain": "Physical Science",
+    "skill": "Analyze and interpret data on properties of substances",
+    "itemType": "modeling",
+    "difficulty": "advanced",
+    "question": "In Grade 6 science, students compare three unknown solids by measuring mass, volume, color, and whether each dissolves in water. Which model would best communicate the investigation results?",
+    "choices": [
+      "a drawing with no labels",
+      "a lunch menu from the same day",
+      "a data table listing properties of each solid",
+      "a list of unrelated vocabulary words"
+    ],
+    "correctAnswer": "a data table listing properties of each solid",
+    "explanation": "The best model directly represents the variables or data from the investigation."
+  }
+]
