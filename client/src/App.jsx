@@ -1,20 +1,24 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5001";
-const GRADES = [3, 4, 5, 6, 7, 8, 9, 10];
+const API_BASE = import.meta.env.VITE_API_BASE || "/api";
+const GRADES = [3, 4, 5, 6, 7, 8];
 const SUBJECTS = [
-  { id: "math", label: "Math" },
-  { id: "ela", label: "ELA" },
-  { id: "science", label: "Science" }
+  { id: "math", label: "Math", blurb: "Number sense, operations, fractions, geometry, algebra, and data" },
+  { id: "ela", label: "ELA", blurb: "Reading passages, evidence-based questions, vocabulary, and grammar" }
 ];
 
-const MULTI_SELECT_TYPES = new Set(["multiple_select"]);
+const REFERENCE_SHEETS = {
+  5: ["1 foot = 12 inches", "1 yard = 3 feet", "1 mile = 5,280 feet", "1 pound = 16 ounces", "1 cup = 8 fluid ounces", "1 pint = 2 cups", "1 quart = 2 pints", "1 gallon = 4 quarts", "1 meter = 100 centimeters", "1 kilogram = 1,000 grams", "1 liter = 1,000 milliliters", "Volume of a rectangular prism: V = l × w × h or V = B × h"],
+  6: ["Area of a rectangle: A = lw", "Area of a parallelogram: A = bh", "Area of a triangle: A = ½bh", "Area of a trapezoid: A = ½h(b₁ + b₂)", "Volume of a right rectangular prism: V = lwh or V = Bh", "1 foot = 12 inches, 1 yard = 3 feet, 1 mile = 5,280 feet", "1 pound = 16 ounces, 1 ton = 2,000 pounds"],
+  7: ["Area of a triangle: A = ½bh", "Area of a trapezoid: A = ½h(b₁ + b₂)", "Circumference of a circle: C = 2πr or C = πd", "Area of a circle: A = πr²", "Volume of a right prism: V = Bh", "π ≈ 3.14 or 22/7"],
+  8: ["Volume of a cylinder: V = πr²h", "Volume of a cone: V = ⅓πr²h", "Volume of a sphere: V = (4/3)πr³", "Pythagorean Theorem: a² + b² = c²", "Area of a circle: A = πr²", "Circumference: C = 2πr", "π ≈ 3.14"]
+};
 
-function Shell({ children }) {
+function Shell({ children, wide = false }) {
   return (
     <main className="page-shell">
-      <div className="app-frame">{children}</div>
+      <div className={`app-frame ${wide ? "app-frame-wide" : ""}`}>{children}</div>
     </main>
   );
 }
@@ -25,6 +29,7 @@ export function HomePage() {
       <section className="header-block">
         <p className="eyebrow">New Jersey Student Learning Assessment</p>
         <h1>NJSLA Practice Test</h1>
+        <p className="lead">Practice the kinds of questions you will see on the NJSLA in ELA and Math. Every test is a new mix of questions.</p>
       </section>
 
       <div className="button-grid" aria-label="Choose a grade">
@@ -54,7 +59,8 @@ export function SubjectSelection() {
       <div className="button-grid subject-grid" aria-label="Choose a subject">
         {SUBJECTS.map((subject) => (
           <Link className="grade-button subject-button" key={subject.id} to={`/test/${grade}/${subject.id}`}>
-            {subject.label}
+            <span>{subject.label}</span>
+            <small>{subject.blurb}</small>
           </Link>
         ))}
       </div>
@@ -62,15 +68,115 @@ export function SubjectSelection() {
   );
 }
 
+function isAnswered(question, answer) {
+  if (!question) return false;
+  if (question.itemType === "evidence_based") {
+    return Boolean(answer?.partA) && (Array.isArray(answer?.partB) ? answer.partB.length > 0 : Boolean(answer?.partB));
+  }
+  if (question.itemType === "multiple_select") return Array.isArray(answer) && answer.length > 0;
+  return answer !== undefined && answer !== null && String(answer).trim() !== "";
+}
+
+function ChoiceList({ choices, selected, selectCount = 1, onChange, name }) {
+  const multi = selectCount > 1;
+  const selectedList = multi ? (Array.isArray(selected) ? selected : []) : [];
+
+  function toggle(choice) {
+    if (!multi) return onChange(choice);
+    if (selectedList.includes(choice)) return onChange(selectedList.filter((item) => item !== choice));
+    if (selectedList.length >= selectCount) return onChange([...selectedList.slice(1), choice]);
+    return onChange([...selectedList, choice]);
+  }
+
+  return (
+    <div className="choice-list" role={multi ? "group" : "radiogroup"} aria-label={name}>
+      {choices.map((choice, index) => {
+        const isSelected = multi ? selectedList.includes(choice) : selected === choice;
+        return (
+          <button className={`choice-button ${isSelected ? "selected" : ""}`} key={choice} type="button" aria-pressed={isSelected} onClick={() => toggle(choice)}>
+            <span className={`choice-letter ${multi ? "choice-square" : ""}`}>{String.fromCharCode(65 + index)}</span>
+            <span>{choice}</span>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+function QuestionBody({ question, answer, onAnswer }) {
+  if (question.itemType === "numeric_entry") {
+    return (
+      <label className="numeric-entry">
+        <span>Type your answer:</span>
+        <input
+          inputMode="decimal"
+          autoComplete="off"
+          value={answer ?? ""}
+          placeholder="Example: 42 or 3.5 or 3/4"
+          onChange={(event) => onAnswer(event.target.value)}
+        />
+      </label>
+    );
+  }
+
+  if (question.itemType === "evidence_based") {
+    const current = answer || {};
+    return question.parts.map((part, index) => {
+      const key = index === 0 ? "partA" : "partB";
+      return (
+        <div className="ebsr-part" key={part.label}>
+          <h2>{part.question}</h2>
+          {part.selectCount > 1 && <p className="item-instruction">Select {part.selectCount} answers.</p>}
+          <ChoiceList
+            name={part.label}
+            choices={part.choices}
+            selectCount={part.selectCount}
+            selected={current[key]}
+            onChange={(value) => onAnswer({ ...current, [key]: value })}
+          />
+        </div>
+      );
+    });
+  }
+
+  return (
+    <>
+      {question.itemType === "multiple_select" && <p className="item-instruction">Select {question.selectCount} answers.</p>}
+      <ChoiceList
+        name="Answer choices"
+        choices={question.choices}
+        selectCount={question.itemType === "multiple_select" ? question.selectCount : 1}
+        selected={answer}
+        onChange={onAnswer}
+      />
+    </>
+  );
+}
+
+function PassagePanel({ passage }) {
+  return (
+    <article className="passage-panel">
+      <p className="eyebrow">{passage.genre === "literary" ? "Literary passage" : "Informational passage"}</p>
+      <h2>{passage.title}</h2>
+      {passage.text.split("\n\n").map((paragraph, index) => (
+        <p key={index} className={paragraph.includes("\n") ? "poem-stanza" : ""}>
+          {paragraph}
+        </p>
+      ))}
+    </article>
+  );
+}
+
 export function TestPage() {
   const { grade, subject } = useParams();
   const navigate = useNavigate();
   const [questions, setQuestions] = useState([]);
+  const [passages, setPassages] = useState({});
   const [answers, setAnswers] = useState({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [status, setStatus] = useState("loading");
   const [error, setError] = useState("");
-  const [warning, setWarning] = useState("");
+  const [showReference, setShowReference] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -78,20 +184,15 @@ export function TestPage() {
     async function loadQuestions() {
       setStatus("loading");
       setError("");
-
       try {
-        const response = await fetch(
-          `${API_BASE}/questions?grade=${encodeURIComponent(grade)}&subject=${encodeURIComponent(subject)}&t=${Date.now()}`,
-          { cache: "no-store", signal: controller.signal }
-        );
-
+        const response = await fetch(`${API_BASE}/questions?grade=${encodeURIComponent(grade)}&subject=${encodeURIComponent(subject)}`, {
+          cache: "no-store",
+          signal: controller.signal
+        });
         const data = await response.json();
-
-        if (!response.ok) {
-          throw new Error(data.error || "Unable to load questions.");
-        }
-
-        setQuestions(data);
+        if (!response.ok) throw new Error(data.error || "Unable to load questions.");
+        setQuestions(data.questions);
+        setPassages(Object.fromEntries(data.passages.map((passage) => [passage.id, passage])));
         setAnswers({});
         setCurrentIndex(0);
         setStatus("ready");
@@ -108,81 +209,29 @@ export function TestPage() {
   }, [grade, subject]);
 
   const currentQuestion = questions[currentIndex];
-  const selectedAnswer = currentQuestion ? answers[currentQuestion.id] : "";
-  const isFinalQuestion = currentIndex === questions.length - 1;
-  const isMultiSelect = currentQuestion ? MULTI_SELECT_TYPES.has(currentQuestion.itemType) : false;
-  const hasAnswer = isMultiSelect ? Array.isArray(selectedAnswer) && selectedAnswer.length > 0 : Boolean(selectedAnswer);
+  const passage = currentQuestion?.passageId ? passages[currentQuestion.passageId] : null;
+  const subjectLabel = useMemo(() => SUBJECTS.find((item) => item.id === subject)?.label || subject, [subject]);
+  const answeredCount = questions.filter((question) => isAnswered(question, answers[question.id])).length;
+  const referenceSheet = subject === "math" ? REFERENCE_SHEETS[grade] : null;
 
-  const subjectLabel = useMemo(() => {
-    return SUBJECTS.find((item) => item.id === subject)?.label || subject;
-  }, [subject]);
-
-  function chooseAnswer(answer) {
-    setWarning("");
-    setAnswers((previous) => {
-      if (!MULTI_SELECT_TYPES.has(currentQuestion.itemType)) {
-        return {
-          ...previous,
-          [currentQuestion.id]: answer
-        };
-      }
-
-      const currentAnswers = Array.isArray(previous[currentQuestion.id]) ? previous[currentQuestion.id] : [];
-      const nextAnswers = currentAnswers.includes(answer)
-        ? currentAnswers.filter((item) => item !== answer)
-        : [...currentAnswers, answer];
-
-      return {
-        ...previous,
-        [currentQuestion.id]: nextAnswers
-      };
-    });
-  }
-
-  function goNext() {
-    if (!hasAnswer) {
-      setWarning("Please choose an answer before moving on.");
-      return;
-    }
-
-    setWarning("");
-    setCurrentIndex((index) => Math.min(index + 1, questions.length - 1));
+  function setAnswer(value) {
+    setAnswers((previous) => ({ ...previous, [currentQuestion.id]: value }));
   }
 
   async function submitTest() {
-    if (!hasAnswer) {
-      setWarning("Please answer the final question before submitting.");
-      return;
-    }
+    const unanswered = questions.length - answeredCount;
+    if (unanswered > 0 && !window.confirm(`You have ${unanswered} unanswered question${unanswered === 1 ? "" : "s"}. Submit anyway?`)) return;
 
     setStatus("submitting");
-    setWarning("");
-
     try {
-      const questionIds = questions.map((question) => question.id);
-      const userAnswers = questionIds.map((id) => answers[id]);
-
       const response = await fetch(`${API_BASE}/submit`, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ questionIds, userAnswers })
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ grade: Number(grade), questionIds: questions.map((question) => question.id), answers })
       });
-
       const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || "Unable to submit test.");
-      }
-
-      navigate("/results", {
-        state: {
-          result: data,
-          grade,
-          subject: subjectLabel
-        }
-      });
+      if (!response.ok) throw new Error(data.error || "Unable to submit test.");
+      navigate("/results", { state: { result: data, grade, subject: subjectLabel, subjectId: subject } });
     } catch (submitError) {
       setError(submitError.message);
       setStatus("ready");
@@ -212,75 +261,80 @@ export function TestPage() {
   }
 
   return (
-    <Shell>
+    <Shell wide={Boolean(passage)}>
       <div className="test-topbar">
         <Link className="back-link" to={`/subjects/${grade}`}>
-          Back to subjects
+          Exit test
         </Link>
         <span>
-          Grade {grade} {subjectLabel}
+          Grade {grade} {subjectLabel} · {answeredCount}/{questions.length} answered
         </span>
+        {referenceSheet && (
+          <button className="secondary-button small-button" type="button" onClick={() => setShowReference((value) => !value)}>
+            {showReference ? "Hide" : "Show"} Reference Sheet
+          </button>
+        )}
       </div>
 
-      <div className="progress-row">
-        <strong>Question {currentIndex + 1} of {questions.length}</strong>
-        <div className="progress-track" aria-hidden="true">
-          <span style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} />
-        </div>
-      </div>
+      {showReference && referenceSheet && (
+        <aside className="reference-sheet">
+          <h2>Grade {grade} Mathematics Reference Sheet</h2>
+          <ul>
+            {referenceSheet.map((line) => (
+              <li key={line}>{line}</li>
+            ))}
+          </ul>
+        </aside>
+      )}
 
-      <section className="question-panel">
-        <div className="question-meta">
-          <span>{formatItemType(currentQuestion.itemType)}</span>
-          <span>{currentQuestion.standard}</span>
-          <span>{currentQuestion.difficulty}</span>
-        </div>
-        <p className="skill-text">{currentQuestion.skill}</p>
-        <h1>{currentQuestion.question}</h1>
-        {isMultiSelect && <p className="item-instruction">Select all answers that apply.</p>}
+      <nav className="question-nav" aria-label="Question navigator">
+        {questions.map((question, index) => (
+          <button
+            key={question.id}
+            type="button"
+            className={`nav-dot ${index === currentIndex ? "current" : ""} ${isAnswered(question, answers[question.id]) ? "answered" : ""}`}
+            onClick={() => setCurrentIndex(index)}
+            aria-label={`Question ${index + 1}`}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </nav>
 
-        <div className="choice-list">
-          {currentQuestion.choices.map((choice, index) => {
-            const letter = String.fromCharCode(65 + index);
-            const isSelected = isMultiSelect
-              ? Array.isArray(selectedAnswer) && selectedAnswer.includes(choice)
-              : selectedAnswer === choice;
+      <div className={passage ? "split-layout" : ""}>
+        {passage && <PassagePanel passage={passage} />}
 
-            return (
-              <button
-                className={`choice-button ${isSelected ? "selected" : ""}`}
-                key={choice}
-                type="button"
-                onClick={() => chooseAnswer(choice)}
-              >
-                <span className={`choice-letter ${isMultiSelect ? "choice-square" : ""}`}>{letter}</span>
-                <span>{choice}</span>
+        <section className="question-panel">
+          <div className="question-meta">
+            <span>{formatItemType(currentQuestion.itemType)}</span>
+            <span>{currentQuestion.standard}</span>
+            <span>{currentQuestion.domain}</span>
+          </div>
+          <p className="question-number">Question {currentIndex + 1} of {questions.length}</p>
+          <h1 className="question-stem">{currentQuestion.question}</h1>
+
+          <QuestionBody key={currentQuestion.id} question={currentQuestion} answer={answers[currentQuestion.id]} onAnswer={setAnswer} />
+
+          {error && <p className="warning-text">{error}</p>}
+
+          <div className="action-row">
+            {currentIndex > 0 && (
+              <button className="secondary-button" type="button" onClick={() => setCurrentIndex(currentIndex - 1)}>
+                Previous
               </button>
-            );
-          })}
-        </div>
-
-        {warning && <p className="warning-text">{warning}</p>}
-        {error && <p className="warning-text">{error}</p>}
-
-        <div className="action-row">
-          {currentIndex > 0 && (
-            <button className="secondary-button" type="button" onClick={() => setCurrentIndex(currentIndex - 1)}>
-              Previous
-            </button>
-          )}
-
-          {isFinalQuestion ? (
-            <button className="primary-button" type="button" onClick={submitTest} disabled={status === "submitting"}>
-              {status === "submitting" ? "Submitting..." : "Submit Test"}
-            </button>
-          ) : (
-            <button className="primary-button" type="button" onClick={goNext}>
-              Next
-            </button>
-          )}
-        </div>
-      </section>
+            )}
+            {currentIndex === questions.length - 1 ? (
+              <button className="primary-button" type="button" onClick={submitTest} disabled={status === "submitting"}>
+                {status === "submitting" ? "Scoring..." : "Submit Test"}
+              </button>
+            ) : (
+              <button className="primary-button" type="button" onClick={() => setCurrentIndex(currentIndex + 1)}>
+                Next
+              </button>
+            )}
+          </div>
+        </section>
+      </div>
     </Shell>
   );
 }
@@ -304,52 +358,56 @@ export function ResultsPage() {
     );
   }
 
-  const percentage = Math.round((result.numberCorrect / result.total) * 100);
+  const { grade, subject, subjectId } = location.state;
 
   return (
     <Shell>
       <section className="header-block">
-        <p className="eyebrow">Grade {location.state.grade} {location.state.subject}</p>
-        <h1>Score Summary</h1>
+        <p className="eyebrow">Grade {grade} {subject}</p>
+        <h1>Score Report</h1>
       </section>
 
       <div className="summary-grid">
-        <ScoreTile label="Total Score" value={`${result.totalScore} / ${result.total}`} />
-        <ScoreTile label="Percentage" value={`${percentage}%`} />
-        <ScoreTile label="Correct" value={result.numberCorrect} />
-        <ScoreTile label="Incorrect" value={result.numberIncorrect} />
+        <ScoreTile label="Points" value={`${result.earned} / ${result.possible}`} />
+        <ScoreTile label="Percentage" value={`${result.percent}%`} />
+        <ScoreTile label="Fully correct" value={`${result.fullyCorrect} / ${result.total}`} />
+        <ScoreTile label="Practice level" value={`Level ${result.performance.level}`} />
       </div>
+      <p className="performance-label">
+        {result.performance.label} <span>(estimate based on this practice test, not an official NJSLA score)</span>
+      </p>
 
       <section className="results-section">
         <h2>Skill Breakdown</h2>
         <div className="skill-breakdown">
-          {result.skillBreakdown?.map((item) => (
-            <article className="skill-card" key={item.standard}>
+          {result.skillBreakdown.map((item) => (
+            <article className={`skill-card ${item.earned === item.possible ? "skill-strong" : item.earned === 0 ? "skill-weak" : ""}`} key={item.standard}>
               <div>
                 <strong>{item.standard}</strong>
                 <span>{item.domain}</span>
               </div>
               <p>{item.skill}</p>
-              <b>{item.correct} / {item.total}</b>
+              <b>{item.earned} / {item.possible}</b>
             </article>
           ))}
         </div>
       </section>
 
       <section className="results-section">
-        <h2>Incorrect Answers</h2>
-        {result.incorrectQuestions.length === 0 ? (
+        <h2>Review Missed Questions</h2>
+        {result.review.length === 0 ? (
           <p className="success-text">Perfect score. Nice work.</p>
         ) : (
           <div className="incorrect-list">
-            {result.incorrectQuestions.map((item, index) => (
-              <article className="incorrect-card" key={`${item.question}-${index}`}>
+            {result.review.map((item) => (
+              <article className="incorrect-card" key={item.id}>
                 <div className="question-meta results-meta">
                   <span>{formatItemType(item.itemType)}</span>
                   <span>{item.standard}</span>
+                  <span>{item.points} / {item.maxPoints} points</span>
                 </div>
                 <h3>{item.question}</h3>
-                <p><strong>Your answer:</strong> {item.userAnswer || "No answer selected"}</p>
+                <p><strong>Your answer:</strong> {item.userAnswer}</p>
                 <p><strong>Correct answer:</strong> {item.correctAnswer}</p>
                 <p><strong>Skill:</strong> {item.skill}</p>
                 <p><strong>Explanation:</strong> {item.explanation}</p>
@@ -359,9 +417,14 @@ export function ResultsPage() {
         )}
       </section>
 
-      <button className="primary-button restart-button" type="button" onClick={() => navigate("/")}>
-        Take Another Test
-      </button>
+      <div className="action-row">
+        <button className="secondary-button" type="button" onClick={() => navigate("/")}>
+          Choose Another Grade
+        </button>
+        <button className="primary-button" type="button" onClick={() => navigate(`/test/${grade}/${subjectId}`)}>
+          Take a New {subject} Test
+        </button>
+      </div>
     </Shell>
   );
 }
@@ -376,8 +439,11 @@ function ScoreTile({ label, value }) {
 }
 
 function formatItemType(itemType = "multiple_choice") {
-  return itemType
-    .split("_")
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
+  const labels = {
+    multiple_choice: "Multiple Choice",
+    multiple_select: "Multiple Select",
+    numeric_entry: "Type Your Answer",
+    evidence_based: "Part A / Part B"
+  };
+  return labels[itemType] || itemType;
 }

@@ -1,2 +1,0 @@
-# The current Python generator uses only the Python standard library.
-# Add third-party packages here if the generator later imports them.
