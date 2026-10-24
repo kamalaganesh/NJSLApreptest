@@ -1,239 +1,98 @@
 import cors from "cors";
 import express from "express";
+import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { gradeTest } from "./grading.js";
+import { buildTest, publicQuestion } from "./testBuilder.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.resolve(__dirname, "../data");
+const CLIENT_DIST = path.resolve(__dirname, "../client/dist");
 const PORT = process.env.PORT || 5001;
 
+export const GRADES = [3, 4, 5, 6, 7, 8];
+export const SUBJECTS = ["math", "ela"];
+const TEST_LENGTH = 30;
+
 const app = express();
-
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: "1mb" }));
 
-const questionCache = new Map();
+const bankCache = new Map();
 
-async function loadQuestionsByGrade(grade) {
-  if (!questionCache.has(grade)) {
-    const filePath = path.join(DATA_DIR, `grade-${grade}.json`);
-    const raw = await readFile(filePath, "utf8");
-    questionCache.set(grade, JSON.parse(raw));
+async function loadBank(grade) {
+  if (!bankCache.has(grade)) {
+    const raw = await readFile(path.join(DATA_DIR, `grade-${grade}.json`), "utf8");
+    bankCache.set(grade, JSON.parse(raw));
   }
-
-  return questionCache.get(grade);
+  return bankCache.get(grade);
 }
 
-async function loadQuestionsForIds(questionIds) {
-  const grades = [...new Set(questionIds.map(getGradeFromQuestionId).filter(Boolean))];
-  const hasUnknownGradeIds = grades.length !== questionIds.length;
+function parseGrade(value) {
+  const grade = Number(value);
+  return GRADES.includes(grade) ? grade : null;
+}
 
-  if (hasUnknownGradeIds) {
-    return loadAllQuestions();
+const api = express.Router();
+
+api.get("/health", (_req, res) => res.json({ status: "ok" }));
+
+api.get("/meta", async (_req, res, next) => {
+  try {
+    const grades = await Promise.all(GRADES.map(async (grade) => {
+      const bank = await loadBank(grade);
+      const counts = Object.fromEntries(SUBJECTS.map((subject) => [subject, bank.questions.filter((q) => q.subject === subject).length]));
+      return { grade, counts, passages: bank.passages.length };
+    }));
+    res.json({ grades, subjects: SUBJECTS, testLength: TEST_LENGTH });
+  } catch (error) {
+    next(error);
   }
-
-  const gradeBanks = await Promise.all(grades.map((grade) => loadQuestionsByGrade(grade)));
-  return gradeBanks.flat();
-}
-
-function getGradeFromQuestionId(id = "") {
-  const match = String(id).match(/^[MES](\d+)Q\d+$/i);
-  return match ? Number(match[1]) : null;
-}
-
-async function loadAllQuestions() {
-  const grades = [3, 4, 5, 6, 7, 8, 9, 10];
-  const gradeBanks = await Promise.all(grades.map((grade) => loadQuestionsByGrade(grade)));
-  return gradeBanks.flat();
-}
-
-function normalizeSubject(subject = "") {
-  return subject.trim().toLowerCase();
-}
-
-function shuffle(items) {
-  const shuffled = [...items];
-
-  for (let index = shuffled.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
-  }
-
-  return shuffled;
-}
-
-function publicQuestion(question) {
-  return {
-    id: question.id,
-    grade: question.grade,
-    subject: question.subject,
-    standard: question.standard,
-    domain: question.domain,
-    skill: question.skill,
-    itemType: question.itemType,
-    difficulty: question.difficulty,
-    question: question.question,
-    choices: question.choices
-  };
-}
-
-function correctAnswersFor(question) {
-  if (Array.isArray(question.correctAnswers)) {
-    return question.correctAnswers.map(String);
-  }
-
-  return [String(question.correctAnswer)];
-}
-
-function normalizeAnswer(answer) {
-  if (Array.isArray(answer)) {
-    return answer.map(String).sort();
-  }
-
-  if (answer === undefined || answer === null || answer === "") {
-    return [];
-  }
-
-  return [String(answer)];
-}
-
-function answersMatch(userAnswer, question) {
-  const expected = correctAnswersFor(question).sort();
-  const actual = normalizeAnswer(userAnswer);
-
-  return expected.length === actual.length && expected.every((answer, index) => answer === actual[index]);
-}
-
-function displayAnswer(answer) {
-  if (Array.isArray(answer)) {
-    return answer.length ? answer.join(", ") : "No answer selected";
-  }
-
-  return answer || "No answer selected";
-}
-
-app.get("/health", (_req, res) => {
-  res.json({ status: "ok" });
 });
 
-app.get("/questions", async (req, res, next) => {
+api.get("/questions", async (req, res, next) => {
   try {
-    const grade = Number(req.query.grade);
-    const subject = normalizeSubject(String(req.query.subject || ""));
-
-    if (!grade || !subject) {
-      return res.status(400).json({ error: "Both grade and subject are required." });
+    const grade = parseGrade(req.query.grade);
+    const subject = String(req.query.subject || "").trim().toLowerCase();
+    if (!grade || !SUBJECTS.includes(subject)) {
+      return res.status(400).json({ error: `Choose a grade (${GRADES.join(", ")}) and a subject (${SUBJECTS.join(", ")}).` });
     }
 
-    const questions = await loadQuestionsByGrade(grade);
-    const matching = questions.filter(
-      (question) => question.grade === grade && question.subject === subject
-    );
-
-    if (matching.length < 30) {
-      return res.status(404).json({
-        error: `Only ${matching.length} questions found for grade ${grade} ${subject}.`
-      });
-    }
-
+    const test = buildTest(await loadBank(grade), subject, TEST_LENGTH);
     res.set("Cache-Control", "no-store");
-    res.json(shuffle(matching).slice(0, 30).map(publicQuestion));
+    res.json({ grade, subject, passages: test.passages, questions: test.questions.map(publicQuestion) });
   } catch (error) {
     next(error);
   }
 });
 
-app.post("/submit", async (req, res, next) => {
+api.post("/submit", async (req, res, next) => {
   try {
-    const { userAnswers, questionIds } = req.body;
-
-    if (!Array.isArray(userAnswers) || !Array.isArray(questionIds)) {
-      return res.status(400).json({ error: "userAnswers and questionIds arrays are required." });
+    const grade = parseGrade(req.body?.grade);
+    const { answers } = req.body || {};
+    const questionIds = req.body?.questionIds;
+    if (!grade || !Array.isArray(questionIds) || !answers || typeof answers !== "object") {
+      return res.status(400).json({ error: "grade, questionIds, and answers are required." });
     }
 
-    if (userAnswers.length !== questionIds.length) {
-      return res.status(400).json({ error: "userAnswers and questionIds must be the same length." });
-    }
+    const bank = await loadBank(grade);
+    const byId = new Map(bank.questions.map((question) => [question.id, question]));
+    const unknown = questionIds.filter((id) => !byId.has(id));
+    if (unknown.length) return res.status(400).json({ error: `Unknown question IDs: ${unknown.join(", ")}` });
 
-    const questions = await loadQuestionsForIds(questionIds);
-    const questionById = new Map(questions.map((question) => [question.id, question]));
-
-    let numberCorrect = 0;
-    const incorrectQuestions = [];
-
-    questionIds.forEach((id, index) => {
-      const question = questionById.get(id);
-      const userAnswer = userAnswers[index];
-
-      if (!question) {
-        incorrectQuestions.push({
-          question: `Unknown question ID: ${id}`,
-          userAnswer,
-          correctAnswer: "Unavailable"
-        });
-        return;
-      }
-
-      if (answersMatch(userAnswer, question)) {
-        numberCorrect += 1;
-        return;
-      }
-
-      incorrectQuestions.push({
-        question: question.question,
-        userAnswer: displayAnswer(userAnswer),
-        correctAnswer: correctAnswersFor(question).join(", "),
-        standard: question.standard,
-        domain: question.domain,
-        skill: question.skill,
-        itemType: question.itemType,
-        explanation: question.explanation
-      });
-    });
-
-    const total = questionIds.length;
-    const numberIncorrect = total - numberCorrect;
-
-    res.json({
-      totalScore: numberCorrect,
-      total,
-      numberCorrect,
-      numberIncorrect,
-      incorrectQuestions,
-      skillBreakdown: buildSkillBreakdown(questionIds, userAnswers, questionById)
-    });
+    res.json(gradeTest(questionIds.map((id) => byId.get(id)), answers));
   } catch (error) {
     next(error);
   }
 });
 
-function buildSkillBreakdown(questionIds, userAnswers, questionById) {
-  const breakdown = new Map();
+app.use("/api", api);
 
-  questionIds.forEach((id, index) => {
-    const question = questionById.get(id);
-    if (!question) return;
-
-    const key = question.standard || question.skill || "Uncategorized";
-    const current = breakdown.get(key) || {
-      standard: question.standard || "Uncategorized",
-      domain: question.domain || "General",
-      skill: question.skill || "General practice",
-      correct: 0,
-      total: 0
-    };
-
-    current.total += 1;
-    if (answersMatch(userAnswers[index], question)) {
-      current.correct += 1;
-    }
-
-    breakdown.set(key, current);
-  });
-
-  return [...breakdown.values()].sort((a, b) => a.standard.localeCompare(b.standard));
+if (existsSync(CLIENT_DIST)) {
+  app.use(express.static(CLIENT_DIST));
+  app.get(/^\/(?!api\/).*/, (_req, res) => res.sendFile(path.join(CLIENT_DIST, "index.html")));
 }
 
 app.use((error, _req, res, _next) => {

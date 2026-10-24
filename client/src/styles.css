@@ -408,3 +408,193 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+/* NJSLA test experience */
+.app-frame-wide {
+  max-width: 1280px;
+}
+
+.lead {
+  color: #4b5563;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 16px auto 0;
+  max-width: 560px;
+}
+
+.subject-button {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subject-button small {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+.small-button {
+  min-height: 38px;
+  padding: 8px 14px;
+}
+
+.question-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 24px;
+}
+
+.nav-dot {
+  background: #f7fafc;
+  border: 2px solid #d8e0ea;
+  border-radius: 6px;
+  color: #172033;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 700;
+  height: 34px;
+  min-width: 34px;
+}
+
+.nav-dot.answered {
+  background: #eaf7f5;
+  border-color: #2a9d8f;
+}
+
+.nav-dot.current {
+  background: #15616d;
+  border-color: #15616d;
+  color: #ffffff;
+}
+
+.split-layout {
+  align-items: start;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+}
+
+.passage-panel {
+  background: #fbfcfe;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  line-height: 1.75;
+  max-height: 75vh;
+  overflow-y: auto;
+  padding: 24px 28px;
+  position: sticky;
+  top: 16px;
+}
+
+.passage-panel h2 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.passage-panel p {
+  margin-bottom: 14px;
+}
+
+.poem-stanza {
+  white-space: pre-line;
+}
+
+.question-number {
+  color: #4b5563;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.question-stem {
+  font-size: clamp(1.25rem, 2.6vw, 1.7rem);
+  line-height: 1.35;
+  margin-bottom: 22px;
+  white-space: pre-line;
+}
+
+.ebsr-part {
+  border-top: 1px solid #e5eaf0;
+  margin-top: 18px;
+  padding-top: 18px;
+}
+
+.ebsr-part h2 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.numeric-entry {
+  display: grid;
+  font-weight: 700;
+  gap: 10px;
+  max-width: 360px;
+}
+
+.numeric-entry input {
+  border: 2px solid #d8e0ea;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  padding: 14px 16px;
+}
+
+.numeric-entry input:focus {
+  border-color: #2a9d8f;
+  outline: none;
+}
+
+.reference-sheet {
+  background: #fff9eb;
+  border: 1px solid #f1d58a;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 16px 20px;
+}
+
+.reference-sheet h2 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.reference-sheet ul {
+  columns: 2;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.performance-label {
+  font-weight: 800;
+  margin: -8px 0 24px;
+  text-align: center;
+}
+
+.performance-label span {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.skill-card.skill-strong {
+  border-color: #2a9d8f;
+}
+
+.skill-card.skill-weak {
+  border-color: #e76f51;
+}
+
+@media (max-width: 860px) {
+  .split-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .passage-panel {
+    max-height: none;
+    position: static;
+  }
+
+  .reference-sheet ul {
+    columns: 1;
+  }
+}
