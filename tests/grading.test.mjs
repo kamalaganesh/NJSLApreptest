@@ -59,3 +59,27 @@ test("tests are 30 items; ELA tests use whole passage sets", async () => {
     }
   }
 });
+
+test("gradeTest aggregates points by domain as well as by standard", () => {
+  const questions = [
+    { id: "A", itemType: "multiple_choice", correctAnswer: "1", standard: "4.OA.A.2", domain: "Operations and Algebraic Thinking", skill: "s1", question: "?" },
+    { id: "B", itemType: "multiple_choice", correctAnswer: "2", standard: "4.OA.A.3", domain: "Operations and Algebraic Thinking", skill: "s2", question: "?" },
+    { id: "C", itemType: "numeric_entry", correctAnswer: 5, standard: "4.NF.A.1", domain: "Number and Operations - Fractions", skill: "s3", question: "?" },
+    { id: "D", itemType: "numeric_entry", correctAnswer: 6, standard: "4.OA.A.2", domain: "Operations and Algebraic Thinking", skill: "s1", question: "?" }
+  ];
+  const result = gradeTest(questions, { A: "1", B: "9", C: "5", D: "6" });
+  assert.equal(result.skillBreakdown.length, 3);
+  assert.deepEqual(result.domainBreakdown, [
+    { domain: "Number and Operations - Fractions", earned: 1, possible: 1, standards: ["4.NF.A.1"], percent: 100 },
+    { domain: "Operations and Algebraic Thinking", earned: 2, possible: 3, standards: ["4.OA.A.2", "4.OA.A.3"], percent: 67 }
+  ]);
+});
+
+test("gradeTest domain totals match the overall score for EBSR partial credit", () => {
+  const ebsrLit = { ...ebsr, domain: "Reading Literature", skill: "theme" };
+  const lang = { id: "L1", itemType: "multiple_choice", correctAnswer: "who", standard: "L.5.1", domain: "Language", skill: "grammar", question: "?" };
+  const result = gradeTest([ebsrLit, lang], { E1: { partA: "a", partB: ["x"] }, L1: "whom" });
+  assert.equal(result.domainBreakdown.reduce((sum, d) => sum + d.earned, 0), result.earned);
+  assert.equal(result.domainBreakdown.reduce((sum, d) => sum + d.possible, 0), result.possible);
+  assert.deepEqual(result.domainBreakdown.map((d) => [d.domain, d.earned, d.possible]), [["Language", 0, 1], ["Reading Literature", 1, 2]]);
+});

@@ -107,6 +107,7 @@ export function gradeTest(questions, answersById) {
   }
 
   const percent = possible ? Math.round((earned / possible) * 100) : 0;
+  const skillBreakdown = [...breakdown.values()].sort((a, b) => a.standard.localeCompare(b.standard, undefined, { numeric: true }));
   return {
     earned,
     possible,
@@ -115,6 +116,20 @@ export function gradeTest(questions, answersById) {
     total: questions.length,
     performance: performanceLevel(percent),
     review,
-    skillBreakdown: [...breakdown.values()].sort((a, b) => a.standard.localeCompare(b.standard, undefined, { numeric: true }))
+    skillBreakdown,
+    domainBreakdown: domainBreakdown(skillBreakdown)
   };
+}
+
+export function domainBreakdown(skillBreakdown) {
+  const domains = new Map();
+  for (const item of skillBreakdown) {
+    const domain = item.domain || "Other";
+    const entry = domains.get(domain) || { domain, earned: 0, possible: 0, standards: [] };
+    entry.earned += item.earned;
+    entry.possible += item.possible;
+    entry.standards.push(item.standard);
+    domains.set(domain, entry);
+  }
+  return [...domains.values()].map((entry) => ({ ...entry, percent: entry.possible ? Math.round((entry.earned / entry.possible) * 100) : 0 }));
 }

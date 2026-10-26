@@ -598,3 +598,226 @@ h1 {
     columns: 1;
   }
 }
+
+/* Accessibility */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.skip-link {
+  background: #14213d;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 800;
+  left: 16px;
+  padding: 12px 18px;
+  position: absolute;
+  text-decoration: none;
+  top: -100px;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex="-1"]:focus-visible {
+  outline: 3px solid #f4a261;
+  outline-offset: 3px;
+}
+
+#main-content:focus,
+.question-panel:focus {
+  outline: none;
+}
+
+.numeric-entry input:focus-visible {
+  border-color: #2a9d8f;
+  box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.35);
+  outline: 3px solid #f4a261;
+  outline-offset: 3px;
+}
+
+/* Score report: callouts and domain summary */
+.print-button {
+  margin-top: 18px;
+}
+
+.callout-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 30px;
+}
+
+.standard-callout {
+  background: #f7fafc;
+  border: 1px solid #d8e0ea;
+  border-left-width: 6px;
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.standard-callout-strong {
+  border-left-color: #2a9d8f;
+}
+
+.standard-callout-weak {
+  border-left-color: #e76f51;
+}
+
+.results-section .standard-callout h2 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.standard-callout p {
+  color: #526173;
+  margin-bottom: 0;
+}
+
+.standard-callout ul {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.standard-callout li {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.standard-callout li div {
+  display: grid;
+  gap: 2px;
+}
+
+.standard-callout li span {
+  color: #526173;
+  font-size: 0.92rem;
+}
+
+.standard-callout li b {
+  color: #15616d;
+  white-space: nowrap;
+}
+
+.domain-summary {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.domain-card {
+  background: #f7fafc;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.domain-card-header {
+  align-items: baseline;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.domain-card-header b {
+  color: #15616d;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.domain-card-header b span {
+  color: #526173;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.domain-card small {
+  color: #526173;
+}
+
+.domain-meter {
+  background: #dbe7ef;
+  border-radius: 999px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.domain-meter span {
+  display: block;
+  height: 100%;
+}
+
+.meter-strong {
+  background: #2a9d8f;
+}
+
+.meter-mid {
+  background: #f4a261;
+}
+
+.meter-weak {
+  background: #e76f51;
+}
+
+@media print {
+  :root,
+  body {
+    background: #ffffff;
+  }
+
+  .no-print,
+  .skip-link {
+    display: none !important;
+  }
+
+  .page-shell {
+    display: block;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .app-frame {
+    border: 0;
+    box-shadow: none;
+    max-width: none;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .score-tile,
+  .standard-callout,
+  .domain-card,
+  .skill-card,
+  .incorrect-card {
+    break-inside: avoid;
+  }
+
+  .domain-meter,
+  .domain-meter span {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

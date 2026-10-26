@@ -12,3 +12,15 @@ for (const grade of GRADES) {
     assert.deepEqual(await loadBank(grade), JSON.parse(JSON.stringify(generateGrade(grade))));
   });
 }
+
+for (const grade of GRADES) {
+  test(`grade ${grade} maps each standard to a single domain`, async () => {
+    const domains = new Map();
+    for (const q of (await loadBank(grade)).questions) {
+      if (!domains.has(q.standard)) domains.set(q.standard, new Set());
+      domains.get(q.standard).add(q.domain);
+    }
+    const mixed = [...domains].filter(([, set]) => set.size > 1).map(([standard, set]) => `${standard}: ${[...set].join(" / ")}`);
+    assert.deepEqual(mixed, []);
+  });
+}
