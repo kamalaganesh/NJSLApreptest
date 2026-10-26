@@ -160,6 +160,96 @@ export const grade6 = [
     const yes = r.sample(["How many hours do students in my class sleep on school nights?", "How tall are the sunflowers in the community garden?", "How many pets do families on my street have?", "What are the daily high temperatures in June?"], 2);
     const no = r.sample(["How tall is the school flagpole?", "How many days are in a week?", "What is my teacher's name?", "How many states are in the United States?"], 2);
     return ms("Select all of the statistical questions.", yes, no, "A statistical question expects variability in the answers.");
+  }],
+  ["6.NS.C.5", NS, "Use positive and negative numbers to represent real-world quantities.", "foundational", (r) => {
+    const n = r.int(3, 60);
+    const [text, sign] = r.pick([
+      [`a temperature of ${n} degrees below zero`, -1],
+      [`a depth of ${n} feet below sea level`, -1],
+      [`a withdrawal of $${n} from a bank account`, -1],
+      [`a loss of ${n} points in a game`, -1],
+      [`a gain of ${n} yards in a football game`, 1],
+      [`an elevation of ${n} feet above sea level`, 1],
+      [`a deposit of $${n} into a bank account`, 1]
+    ]);
+    const value = sign * n;
+    return mc(`Which integer represents ${text}?`, value, [-value, 0, value + sign * 10, sign * (n + 1)],
+      `${sign < 0 ? "Below zero, below sea level, withdrawals, and losses are negative" : "Gains, deposits, and heights above sea level are positive"}, so the integer is ${value}.`);
+  }],
+  ["6.NS.C.6", NS, "Reflect points across the axes of the coordinate plane.", "on-grade", (r) => {
+    const x = r.pick([-1, 1]) * r.int(1, 9);
+    const y = r.pick([-1, 1]) * r.int(1, 9);
+    const axis = r.pick(["x-axis", "y-axis", "x-axis and then the y-axis"]);
+    const answer = { "x-axis": `(${x}, ${-y})`, "y-axis": `(${-x}, ${y})`, "x-axis and then the y-axis": `(${-x}, ${-y})` }[axis];
+    return mc(`Point P is at (${x}, ${y}). It is reflected across the ${axis}. What are the coordinates of the new point?`, answer,
+      [`(${x}, ${-y})`, `(${-x}, ${y})`, `(${-x}, ${-y})`, `(${y}, ${x})`].filter((choice) => choice !== answer),
+      "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate.");
+  }],
+  ["6.EE.B.6", EE, "Use variables to write expressions for real-world problems.", "on-grade", (r) => {
+    const n = r.int(2, 12);
+    const name = r.pick(NAMES);
+    const kind = r.int(0, 2);
+    if (kind === 0) {
+      return mc(`${name}'s brother is b years old. ${name} is ${n} years older than the brother. Which expression shows ${name}'s age?`, `b + ${n}`, [`${n}b`, `b - ${n}`, `${n} - b`],
+        `"${n} years older" means add ${n} to the brother's age: b + ${n}.`);
+    }
+    if (kind === 1) {
+      return mc(`Each ticket to the science museum costs $${n}. Which expression shows the cost, in dollars, of t tickets?`, `${n}t`, [`t + ${n}`, `t ÷ ${n}`, `${n} - t`],
+        `Each of the t tickets costs $${n}, so the cost is ${n} × t = ${n}t.`);
+    }
+    const length = n * r.int(3, 8);
+    return mc(`A ribbon ${length} inches long is cut into p pieces of equal length. Which expression shows the length of each piece, in inches?`, `${length} ÷ p`, [`${length}p`, `p - ${length}`, `${length} + p`],
+      `Dividing ${length} inches into p equal pieces gives ${length} ÷ p inches per piece.`);
+  }],
+  ["6.EE.C.9", EE, "Represent the relationship between dependent and independent variables.", "on-grade", (r) => {
+    const [setup, dep, ind, unit] = r.pick([
+      ["A car travels at a constant speed of {n} miles per hour.", "d", "t", "d is the distance in miles and t is the time in hours"],
+      ["A student earns ${n} per hour walking dogs.", "e", "h", "e is the earnings in dollars and h is the number of hours"],
+      ["Apples cost ${n} per pound.", "c", "p", "c is the cost in dollars and p is the number of pounds"],
+      ["A printer prints {n} pages per minute.", "g", "m", "g is the number of pages and m is the number of minutes"]
+    ]);
+    const n = r.int(2, 65);
+    return mc(`${setup.replace("{n}", n)} Which equation represents the relationship, where ${unit}?`, `${dep} = ${n}${ind}`, [`${ind} = ${n}${dep}`, `${dep} = ${ind} + ${n}`, `${dep} = ${n} ÷ ${ind}`],
+      `${dep} depends on ${ind}: each unit of ${ind} adds ${n}, so ${dep} = ${n}${ind}.`);
+  }],
+  ["6.G.A.2", G, "Find the volume of right rectangular prisms with fractional edge lengths.", "advanced", (r) => {
+    const l = r.int(2, 8) + 0.5;
+    const w = r.int(1, 6) + r.pick([0, 0.5]);
+    const h = r.int(2, 6);
+    return num(`A rectangular prism is ${l} cm long, ${w} cm wide, and ${h} cm tall. What is its volume, in cubic centimeters?`, l * w * h,
+      `V = l × w × h = ${l} × ${w} × ${h} = ${formatNumber(l * w * h)} cubic centimeters.`);
+  }],
+  ["6.G.A.3", G, "Use coordinates to find side lengths of polygons.", "on-grade", (r) => {
+    const x1 = r.int(-8, -1);
+    const x2 = r.int(1, 8);
+    const y1 = r.int(-7, 2);
+    const y2 = y1 + r.int(2, 8);
+    const width = x2 - x1;
+    const height = y2 - y1;
+    const vertices = `(${x1}, ${y1}), (${x2}, ${y1}), (${x2}, ${y2}), and (${x1}, ${y2})`;
+    if (r.next() < 0.5) {
+      return num(`A rectangle has vertices at ${vertices}. What is the perimeter of the rectangle, in units?`, 2 * (width + height),
+        `The width is ${x2} - (${x1}) = ${width} and the height is ${y2} - (${y1}) = ${height}. Perimeter = 2 × (${width} + ${height}) = ${2 * (width + height)}.`);
+    }
+    return num(`A rectangle has vertices at ${vertices}. What is the area of the rectangle, in square units?`, width * height,
+      `The width is ${x2} - (${x1}) = ${width} and the height is ${y2} - (${y1}) = ${height}. Area = ${width} × ${height} = ${width * height}.`);
+  }],
+  ["6.SP.A.3", SP, "Describe the variation in a data set using the range.", "foundational", (r) => {
+    const data = Array.from({ length: r.int(6, 8) }, () => r.int(4, 60));
+    const range = Math.max(...data) - Math.min(...data);
+    return num(`The number of minutes ${r.pick(["students read", "a team practiced", "a class spent outside"])} on several days was: ${data.join(", ")}. What is the range of the data?`, range,
+      `Range = greatest - least = ${Math.max(...data)} - ${Math.min(...data)} = ${range}.`);
+  }],
+  ["6.SP.B.5", SP, "Find the mean absolute deviation of a data set.", "advanced", (r) => {
+    let data;
+    do {
+      data = Array.from({ length: 4 }, () => r.int(2, 20));
+    } while (data.reduce((sum, v) => sum + v, 0) % 4 !== 0);
+    const mean = data.reduce((sum, v) => sum + v, 0) / 4;
+    const deviations = data.map((v) => Math.abs(v - mean));
+    const mad = deviations.reduce((sum, v) => sum + v, 0) / 4;
+    return num(`The data set is ${data.join(", ")}. Its mean is ${mean}. What is the mean absolute deviation (MAD)?`, mad,
+      `The distances from the mean are ${deviations.join(", ")}. Their mean is ${deviations.reduce((sum, v) => sum + v, 0)} ÷ 4 = ${formatNumber(mad)}.`);
   }]
 ];
 
@@ -281,6 +371,90 @@ export const grade7 = [
     const pop = sample * r.pick([10, 20, 25, 40]);
     return num(`In a random sample of ${sample} students, ${yes} prefer the new lunch menu. Based on the sample, about how many of the school's ${pop} students prefer the new menu?`, (yes / sample) * pop,
       `${yes}/${sample} = ${round(yes / sample, 3)}; ${round(yes / sample, 3)} × ${pop} = ${(yes / sample) * pop}.`);
+  }],
+  ["7.RP.A.1", RP, "Compute unit rates involving fractions.", "advanced", (r) => {
+    const [n1, d1] = r.pick([[1, 2], [1, 3], [2, 3], [1, 4], [3, 4], [2, 5], [3, 5]]);
+    const d2 = r.pick([2, 3, 4, 6, 8]);
+    const name = r.pick(NAMES);
+    return mc(`${name} walks ${n1}/${d1} mile in 1/${d2} hour. At this rate, how many miles does ${name} walk per hour?`, fraction(n1 * d2, d1, { mixed: true }),
+      [fraction(n1, d1 * d2), fraction(d1, n1 * d2, { mixed: true }), fraction(n1 * d2 + d1, d1, { mixed: true }), fraction(n1 + d2, d1, { mixed: true })],
+      `Unit rate = (${n1}/${d1}) ÷ (1/${d2}) = ${n1}/${d1} × ${d2} = ${fraction(n1 * d2, d1, { mixed: true })} miles per hour.`);
+  }],
+  ["7.NS.A.2", NS, "Convert a fraction to a terminating decimal.", "foundational", (r) => {
+    const d = r.pick([4, 5, 8, 16, 20, 25, 40]);
+    let n;
+    do {
+      n = r.int(1, d * 2);
+    } while (gcd(n, d) !== 1);
+    return num(`Write ${n}/${d} as a decimal.`, n / d, `Divide: ${n} ÷ ${d} = ${formatNumber(n / d)}.`);
+  }],
+  ["7.EE.A.2", EE, "Rewrite expressions to show how quantities are related.", "on-grade", (r) => {
+    const p = r.pick([3, 5, 6, 8, 10, 12, 15, 20, 25, 30, 40]);
+    const increase = r.next() < 0.5;
+    const factor = formatNumber(increase ? 1 + p / 100 : 1 - p / 100);
+    const opposite = formatNumber(increase ? 1 - p / 100 : 1 + p / 100);
+    return mc(`A store ${increase ? "raises" : "lowers"} the price, p, of a jacket by ${p}%. Which expression represents the new price?`, `${factor}p`,
+      [`p ${increase ? "+" : "-"} ${p}`, `${formatNumber(p / 100)}p`, `${opposite}p`, `${p}p`],
+      `${increase ? "Adding" : "Subtracting"} ${p}% of p gives p ${increase ? "+" : "-"} ${formatNumber(p / 100)}p = ${factor}p.`);
+  }],
+  ["7.G.A.2", G, "Determine whether three side lengths can form a triangle.", "on-grade", (r) => {
+    const a = r.int(3, 12);
+    const b = r.int(3, 12);
+    const c = r.int(Math.abs(a - b) + 1, a + b - 1);
+    const sides = (x, y, z) => `${x} cm, ${y} cm, ${z} cm`;
+    const p = r.int(2, 9);
+    const q = r.int(2, 9);
+    return mc("Which set of side lengths can form a triangle?", sides(a, b, c), [sides(p, q, p + q), sides(p, q + 1, p + q + r.int(2, 6)), sides(q, q + 2, 2 * q + 2 + r.int(1, 5))],
+      `The two shorter sides must add up to more than the longest side. For ${sides(a, b, c)}, that is true.`);
+  }],
+  ["7.SP.B.4", SP, "Compare the means of two data sets.", "on-grade", (r) => {
+    const makeSet = () => {
+      let data;
+      do {
+        data = Array.from({ length: 5 }, () => r.int(60, 99));
+      } while (data.reduce((sum, v) => sum + v, 0) % 5 !== 0);
+      return data;
+    };
+    const a = makeSet();
+    let b;
+    do {
+      b = makeSet();
+    } while (b.reduce((sum, v) => sum + v, 0) === a.reduce((sum, v) => sum + v, 0));
+    const meanA = a.reduce((sum, v) => sum + v, 0) / 5;
+    const meanB = b.reduce((sum, v) => sum + v, 0) / 5;
+    return num(`Quiz scores for Class A: ${a.join(", ")}. Quiz scores for Class B: ${b.join(", ")}. What is the difference between the mean scores of the two classes?`, Math.abs(meanA - meanB),
+      `Mean of Class A = ${meanA}, mean of Class B = ${meanB}. The difference is ${Math.abs(meanA - meanB)}.`);
+  }],
+  ["7.SP.C.5", SP, "Interpret a probability as the likelihood of an event.", "foundational", (r) => {
+    const kind = r.pick(["impossible", "unlikely", "unlikely", "neither likely nor unlikely", "likely", "likely", "certain"]);
+    const d = r.pick([5, 8, 10, 12, 20]);
+    const value = {
+      impossible: "0",
+      unlikely: fraction(r.int(1, Math.floor((d - 1) / 3)), d),
+      "neither likely nor unlikely": "1/2",
+      likely: fraction(d - r.int(1, Math.floor((d - 1) / 3)), d),
+      certain: "1"
+    }[kind];
+    const names = ["impossible", "unlikely", "neither likely nor unlikely", "likely", "certain"];
+    return mc(`The probability of an event is ${value}. Which word best describes the likelihood of the event?`, kind, r.shuffle(names.filter((name) => name !== kind)),
+      "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain.");
+  }],
+  ["7.SP.C.6", SP, "Use experimental probability to make predictions.", "on-grade", (r) => {
+    const trials = r.pick([20, 25, 40, 50]);
+    const hits = r.int(2, trials - 2);
+    const future = trials * r.pick([4, 6, 10, 20]);
+    const [event, setup] = r.pick([["landed on red", "spun a spinner"], ["rolled a 6", "rolled a number cube"], ["made the shot", "took a free throw"], ["drew a blue tile", "drew a tile from a bag and replaced it"]]);
+    return num(`${r.pick(NAMES)} ${setup} ${trials} times and ${event} ${hits} times. Based on these results, about how many times would you expect this to happen in ${future} tries?`, (hits / trials) * future,
+      `The experimental probability is ${hits}/${trials}. ${hits}/${trials} × ${future} = ${(hits / trials) * future}.`);
+  }],
+  ["7.SP.C.8", SP, "Find the number of outcomes in a sample space.", "on-grade", (r) => {
+    const a = r.int(2, 6);
+    const b = r.int(2, 6);
+    const c = r.int(2, 4);
+    if (r.next() < 0.5) {
+      return num(`A sandwich shop offers ${a} kinds of bread and ${b} kinds of filling. How many different sandwiches with one bread and one filling are possible?`, a * b, `${a} × ${b} = ${a * b} possible sandwiches.`);
+    }
+    return num(`${r.pick(NAMES)} has ${a} shirts, ${b} pairs of pants, and ${c} pairs of shoes. How many different outfits with one of each are possible?`, a * b * c, `${a} × ${b} × ${c} = ${a * b * c} outfits.`);
   }]
 ];
 
@@ -415,5 +589,84 @@ export const grade8 = [
     const b = r.int(10, 60);
     const x = r.int(3, 12);
     return num(`The line of best fit for plant height (h, in cm) after w weeks is h = ${m}w + ${b}. What height does the model predict after ${x} weeks, in cm?`, m * x + b, `h = ${m}(${x}) + ${b} = ${m * x + b}.`);
+  }],
+  ["8.EE.A.3", EE, "Compare quantities written as a single digit times a power of 10.", "advanced", (r) => {
+    const b = r.int(1, 4);
+    const k = r.int(2, 4);
+    const p = r.int(6, 9);
+    const q = r.int(2, p - 2);
+    const answer = k * 10 ** (p - q);
+    return mc(`The population of a country is about ${b * k} × 10^${p}. The population of a city is about ${b} × 10^${q}. About how many times greater is the country's population than the city's?`, formatNumber(answer),
+      [formatNumber(answer / 10), formatNumber(answer * 10), formatNumber(10 ** (p - q)), formatNumber(k * (p - q))],
+      `${b * k} ÷ ${b} = ${k} and 10^${p} ÷ 10^${q} = 10^${p - q}, so the country is about ${k} × 10^${p - q} = ${formatNumber(answer)} times greater.`);
+  }],
+  ["8.EE.B.6", EE, "Write the equation of a line given its slope and y-intercept.", "on-grade", (r) => {
+    const m = r.pick([-1, 1]) * r.int(1, 6);
+    let b;
+    do {
+      b = r.int(-9, 9);
+    } while (b === 0 || b === m);
+    return mc(`A line has a slope of ${m} and crosses the y-axis at (0, ${b}). Which equation represents the line?`, `y = ${linear(m, b)}`,
+      [`y = ${linear(b, m)}`, `y = ${linear(m, -b)}`, `y = ${term(m)}`, `y = ${linear(-m, b)}`],
+      `In y = mx + b, m is the slope and b is the y-intercept, so y = ${linear(m, b)}.`);
+  }],
+  ["8.F.A.2", F, "Compare the rates of change of two functions represented in different ways.", "on-grade", (r) => {
+    const m1 = r.int(1, 9);
+    let m2;
+    do {
+      m2 = r.int(1, 9);
+    } while (m2 === m1);
+    const b1 = r.int(-5, 10);
+    const b2 = r.int(-5, 10);
+    const table = [0, 1, 2, 3].map((x) => `(${x}, ${m2 * x + b2})`).join(", ");
+    const answer = m1 > m2 ? "Function A has a greater rate of change than Function B." : "Function B has a greater rate of change than Function A.";
+    return mc(`Function A is y = ${linear(m1, b1)}. Function B is shown by the ordered pairs ${table}. Which statement is true?`, answer,
+      ["Function A has a greater rate of change than Function B.", "Function B has a greater rate of change than Function A.", "The two functions have the same rate of change.", "Neither function is linear."].filter((choice) => choice !== answer),
+      `Function A has a rate of change of ${m1}. In Function B, y increases by ${m2} each time x increases by 1, so its rate of change is ${m2}.`);
+  }],
+  ["8.F.B.4", F, "Interpret the rate of change and initial value of a linear function.", "on-grade", (r) => {
+    const rate = r.int(15, 95);
+    const fee = r.int(20, 120);
+    const [who, unit, x] = r.pick([["A plumber", "hour", "h"], ["A bike rental shop", "hour", "h"], ["A moving company", "mile", "m"], ["A music teacher", "lesson", "n"]]);
+    const askRate = r.next() < 0.5;
+    const answer = askRate ? `the cost per ${unit}` : "the one-time starting fee";
+    return mc(`${who} charges according to the equation c = ${rate}${x} + ${fee}, where c is the total cost in dollars and ${x} is the number of ${unit}s. What does the number ${askRate ? rate : fee} represent?`, answer,
+      [askRate ? "the one-time starting fee" : `the cost per ${unit}`, "the total cost", `the number of ${unit}s`],
+      `The rate of change (${rate}) is the cost per ${unit}; the initial value (${fee}) is the cost when ${x} = 0, the starting fee.`);
+  }],
+  ["8.G.A.4", G, "Find side lengths of figures after a dilation.", "on-grade", (r) => {
+    const k = r.pick([2, 3, 4, 0.5, 1.5, 2.5]);
+    const side = r.int(2, 12) * 2;
+    return num(`A triangle has a side that is ${side} cm long. The triangle is dilated by a scale factor of ${k}. How long is the corresponding side of the image, in cm?`, side * k,
+      `Multiply by the scale factor: ${side} × ${k} = ${formatNumber(side * k)} cm.`);
+  }],
+  ["8.SP.A.1", SP, "Describe patterns of association in bivariate data.", "on-grade", (r) => {
+    const kind = r.pick(["positive", "negative", "none"]);
+    const xs = [1, 2, 3, 4, 5, 6];
+    let ys;
+    const correlation = (values) => {
+      const mx = 3.5;
+      const my = values.reduce((sum, v) => sum + v, 0) / values.length;
+      const cov = xs.reduce((sum, x, i) => sum + (x - mx) * (values[i] - my), 0);
+      const vx = xs.reduce((sum, x) => sum + (x - mx) ** 2, 0);
+      const vy = values.reduce((sum, v) => sum + (v - my) ** 2, 0);
+      return vy === 0 ? 0 : cov / Math.sqrt(vx * vy);
+    };
+    do {
+      const slope = r.int(3, 8);
+      ys = xs.map((x) => (kind === "positive" ? 10 + slope * x : kind === "negative" ? 60 - slope * x : r.int(10, 50)) + (kind === "none" ? 0 : r.int(-2, 2)));
+    } while ((kind === "none" && Math.abs(correlation(ys)) > 0.3) || (kind !== "none" && Math.abs(correlation(ys)) < 0.9));
+    const answer = { positive: "a positive linear association", negative: "a negative linear association", none: "no association" }[kind];
+    return mc(`The table shows hours of practice (x) and a score (y) for six students: ${xs.map((x, i) => `(${x}, ${ys[i]})`).join(", ")}. Which best describes the association between x and y?`, answer,
+      ["a positive linear association", "a negative linear association", "no association", "a nonlinear association"].filter((choice) => choice !== answer),
+      kind === "none" ? "The y-values do not consistently rise or fall as x increases, so there is no association." : `As x increases, y tends to ${kind === "positive" ? "increase" : "decrease"} at a steady rate, so the association is ${kind} and linear.`);
+  }],
+  ["8.SP.A.4", SP, "Interpret relative frequencies in a two-way table.", "advanced", (r) => {
+    const group = r.pick([10, 20, 25, 50]);
+    const yes = r.int(1, group - 1);
+    const other = r.int(5, 40);
+    const otherYes = r.int(1, other - 1);
+    return num(`In a survey, ${group} students have a pet and ${other} students do not. Of the students with a pet, ${yes} play a sport. Of the students without a pet, ${otherYes} play a sport. What percent of the students with a pet play a sport?`, (yes / group) * 100,
+      `Use only the students with a pet: ${yes} ÷ ${group} = ${formatNumber(yes / group)} = ${formatNumber((yes / group) * 100)}%.`);
   }]
 ];

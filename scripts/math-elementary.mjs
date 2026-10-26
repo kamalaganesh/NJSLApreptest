@@ -12,6 +12,18 @@ const SHAPES = {
   other: ["triangle", "pentagon", "hexagon", "circle", "octagon"]
 };
 
+function article(word) {
+  return /^[aeiou]/i.test(word) ? "an" : "a";
+}
+
+function capitalize(text) {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function ordinal(n) {
+  return ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth"][n - 1] || `${n}th`;
+}
+
 function addMinutes(hour, minute, extra) {
   const total = hour * 60 + minute + extra;
   const h = Math.floor(total / 60);
@@ -178,6 +190,56 @@ export const grade3 = [
     const yes = r.sample(SHAPES.quadrilateral, 2);
     const no = r.sample(SHAPES.other, 3);
     return ms("Select all of the shapes that are quadrilaterals.", yes, no, "A quadrilateral is any closed shape with exactly 4 straight sides.");
+  }],
+  ["3.OA.A.2", OA, "Interpret whole-number quotients.", "foundational", (r) => {
+    const groups = r.int(2, 9);
+    const each = r.int(2, 9);
+    const total = groups * each;
+    const thing = r.pick(["stickers", "seeds", "beads", "pencils", "crackers"]);
+    return mc(`${r.pick(NAMES)} shares ${total} ${thing} equally among ${groups} friends. Which expression shows how many ${thing} each friend gets?`,
+      `${total} ÷ ${groups}`, [`${total} × ${groups}`, `${total} - ${groups}`, `${total} + ${groups}`, `${groups} ÷ ${total}`],
+      `Sharing ${total} equally into ${groups} groups is ${total} ÷ ${groups} = ${each}.`);
+  }],
+  ["3.OA.B.6", OA, "Understand division as an unknown-factor problem.", "on-grade", (r) => {
+    const a = r.int(3, 9);
+    const b = r.int(3, 9);
+    return mc(`Which multiplication fact can help you find ${a * b} ÷ ${b}?`, `${b} × ${a} = ${a * b}`,
+      [`${b} + ${a} = ${a + b}`, `${b} × ${a + 1} = ${b * (a + 1)}`, `${a * b} - ${b} = ${a * b - b}`, `${b} × ${b + 1} = ${b * (b + 1)}`],
+      `${a * b} ÷ ${b} asks, "${b} times what number is ${a * b}?" Since ${b} × ${a} = ${a * b}, the quotient is ${a}.`);
+  }],
+  ["3.NF.A.2", NF, "Represent fractions on a number line.", "on-grade", (r) => {
+    const d = r.pick([2, 3, 4, 6, 8]);
+    const n = r.int(1, d - 1);
+    return mc(`A number line from 0 to 1 is divided into ${d} equal parts. A point is on the ${ordinal(n)} tick mark to the right of 0. What fraction does the point show?`,
+      `${n}/${d}`, [`${d}/${n}`, `${n}/${d + 1}`, `1/${d}`, `${n + 1}/${d}`, `${n}/${d * 2}`],
+      `Each part is 1/${d}. The point is ${n} part${n === 1 ? "" : "s"} from 0, so it shows ${n}/${d}.`);
+  }],
+  ["3.MD.C.6", MD, "Measure areas by counting unit squares.", "foundational", (r) => {
+    const rows = r.int(2, 9);
+    const cols = r.int(2, 9);
+    return num(`A rectangle is covered with no gaps or overlaps by ${rows} rows of unit squares, with ${cols} squares in each row. Each unit square has an area of 1 square unit. What is the area of the rectangle, in square units?`,
+      rows * cols, `There are ${rows} rows of ${cols} unit squares: ${rows} × ${cols} = ${rows * cols} square units.`);
+  }],
+  ["3.MD.C.7", MD, "Relate area to multiplication and the distributive property.", "on-grade", (r) => {
+    const w = r.int(2, 9);
+    const a = r.int(2, 6);
+    const b = r.int(2, 6);
+    return mc(`A rectangle is ${w} units wide and ${a + b} units long. It is split into two smaller rectangles: one is ${w} by ${a} and the other is ${w} by ${b}. Which expression shows the total area?`,
+      `(${w} × ${a}) + (${w} × ${b})`, [`(${w} + ${a}) × (${w} + ${b})`, `${w} × ${a} + ${b}`, `(${w} × ${a}) × (${w} × ${b})`, `${w} + ${a} + ${b}`],
+      `Add the areas of the two parts: ${w} × ${a} = ${w * a} and ${w} × ${b} = ${w * b}. The total is ${w * (a + b)} square units, the same as ${w} × ${a + b}.`);
+  }],
+  ["3.G.A.1", G, "Identify the attributes of polygons.", "foundational", (r) => {
+    const [shape, sides] = r.pick([["triangle", 3], ["quadrilateral", 4], ["pentagon", 5], ["hexagon", 6], ["octagon", 8], ["rectangle", 4], ["square", 4], ["rhombus", 4], ["trapezoid", 4]]);
+    const part = r.pick(["sides", "angles", "vertices"]);
+    return num(`How many ${part} does ${article(shape)} ${shape} have?`, sides, `${capitalize(article(shape))} ${shape} has ${sides} sides, ${sides} angles, and ${sides} vertices.`);
+  }],
+  ["3.G.A.2", G, "Partition shapes into parts with equal areas.", "on-grade", (r) => {
+    const parts = r.pick([2, 3, 4, 6, 8]);
+    const shape = r.pick(["rectangle", "square", "circle", "hexagon"]);
+    const shaded = r.int(1, parts - 1);
+    return mc(`A ${shape} is divided into ${parts} parts with equal area. ${shaded} of the parts ${shaded === 1 ? "is" : "are"} shaded. What fraction of the ${shape}'s area is shaded?`,
+      `${shaded}/${parts}`, [`${parts}/${shaded}`, `${shaded}/${parts + shaded}`, `${parts - shaded}/${parts}`, `1/${parts + 1}`, `${shaded + 1}/${parts}`],
+      `Each part is 1/${parts} of the area, so ${shaded} part${shaded === 1 ? "" : "s"} ${shaded === 1 ? "is" : "are"} ${shaded}/${parts} of the area.`);
   }]
 ];
 
@@ -322,6 +384,66 @@ export const grade4 = [
     const yes = r.sample(["square", "rectangle", "parallelogram", "rhombus"], 2);
     const no = r.sample(["triangle", "circle", "kite", "pentagon"], 3);
     return ms("Select all of the shapes that always have two pairs of parallel sides.", yes, no, "Squares, rectangles, rhombuses, and parallelograms all have two pairs of parallel sides.");
+  }],
+  ["4.OA.A.1", OA, "Interpret a multiplication equation as a comparison.", "foundational", (r) => {
+    const a = r.int(3, 9);
+    const b = r.int(3, 9);
+    return mc(`Which statement describes the equation ${a * b} = ${a} × ${b}?`, `${a * b} is ${a} times as many as ${b}.`,
+      [`${a * b} is ${a} more than ${b}.`, `${b} is ${a} times as many as ${a * b}.`, `${a * b} is ${a + b} times as many as ${b}.`],
+      `Multiplication can compare: ${a * b} is ${a} times as many as ${b}.`);
+  }],
+  ["4.NF.A.2", NF, "Compare fractions to the benchmark fraction 1/2.", "on-grade", (r) => {
+    const d = r.pick([3, 5, 6, 7, 8, 9, 10, 12]);
+    let n;
+    do {
+      n = r.int(1, d - 1);
+    } while (n * 2 === d);
+    const more = n * 2 > d;
+    return mc(`How does ${n}/${d} compare to 1/2?`, more ? `${n}/${d} > 1/2` : `${n}/${d} < 1/2`, [more ? `${n}/${d} < 1/2` : `${n}/${d} > 1/2`, `${n}/${d} = 1/2`, more ? `1/2 > ${n}/${d}` : `1/2 < ${n}/${d}`],
+      `Half of ${d} is ${d / 2}. Since ${n} is ${more ? "more" : "less"} than ${d / 2}, ${n}/${d} is ${more ? "greater" : "less"} than 1/2.`);
+  }],
+  ["4.NF.C.5", NF, "Add fractions with denominators 10 and 100.", "on-grade", (r) => {
+    const t = r.int(1, 9);
+    const h = r.int(1, 99);
+    const total = t * 10 + h;
+    return mc(`What is ${t}/10 + ${h}/100?`, `${total}/100`, [`${t + h}/110`, `${t + h}/100`, `${t + h}/10`, `${total}/10`],
+      `${t}/10 = ${t * 10}/100, so ${t * 10}/100 + ${h}/100 = ${total}/100.`);
+  }],
+  ["4.NF.C.7", NF, "Compare two decimals to hundredths.", "on-grade", (r) => {
+    let a;
+    let b;
+    do {
+      a = r.int(1, 99);
+      b = r.int(1, 9) * 10;
+    } while (a === b);
+    const fa = (a / 100).toFixed(2);
+    const fb = (b / 100).toFixed(1);
+    const greater = a > b;
+    return mc(`Which comparison of ${fa} and ${fb} is true?`, greater ? `${fa} > ${fb}` : `${fa} < ${fb}`, [greater ? `${fa} < ${fb}` : `${fa} > ${fb}`, `${fa} = ${fb}`, greater ? `${fb} > ${fa}` : `${fb} < ${fa}`],
+      `${fb} is the same as ${(b / 100).toFixed(2)}. ${a} hundredths is ${greater ? "greater" : "less"} than ${b} hundredths.`);
+  }],
+  ["4.MD.A.1", MD, "Express a measurement in a larger unit in terms of a smaller unit.", "foundational", (r) => {
+    const [big, one, small, factor] = r.pick([["feet", "foot", "inches", 12], ["yards", "yard", "feet", 3], ["hours", "hour", "minutes", 60], ["minutes", "minute", "seconds", 60], ["kilograms", "kilogram", "grams", 1000], ["meters", "meter", "centimeters", 100], ["pounds", "pound", "ounces", 16], ["liters", "liter", "milliliters", 1000], ["kilometers", "kilometer", "meters", 1000]]);
+    const n = r.int(2, 12);
+    return num(`How many ${small} are in ${n} ${big}?`, n * factor, `1 ${one} = ${formatNumber(factor)} ${small}, so ${n} × ${formatNumber(factor)} = ${formatNumber(n * factor)} ${small}.`);
+  }],
+  ["4.MD.B.4", MD, "Solve problems using data from a line plot with fractions.", "on-grade", (r) => {
+    const d = r.pick([4, 8]);
+    const [v1, v2, v3] = r.sample(Array.from({ length: d - 1 }, (_, i) => i + 1), 3).sort((x, y) => x - y);
+    const [c1, c2, c3] = [r.int(1, 5), r.int(1, 5), r.int(1, 5)];
+    return mc(`A line plot shows the lengths of some ribbons: ${c1} ${c1 === 1 ? "is" : "are"} ${fraction(v1, d)} inch, ${c2} ${c2 === 1 ? "is" : "are"} ${fraction(v2, d)} inch, and ${c3} ${c3 === 1 ? "is" : "are"} ${fraction(v3, d)} inch long. What is the difference, in inches, between the longest and shortest ribbon?`,
+      fraction(v3 - v1, d), [fraction(v3 + v1, d, { mixed: true }), fraction(v3 - v2, d), fraction(v2 - v1 + v3, d, { mixed: true }), fraction(v3 - v1, d * 2)],
+      `${fraction(v3, d)} - ${fraction(v1, d)} = ${v3}/${d} - ${v1}/${d} = ${fraction(v3 - v1, d)} inch.`);
+  }],
+  ["4.G.A.1", G, "Identify acute, right, obtuse, and straight angles.", "foundational", (r) => {
+    const kind = r.pick(["acute", "acute", "obtuse", "obtuse", "right", "straight"]);
+    const degrees = { acute: r.int(10, 85), right: 90, obtuse: r.int(95, 175), straight: 180 }[kind];
+    return mc(`An angle measures ${degrees}°. What kind of angle is it?`, `${kind} angle`, ["acute angle", "right angle", "obtuse angle", "straight angle"].filter((name) => name !== `${kind} angle`),
+      "Acute angles are less than 90°, right angles are exactly 90°, obtuse angles are between 90° and 180°, and straight angles are 180°.");
+  }],
+  ["4.G.A.3", G, "Identify lines of symmetry.", "on-grade", (r) => {
+    const [shape, lines] = r.pick([["square", 4], ["rectangle that is not a square", 2], ["equilateral triangle", 3], ["regular hexagon", 6], ["regular pentagon", 5], ["isosceles triangle that is not equilateral", 1], ["regular octagon", 8], ["scalene triangle", 0], ["rhombus that is not a square", 2]]);
+    return num(`How many lines of symmetry does ${article(shape)} ${shape} have?`, lines, `A line of symmetry folds a figure into matching halves. ${capitalize(article(shape))} ${shape} has ${lines}.`);
   }]
 ];
 
@@ -461,6 +583,91 @@ export const grade5 = [
     ];
     const [shape, yes, no] = r.pick(sets);
     return ms(`Select all of the names that ALWAYS describe a ${shape}.`, r.sample(yes, 2), r.sample(no, 3), `Every ${shape} is also a ${yes.join(", a ")}.`);
+  }],
+  ["5.OA.B.3", OA, "Generate two numerical patterns and identify relationships between them.", "advanced", (r) => {
+    const a = r.int(2, 6);
+    const k = r.int(2, 4);
+    const step = r.int(3, 8);
+    return num(`Pattern A starts at 0 and adds ${a} each time. Pattern B starts at 0 and adds ${a * k} each time. When the term in Pattern A is ${a * step}, what is the corresponding term in Pattern B?`,
+      a * k * step, `Each term in Pattern B is ${k} times the corresponding term in Pattern A, so ${a * step} × ${k} = ${a * k * step}.`);
+  }],
+  ["5.NBT.A.1", NBT, "Understand that each place is 10 times the place to its right.", "on-grade", (r) => {
+    const places = ["thousands", "hundreds", "tens", "ones", "tenths", "hundredths"];
+    const gap = r.pick([1, 1, 2]);
+    const i = r.int(0, places.length - 1 - gap);
+    const digit = r.int(1, 9);
+    const digits = places.map((_, index) => {
+      if (index === i || index === i + gap) return digit;
+      let other;
+      do {
+        other = r.int(index === 0 ? 1 : 0, 9);
+      } while (other === digit);
+      return other;
+    });
+    const number = `${digits[0]},${digits[1]}${digits[2]}${digits[3]}.${digits[4]}${digits[5]}`;
+    const times = 10 ** gap;
+    return mc(`In the number ${number}, the value of the ${digit} in the ${places[i]} place is how many times the value of the ${digit} in the ${places[i + gap]} place?`,
+      String(times), [gap === 1 ? "100" : "10", "1/10", "1", gap === 1 ? "1,000" : "1/100"],
+      `Each place is 10 times the place to its right, so ${gap} place${gap === 1 ? "" : "s"} to the left is ${times} times the value.`);
+  }],
+  ["5.NF.A.2", NF, "Solve word problems by adding or subtracting fractions with unlike denominators.", "on-grade", (r) => {
+    let d1;
+    let d2;
+    let n1;
+    let n2;
+    do {
+      [d1, d2] = [r.pick([2, 3, 4, 5, 6, 8]), r.pick([3, 4, 6, 8, 10, 12])];
+      n1 = r.int(1, d1 - 1);
+      n2 = r.int(1, d2 - 1);
+    } while (d1 === d2 || n1 * d2 <= n2 * d1);
+    const name = r.pick(NAMES);
+    const den = d1 * d2;
+    if (r.next() < 0.5) {
+      return mc(`${name} walked ${n1}/${d1} mile in the morning and ${n2}/${d2} mile in the afternoon. How many miles did ${name} walk in all?`, fraction(n1 * d2 + n2 * d1, den, { mixed: true }),
+        [`${n1 + n2}/${d1 + d2}`, fraction(n1 + n2, Math.max(d1, d2), { mixed: true }), fraction(n1 * d2 - n2 * d1, den)],
+        `Use a common denominator: ${n1 * d2}/${den} + ${n2 * d1}/${den} = ${fraction(n1 * d2 + n2 * d1, den, { mixed: true })} miles.`);
+    }
+    return mc(`${name} had ${n1}/${d1} of a pound of clay and used ${n2}/${d2} of a pound for a project. How much clay is left, in pounds?`, fraction(n1 * d2 - n2 * d1, den),
+      [`${Math.abs(n1 - n2)}/${Math.abs(d1 - d2)}`, fraction(n1 * d2 + n2 * d1, den, { mixed: true }), fraction(n1 * d2 - n2 * d1 + d1, den, { mixed: true })],
+      `Use a common denominator: ${n1 * d2}/${den} - ${n2 * d1}/${den} = ${fraction(n1 * d2 - n2 * d1, den)} pound.`);
+  }],
+  ["5.NF.B.6", NF, "Solve real-world problems by multiplying mixed numbers.", "advanced", (r) => {
+    const w = r.int(1, 4);
+    const d = r.pick([2, 3, 4, 5, 8]);
+    let n;
+    do {
+      n = r.int(1, d - 1);
+    } while (gcd(n, d) !== 1);
+    const batches = r.int(2, 6);
+    const total = (w * d + n) * batches;
+    return mc(`A recipe uses ${w} ${n}/${d} cups of flour. How many cups of flour are needed for ${batches} batches?`, fraction(total, d, { mixed: true }),
+      [`${w * batches} ${n}/${d}`, fraction(w * d + n + batches * d, d, { mixed: true }), fraction(total, d * batches, { mixed: true }), fraction(total + d, d, { mixed: true })],
+      `${w} ${n}/${d} = ${w * d + n}/${d}, and ${w * d + n}/${d} × ${batches} = ${total}/${d} = ${fraction(total, d, { mixed: true })} cups.`);
+  }],
+  ["5.MD.B.2", MD, "Use line plots with fractional data to solve problems.", "advanced", (r) => {
+    const d = r.pick([2, 4, 8]);
+    const values = r.sample(Array.from({ length: 2 * d - 1 }, (_, i) => i + 1), 3).sort((x, y) => x - y);
+    const counts = values.map(() => r.int(1, 4));
+    const beakers = counts.reduce((sum, c) => sum + c, 0);
+    const totalParts = values.reduce((sum, v, i) => sum + v * counts[i], 0);
+    const list = values.map((v, i) => `${counts[i]} with ${fraction(v, d, { mixed: true })} liter`).join(", ");
+    return mc(`A line plot shows the water in ${beakers} beakers: ${list}. If the water were shared equally among all the beakers, how much would each beaker hold, in liters?`, fraction(totalParts, d * beakers, { mixed: true }),
+      [fraction(totalParts, d, { mixed: true }), fraction(totalParts, d * (beakers + 1), { mixed: true }), fraction(values[1], d, { mixed: true }), fraction(totalParts + beakers, d * beakers, { mixed: true })],
+      `The total is ${fraction(totalParts, d, { mixed: true })} liters. ${fraction(totalParts, d, { mixed: true })} ÷ ${beakers} = ${fraction(totalParts, d * beakers, { mixed: true })} liter per beaker.`);
+  }],
+  ["5.MD.C.4", MD, "Measure volume by counting unit cubes.", "foundational", (r) => {
+    const l = r.int(2, 8);
+    const w = r.int(2, 6);
+    const h = r.int(2, 5);
+    return num(`A box is packed with unit cubes with no gaps. The bottom layer has ${w} rows of ${l} cubes, and there are ${h} layers. What is the volume of the box, in cubic units?`,
+      l * w * h, `Each layer has ${w} × ${l} = ${w * l} cubes, and ${w * l} × ${h} layers = ${l * w * h} cubic units.`);
+  }],
+  ["5.G.A.1", G, "Use ordered pairs to locate points on the coordinate plane.", "foundational", (r) => {
+    const x = r.int(1, 10);
+    const y = r.int(1, 10);
+    return mc(`Start at the origin. Move ${x} unit${x === 1 ? "" : "s"} right along the x-axis, then ${y} unit${y === 1 ? "" : "s"} up. Which ordered pair names this point?`, `(${x}, ${y})`,
+      [`(${y}, ${x})`, `(${x}, 0)`, `(0, ${y})`, `(${x + y}, 0)`, `(${x}, ${x + y})`],
+      `The first number tells how far to move right (x = ${x}); the second tells how far to move up (y = ${y}).`);
   }]
 ];
 

@@ -30,6 +30,12 @@
       "title": "From the Diary of a Lighthouse Keeper's Daughter, 1886",
       "genre": "literary",
       "text": "March 3 — Father's fever has not broken. The doctor from the mainland cannot cross until the gale passes, and Mother will not leave Father's side. That leaves the light to me.\n\nI have watched Father tend the lamp a thousand times, but watching is not doing. Tonight I climbed the ninety-two steps with the oil can banging against my knees. My hands shook as I trimmed the wick. When the flame finally caught and the great lens began to turn, I let out a breath I had not known I was holding.\n\nMarch 4 — No sleep. Every two hours I wound the clockwork that turns the lens, and every two hours I checked the oil. Near dawn, through the spray, I saw the lights of a schooner pass well clear of the rocks. I do not know her name. Her crew will never know mine. Still, I wept a little, and I am not ashamed to write it.\n\nMarch 6 — The gale has blown itself out, and the doctor has come. Father is weak but awake. When Mother told him I had kept the light, he was quiet for a long time. Then he asked to see the logbook. He read every entry I had made—the times, the oil, the weather—and nodded.\n\n“Neat hand,” he said. “Steady work.”\n\nFrom Father, that is the highest praise there is. I think I will keep this diary, and I think I will keep the light, too, if they will let me."
+    },
+    {
+      "id": "P78-CRABS",
+      "title": "Counting Crabs: Citizen Scientists on the Delaware Bay",
+      "genre": "informational",
+      "text": "On calm nights in late May and June, when the moon is full or new, the beaches of the Delaware Bay fill with an ancient visitor. Horseshoe crabs, animals that have existed for more than 400 million years, crawl ashore by the thousands to lay their eggs in the sand.\n\nFor decades, scientists struggled to answer a simple question: how many horseshoe crabs are there? The bay's shoreline stretches for miles, and the spawning happens mostly at night. No single research team could watch every beach at once.\n\nThe solution came from ordinary people. Since 1990, volunteers have joined a yearly survey. Equipped with flashlights, clipboards, and a square frame called a quadrat, they walk set routes along the tide line. At regular intervals, they drop the quadrat and count every crab inside it. Scientists then use these samples to estimate the total population.\n\nThe data have revealed troubling trends. During the 1990s, crabs were harvested in large numbers for use as fishing bait. Counts dropped sharply. The decline mattered beyond the crabs themselves. Each spring, migrating shorebirds called red knots stop at the bay to feast on crab eggs before flying to the Arctic. With fewer eggs available, many red knots could not gain enough weight to complete their journey, and their numbers fell dramatically.\n\nCitizen data helped persuade officials to act. New Jersey placed a moratorium on harvesting horseshoe crabs in 2008, and other states limited their harvests. Critics, including some people in the fishing industry, argued that the restrictions hurt their livelihoods and that the data were incomplete. Researchers responded that the volunteer survey, carried out with the same methods year after year, provided the most consistent record available.\n\nThe crab population has not fully recovered, and the debate continues. Still, the survey has shown what is possible when thousands of people with flashlights decide that a question is worth answering. As one longtime volunteer put it, \"You don't need a degree to count. You just need to show up.\""
     }
   ],
   "questions": [
@@ -2894,6 +2900,1542 @@
       "explanation": "2/25 = 0.08; 0.08 × 250 = 20."
     },
     {
+      "id": "M7Q197",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Omar walks 2/3 mile in 1/6 hour. At this rate, how many miles does Omar walk per hour?",
+      "choices": [
+        "1/9",
+        "5",
+        "4",
+        "1/4"
+      ],
+      "correctAnswer": "4",
+      "explanation": "Unit rate = (2/3) ÷ (1/6) = 2/3 × 6 = 4 miles per hour."
+    },
+    {
+      "id": "M7Q198",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Jordan walks 1/4 mile in 1/6 hour. At this rate, how many miles does Jordan walk per hour?",
+      "choices": [
+        "1/24",
+        "2 1/2",
+        "1 1/2",
+        "2/3"
+      ],
+      "correctAnswer": "1 1/2",
+      "explanation": "Unit rate = (1/4) ÷ (1/6) = 1/4 × 6 = 1 1/2 miles per hour."
+    },
+    {
+      "id": "M7Q199",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Maya walks 3/4 mile in 1/4 hour. At this rate, how many miles does Maya walk per hour?",
+      "choices": [
+        "3/16",
+        "4",
+        "3",
+        "1/3"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Unit rate = (3/4) ÷ (1/4) = 3/4 × 4 = 3 miles per hour."
+    },
+    {
+      "id": "M7Q200",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Luis walks 1/4 mile in 1/8 hour. At this rate, how many miles does Luis walk per hour?",
+      "choices": [
+        "1/32",
+        "3",
+        "2",
+        "1/2"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Unit rate = (1/4) ÷ (1/8) = 1/4 × 8 = 2 miles per hour."
+    },
+    {
+      "id": "M7Q201",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Grace walks 1/4 mile in 1/6 hour. At this rate, how many miles does Grace walk per hour?",
+      "choices": [
+        "1/24",
+        "1 1/2",
+        "2/3",
+        "2 1/2"
+      ],
+      "correctAnswer": "1 1/2",
+      "explanation": "Unit rate = (1/4) ÷ (1/6) = 1/4 × 6 = 1 1/2 miles per hour."
+    },
+    {
+      "id": "M7Q202",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Zoe walks 2/5 mile in 1/3 hour. At this rate, how many miles does Zoe walk per hour?",
+      "choices": [
+        "2/15",
+        "1 1/5",
+        "2 1/5",
+        "5/6"
+      ],
+      "correctAnswer": "1 1/5",
+      "explanation": "Unit rate = (2/5) ÷ (1/3) = 2/5 × 3 = 1 1/5 miles per hour."
+    },
+    {
+      "id": "M7Q203",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Malik walks 1/4 mile in 1/8 hour. At this rate, how many miles does Malik walk per hour?",
+      "choices": [
+        "3",
+        "1/2",
+        "1/32",
+        "2"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Unit rate = (1/4) ÷ (1/8) = 1/4 × 8 = 2 miles per hour."
+    },
+    {
+      "id": "M7Q204",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Aiden walks 1/2 mile in 1/3 hour. At this rate, how many miles does Aiden walk per hour?",
+      "choices": [
+        "2/3",
+        "1 1/2",
+        "2 1/2",
+        "1/6"
+      ],
+      "correctAnswer": "1 1/2",
+      "explanation": "Unit rate = (1/2) ÷ (1/3) = 1/2 × 3 = 1 1/2 miles per hour."
+    },
+    {
+      "id": "M7Q205",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Hana walks 2/3 mile in 1/4 hour. At this rate, how many miles does Hana walk per hour?",
+      "choices": [
+        "3 2/3",
+        "2 2/3",
+        "3/8",
+        "1/6"
+      ],
+      "correctAnswer": "2 2/3",
+      "explanation": "Unit rate = (2/3) ÷ (1/4) = 2/3 × 4 = 2 2/3 miles per hour."
+    },
+    {
+      "id": "M7Q206",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Diego walks 2/5 mile in 1/6 hour. At this rate, how many miles does Diego walk per hour?",
+      "choices": [
+        "2 2/5",
+        "5/12",
+        "3 2/5",
+        "1/15"
+      ],
+      "correctAnswer": "2 2/5",
+      "explanation": "Unit rate = (2/5) ÷ (1/6) = 2/5 × 6 = 2 2/5 miles per hour."
+    },
+    {
+      "id": "M7Q207",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Sofia walks 2/5 mile in 1/3 hour. At this rate, how many miles does Sofia walk per hour?",
+      "choices": [
+        "1 1/5",
+        "5/6",
+        "2/15",
+        "2 1/5"
+      ],
+      "correctAnswer": "1 1/5",
+      "explanation": "Unit rate = (2/5) ÷ (1/3) = 2/5 × 3 = 1 1/5 miles per hour."
+    },
+    {
+      "id": "M7Q208",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.RP.A.1",
+      "domain": "Ratios and Proportional Relationships",
+      "skill": "Compute unit rates involving fractions.",
+      "difficulty": "advanced",
+      "itemType": "multiple_choice",
+      "question": "Grace walks 3/4 mile in 1/4 hour. At this rate, how many miles does Grace walk per hour?",
+      "choices": [
+        "1/3",
+        "3/16",
+        "4",
+        "3"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Unit rate = (3/4) ÷ (1/4) = 3/4 × 4 = 3 miles per hour."
+    },
+    {
+      "id": "M7Q209",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 6/5 as a decimal.",
+      "correctAnswer": 1.2,
+      "explanation": "Divide: 6 ÷ 5 = 1.2."
+    },
+    {
+      "id": "M7Q210",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 1/16 as a decimal.",
+      "correctAnswer": 0.0625,
+      "explanation": "Divide: 1 ÷ 16 = 0.0625."
+    },
+    {
+      "id": "M7Q211",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 37/20 as a decimal.",
+      "correctAnswer": 1.85,
+      "explanation": "Divide: 37 ÷ 20 = 1.85."
+    },
+    {
+      "id": "M7Q212",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 11/16 as a decimal.",
+      "correctAnswer": 0.6875,
+      "explanation": "Divide: 11 ÷ 16 = 0.6875."
+    },
+    {
+      "id": "M7Q213",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 11/40 as a decimal.",
+      "correctAnswer": 0.275,
+      "explanation": "Divide: 11 ÷ 40 = 0.275."
+    },
+    {
+      "id": "M7Q214",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 17/40 as a decimal.",
+      "correctAnswer": 0.425,
+      "explanation": "Divide: 17 ÷ 40 = 0.425."
+    },
+    {
+      "id": "M7Q215",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 1/8 as a decimal.",
+      "correctAnswer": 0.125,
+      "explanation": "Divide: 1 ÷ 8 = 0.125."
+    },
+    {
+      "id": "M7Q216",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 5/4 as a decimal.",
+      "correctAnswer": 1.25,
+      "explanation": "Divide: 5 ÷ 4 = 1.25."
+    },
+    {
+      "id": "M7Q217",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 29/20 as a decimal.",
+      "correctAnswer": 1.45,
+      "explanation": "Divide: 29 ÷ 20 = 1.45."
+    },
+    {
+      "id": "M7Q218",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 13/8 as a decimal.",
+      "correctAnswer": 1.625,
+      "explanation": "Divide: 13 ÷ 8 = 1.625."
+    },
+    {
+      "id": "M7Q219",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 9/16 as a decimal.",
+      "correctAnswer": 0.5625,
+      "explanation": "Divide: 9 ÷ 16 = 0.5625."
+    },
+    {
+      "id": "M7Q220",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.NS.A.2",
+      "domain": "The Number System",
+      "skill": "Convert a fraction to a terminating decimal.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "Write 9/5 as a decimal.",
+      "correctAnswer": 1.8,
+      "explanation": "Divide: 9 ÷ 5 = 1.8."
+    },
+    {
+      "id": "M7Q221",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store lowers the price, p, of a jacket by 5%. Which expression represents the new price?",
+      "choices": [
+        "0.95p",
+        "0.05p",
+        "p - 5",
+        "1.05p"
+      ],
+      "correctAnswer": "0.95p",
+      "explanation": "Subtracting 5% of p gives p - 0.05p = 0.95p."
+    },
+    {
+      "id": "M7Q222",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store lowers the price, p, of a jacket by 10%. Which expression represents the new price?",
+      "choices": [
+        "0.1p",
+        "p - 10",
+        "1.1p",
+        "0.9p"
+      ],
+      "correctAnswer": "0.9p",
+      "explanation": "Subtracting 10% of p gives p - 0.1p = 0.9p."
+    },
+    {
+      "id": "M7Q223",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store raises the price, p, of a jacket by 20%. Which expression represents the new price?",
+      "choices": [
+        "p + 20",
+        "0.2p",
+        "0.8p",
+        "1.2p"
+      ],
+      "correctAnswer": "1.2p",
+      "explanation": "Adding 20% of p gives p + 0.2p = 1.2p."
+    },
+    {
+      "id": "M7Q224",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store raises the price, p, of a jacket by 40%. Which expression represents the new price?",
+      "choices": [
+        "0.6p",
+        "p + 40",
+        "1.4p",
+        "0.4p"
+      ],
+      "correctAnswer": "1.4p",
+      "explanation": "Adding 40% of p gives p + 0.4p = 1.4p."
+    },
+    {
+      "id": "M7Q225",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store lowers the price, p, of a jacket by 20%. Which expression represents the new price?",
+      "choices": [
+        "0.8p",
+        "1.2p",
+        "p - 20",
+        "0.2p"
+      ],
+      "correctAnswer": "0.8p",
+      "explanation": "Subtracting 20% of p gives p - 0.2p = 0.8p."
+    },
+    {
+      "id": "M7Q226",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store raises the price, p, of a jacket by 15%. Which expression represents the new price?",
+      "choices": [
+        "1.15p",
+        "0.85p",
+        "p + 15",
+        "0.15p"
+      ],
+      "correctAnswer": "1.15p",
+      "explanation": "Adding 15% of p gives p + 0.15p = 1.15p."
+    },
+    {
+      "id": "M7Q227",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store lowers the price, p, of a jacket by 40%. Which expression represents the new price?",
+      "choices": [
+        "0.6p",
+        "1.4p",
+        "0.4p",
+        "p - 40"
+      ],
+      "correctAnswer": "0.6p",
+      "explanation": "Subtracting 40% of p gives p - 0.4p = 0.6p."
+    },
+    {
+      "id": "M7Q228",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store raises the price, p, of a jacket by 25%. Which expression represents the new price?",
+      "choices": [
+        "0.25p",
+        "0.75p",
+        "1.25p",
+        "p + 25"
+      ],
+      "correctAnswer": "1.25p",
+      "explanation": "Adding 25% of p gives p + 0.25p = 1.25p."
+    },
+    {
+      "id": "M7Q229",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store lowers the price, p, of a jacket by 8%. Which expression represents the new price?",
+      "choices": [
+        "0.92p",
+        "0.08p",
+        "p - 8",
+        "1.08p"
+      ],
+      "correctAnswer": "0.92p",
+      "explanation": "Subtracting 8% of p gives p - 0.08p = 0.92p."
+    },
+    {
+      "id": "M7Q230",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store lowers the price, p, of a jacket by 12%. Which expression represents the new price?",
+      "choices": [
+        "0.12p",
+        "1.12p",
+        "p - 12",
+        "0.88p"
+      ],
+      "correctAnswer": "0.88p",
+      "explanation": "Subtracting 12% of p gives p - 0.12p = 0.88p."
+    },
+    {
+      "id": "M7Q231",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store raises the price, p, of a jacket by 6%. Which expression represents the new price?",
+      "choices": [
+        "0.94p",
+        "0.06p",
+        "p + 6",
+        "1.06p"
+      ],
+      "correctAnswer": "1.06p",
+      "explanation": "Adding 6% of p gives p + 0.06p = 1.06p."
+    },
+    {
+      "id": "M7Q232",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.EE.A.2",
+      "domain": "Expressions and Equations",
+      "skill": "Rewrite expressions to show how quantities are related.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A store raises the price, p, of a jacket by 5%. Which expression represents the new price?",
+      "choices": [
+        "0.95p",
+        "1.05p",
+        "p + 5",
+        "0.05p"
+      ],
+      "correctAnswer": "1.05p",
+      "explanation": "Adding 5% of p gives p + 0.05p = 1.05p."
+    },
+    {
+      "id": "M7Q233",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "9 cm, 5 cm, 11 cm",
+        "9 cm, 11 cm, 22 cm",
+        "8 cm, 10 cm, 19 cm",
+        "8 cm, 9 cm, 17 cm"
+      ],
+      "correctAnswer": "9 cm, 5 cm, 11 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 9 cm, 5 cm, 11 cm, that is true."
+    },
+    {
+      "id": "M7Q234",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "4 cm, 6 cm, 13 cm",
+        "9 cm, 4 cm, 13 cm",
+        "9 cm, 8 cm, 3 cm",
+        "9 cm, 5 cm, 19 cm"
+      ],
+      "correctAnswer": "9 cm, 8 cm, 3 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 9 cm, 8 cm, 3 cm, that is true."
+    },
+    {
+      "id": "M7Q235",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "6 cm, 3 cm, 10 cm",
+        "2 cm, 4 cm, 10 cm",
+        "6 cm, 2 cm, 8 cm",
+        "6 cm, 6 cm, 1 cm"
+      ],
+      "correctAnswer": "6 cm, 6 cm, 1 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 6 cm, 6 cm, 1 cm, that is true."
+    },
+    {
+      "id": "M7Q236",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "5 cm, 3 cm, 8 cm",
+        "5 cm, 4 cm, 13 cm",
+        "7 cm, 8 cm, 9 cm",
+        "3 cm, 5 cm, 11 cm"
+      ],
+      "correctAnswer": "7 cm, 8 cm, 9 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 7 cm, 8 cm, 9 cm, that is true."
+    },
+    {
+      "id": "M7Q237",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "3 cm, 5 cm, 9 cm",
+        "2 cm, 3 cm, 5 cm",
+        "7 cm, 5 cm, 7 cm",
+        "2 cm, 4 cm, 9 cm"
+      ],
+      "correctAnswer": "7 cm, 5 cm, 7 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 7 cm, 5 cm, 7 cm, that is true."
+    },
+    {
+      "id": "M7Q238",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "7 cm, 10 cm, 7 cm",
+        "5 cm, 6 cm, 15 cm",
+        "5 cm, 7 cm, 15 cm",
+        "5 cm, 5 cm, 10 cm"
+      ],
+      "correctAnswer": "7 cm, 10 cm, 7 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 7 cm, 10 cm, 7 cm, that is true."
+    },
+    {
+      "id": "M7Q239",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "8 cm, 10 cm, 22 cm",
+        "8 cm, 8 cm, 16 cm",
+        "7 cm, 4 cm, 8 cm",
+        "8 cm, 9 cm, 20 cm"
+      ],
+      "correctAnswer": "7 cm, 4 cm, 8 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 7 cm, 4 cm, 8 cm, that is true."
+    },
+    {
+      "id": "M7Q240",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "2 cm, 5 cm, 7 cm",
+        "5 cm, 7 cm, 16 cm",
+        "9 cm, 3 cm, 10 cm",
+        "2 cm, 6 cm, 11 cm"
+      ],
+      "correctAnswer": "9 cm, 3 cm, 10 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 9 cm, 3 cm, 10 cm, that is true."
+    },
+    {
+      "id": "M7Q241",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "6 cm, 12 cm, 16 cm",
+        "4 cm, 4 cm, 10 cm",
+        "4 cm, 3 cm, 7 cm",
+        "3 cm, 5 cm, 10 cm"
+      ],
+      "correctAnswer": "6 cm, 12 cm, 16 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 6 cm, 12 cm, 16 cm, that is true."
+    },
+    {
+      "id": "M7Q242",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "4 cm, 12 cm, 12 cm",
+        "3 cm, 5 cm, 13 cm",
+        "6 cm, 4 cm, 11 cm",
+        "6 cm, 3 cm, 9 cm"
+      ],
+      "correctAnswer": "4 cm, 12 cm, 12 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 4 cm, 12 cm, 12 cm, that is true."
+    },
+    {
+      "id": "M7Q243",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "4 cm, 4 cm, 8 cm",
+        "4 cm, 6 cm, 11 cm",
+        "8 cm, 11 cm, 11 cm",
+        "4 cm, 5 cm, 10 cm"
+      ],
+      "correctAnswer": "8 cm, 11 cm, 11 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 8 cm, 11 cm, 11 cm, that is true."
+    },
+    {
+      "id": "M7Q244",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.G.A.2",
+      "domain": "Geometry",
+      "skill": "Determine whether three side lengths can form a triangle.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "choices": [
+        "9 cm, 11 cm, 22 cm",
+        "6 cm, 9 cm, 15 cm",
+        "12 cm, 12 cm, 3 cm",
+        "6 cm, 10 cm, 21 cm"
+      ],
+      "correctAnswer": "12 cm, 12 cm, 3 cm",
+      "explanation": "The two shorter sides must add up to more than the longest side. For 12 cm, 12 cm, 3 cm, that is true."
+    },
+    {
+      "id": "M7Q245",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 98, 62, 78, 77, 70. Quiz scores for Class B: 62, 92, 65, 70, 76. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 4,
+      "explanation": "Mean of Class A = 77, mean of Class B = 73. The difference is 4."
+    },
+    {
+      "id": "M7Q246",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 93, 76, 80, 61, 85. Quiz scores for Class B: 95, 81, 90, 64, 95. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 6,
+      "explanation": "Mean of Class A = 79, mean of Class B = 85. The difference is 6."
+    },
+    {
+      "id": "M7Q247",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 90, 89, 79, 96, 81. Quiz scores for Class B: 79, 97, 87, 83, 74. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 3,
+      "explanation": "Mean of Class A = 87, mean of Class B = 84. The difference is 3."
+    },
+    {
+      "id": "M7Q248",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 93, 82, 66, 87, 92. Quiz scores for Class B: 74, 97, 85, 62, 62. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 8,
+      "explanation": "Mean of Class A = 84, mean of Class B = 76. The difference is 8."
+    },
+    {
+      "id": "M7Q249",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 95, 85, 76, 76, 83. Quiz scores for Class B: 88, 87, 88, 67, 65. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 4,
+      "explanation": "Mean of Class A = 83, mean of Class B = 79. The difference is 4."
+    },
+    {
+      "id": "M7Q250",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 90, 80, 89, 61, 80. Quiz scores for Class B: 64, 73, 74, 77, 67. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 9,
+      "explanation": "Mean of Class A = 80, mean of Class B = 71. The difference is 9."
+    },
+    {
+      "id": "M7Q251",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 96, 73, 70, 67, 74. Quiz scores for Class B: 97, 61, 93, 95, 99. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 13,
+      "explanation": "Mean of Class A = 76, mean of Class B = 89. The difference is 13."
+    },
+    {
+      "id": "M7Q252",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 71, 69, 84, 75, 91. Quiz scores for Class B: 61, 85, 97, 99, 83. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 7,
+      "explanation": "Mean of Class A = 78, mean of Class B = 85. The difference is 7."
+    },
+    {
+      "id": "M7Q253",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 63, 61, 99, 83, 79. Quiz scores for Class B: 84, 83, 99, 92, 87. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 12,
+      "explanation": "Mean of Class A = 77, mean of Class B = 89. The difference is 12."
+    },
+    {
+      "id": "M7Q254",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 67, 92, 81, 98, 72. Quiz scores for Class B: 87, 67, 65, 60, 61. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 14,
+      "explanation": "Mean of Class A = 82, mean of Class B = 68. The difference is 14."
+    },
+    {
+      "id": "M7Q255",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 70, 84, 88, 90, 68. Quiz scores for Class B: 91, 61, 93, 63, 77. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 3,
+      "explanation": "Mean of Class A = 80, mean of Class B = 77. The difference is 3."
+    },
+    {
+      "id": "M7Q256",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.B.4",
+      "domain": "Statistics and Probability",
+      "skill": "Compare the means of two data sets.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Quiz scores for Class A: 70, 85, 68, 98, 79. Quiz scores for Class B: 64, 77, 66, 68, 75. What is the difference between the mean scores of the two classes?",
+      "correctAnswer": 10,
+      "explanation": "Mean of Class A = 80, mean of Class B = 70. The difference is 10."
+    },
+    {
+      "id": "M7Q257",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1/10. Which word best describes the likelihood of the event?",
+      "choices": [
+        "unlikely",
+        "neither likely nor unlikely",
+        "impossible",
+        "certain"
+      ],
+      "correctAnswer": "unlikely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q258",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1. Which word best describes the likelihood of the event?",
+      "choices": [
+        "impossible",
+        "neither likely nor unlikely",
+        "certain",
+        "likely"
+      ],
+      "correctAnswer": "certain",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q259",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1/8. Which word best describes the likelihood of the event?",
+      "choices": [
+        "neither likely nor unlikely",
+        "certain",
+        "unlikely",
+        "likely"
+      ],
+      "correctAnswer": "unlikely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q260",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1/4. Which word best describes the likelihood of the event?",
+      "choices": [
+        "likely",
+        "neither likely nor unlikely",
+        "unlikely",
+        "certain"
+      ],
+      "correctAnswer": "unlikely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q261",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1/2. Which word best describes the likelihood of the event?",
+      "choices": [
+        "unlikely",
+        "neither likely nor unlikely",
+        "impossible",
+        "certain"
+      ],
+      "correctAnswer": "neither likely nor unlikely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q262",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1/5. Which word best describes the likelihood of the event?",
+      "choices": [
+        "neither likely nor unlikely",
+        "certain",
+        "likely",
+        "unlikely"
+      ],
+      "correctAnswer": "unlikely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q263",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 4/5. Which word best describes the likelihood of the event?",
+      "choices": [
+        "likely",
+        "certain",
+        "impossible",
+        "neither likely nor unlikely"
+      ],
+      "correctAnswer": "likely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q264",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 1/12. Which word best describes the likelihood of the event?",
+      "choices": [
+        "likely",
+        "neither likely nor unlikely",
+        "certain",
+        "unlikely"
+      ],
+      "correctAnswer": "unlikely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q265",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 11/12. Which word best describes the likelihood of the event?",
+      "choices": [
+        "certain",
+        "impossible",
+        "unlikely",
+        "likely"
+      ],
+      "correctAnswer": "likely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q266",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 0. Which word best describes the likelihood of the event?",
+      "choices": [
+        "certain",
+        "impossible",
+        "likely",
+        "neither likely nor unlikely"
+      ],
+      "correctAnswer": "impossible",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q267",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 7/8. Which word best describes the likelihood of the event?",
+      "choices": [
+        "unlikely",
+        "certain",
+        "likely",
+        "neither likely nor unlikely"
+      ],
+      "correctAnswer": "likely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q268",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.5",
+      "domain": "Statistics and Probability",
+      "skill": "Interpret a probability as the likelihood of an event.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "The probability of an event is 3/4. Which word best describes the likelihood of the event?",
+      "choices": [
+        "likely",
+        "certain",
+        "impossible",
+        "neither likely nor unlikely"
+      ],
+      "correctAnswer": "likely",
+      "explanation": "Probabilities near 0 are unlikely, near 1 are likely, 1/2 is neither likely nor unlikely, 0 is impossible, and 1 is certain."
+    },
+    {
+      "id": "M7Q269",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Ava took a free throw 25 times and made the shot 20 times. Based on these results, about how many times would you expect this to happen in 150 tries?",
+      "correctAnswer": 120,
+      "explanation": "The experimental probability is 20/25. 20/25 × 150 = 120."
+    },
+    {
+      "id": "M7Q270",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Sofia spun a spinner 25 times and landed on red 20 times. Based on these results, about how many times would you expect this to happen in 500 tries?",
+      "correctAnswer": 400,
+      "explanation": "The experimental probability is 20/25. 20/25 × 500 = 400."
+    },
+    {
+      "id": "M7Q271",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Kofi drew a tile from a bag and replaced it 50 times and drew a blue tile 7 times. Based on these results, about how many times would you expect this to happen in 300 tries?",
+      "correctAnswer": 42.00000000000001,
+      "explanation": "The experimental probability is 7/50. 7/50 × 300 = 42.00000000000001."
+    },
+    {
+      "id": "M7Q272",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Sofia drew a tile from a bag and replaced it 25 times and drew a blue tile 21 times. Based on these results, about how many times would you expect this to happen in 150 tries?",
+      "correctAnswer": 126,
+      "explanation": "The experimental probability is 21/25. 21/25 × 150 = 126."
+    },
+    {
+      "id": "M7Q273",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Luis rolled a number cube 20 times and rolled a 6 9 times. Based on these results, about how many times would you expect this to happen in 120 tries?",
+      "correctAnswer": 54,
+      "explanation": "The experimental probability is 9/20. 9/20 × 120 = 54."
+    },
+    {
+      "id": "M7Q274",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Zoe rolled a number cube 20 times and rolled a 6 8 times. Based on these results, about how many times would you expect this to happen in 200 tries?",
+      "correctAnswer": 80,
+      "explanation": "The experimental probability is 8/20. 8/20 × 200 = 80."
+    },
+    {
+      "id": "M7Q275",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Zoe took a free throw 50 times and made the shot 18 times. Based on these results, about how many times would you expect this to happen in 500 tries?",
+      "correctAnswer": 180,
+      "explanation": "The experimental probability is 18/50. 18/50 × 500 = 180."
+    },
+    {
+      "id": "M7Q276",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Kofi spun a spinner 20 times and landed on red 11 times. Based on these results, about how many times would you expect this to happen in 120 tries?",
+      "correctAnswer": 66,
+      "explanation": "The experimental probability is 11/20. 11/20 × 120 = 66."
+    },
+    {
+      "id": "M7Q277",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Ravi took a free throw 40 times and made the shot 7 times. Based on these results, about how many times would you expect this to happen in 400 tries?",
+      "correctAnswer": 70,
+      "explanation": "The experimental probability is 7/40. 7/40 × 400 = 70."
+    },
+    {
+      "id": "M7Q278",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Aiden drew a tile from a bag and replaced it 50 times and drew a blue tile 3 times. Based on these results, about how many times would you expect this to happen in 500 tries?",
+      "correctAnswer": 30,
+      "explanation": "The experimental probability is 3/50. 3/50 × 500 = 30."
+    },
+    {
+      "id": "M7Q279",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Jordan spun a spinner 25 times and landed on red 17 times. Based on these results, about how many times would you expect this to happen in 250 tries?",
+      "correctAnswer": 170,
+      "explanation": "The experimental probability is 17/25. 17/25 × 250 = 170."
+    },
+    {
+      "id": "M7Q280",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.6",
+      "domain": "Statistics and Probability",
+      "skill": "Use experimental probability to make predictions.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Lena rolled a number cube 25 times and rolled a 6 22 times. Based on these results, about how many times would you expect this to happen in 150 tries?",
+      "correctAnswer": 132,
+      "explanation": "The experimental probability is 22/25. 22/25 × 150 = 132."
+    },
+    {
+      "id": "M7Q281",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Malik has 2 shirts, 2 pairs of pants, and 4 pairs of shoes. How many different outfits with one of each are possible?",
+      "correctAnswer": 16,
+      "explanation": "2 × 2 × 4 = 16 outfits."
+    },
+    {
+      "id": "M7Q282",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A sandwich shop offers 5 kinds of bread and 6 kinds of filling. How many different sandwiches with one bread and one filling are possible?",
+      "correctAnswer": 30,
+      "explanation": "5 × 6 = 30 possible sandwiches."
+    },
+    {
+      "id": "M7Q283",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Sofia has 6 shirts, 5 pairs of pants, and 3 pairs of shoes. How many different outfits with one of each are possible?",
+      "correctAnswer": 90,
+      "explanation": "6 × 5 × 3 = 90 outfits."
+    },
+    {
+      "id": "M7Q284",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A sandwich shop offers 5 kinds of bread and 2 kinds of filling. How many different sandwiches with one bread and one filling are possible?",
+      "correctAnswer": 10,
+      "explanation": "5 × 2 = 10 possible sandwiches."
+    },
+    {
+      "id": "M7Q285",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A sandwich shop offers 6 kinds of bread and 2 kinds of filling. How many different sandwiches with one bread and one filling are possible?",
+      "correctAnswer": 12,
+      "explanation": "6 × 2 = 12 possible sandwiches."
+    },
+    {
+      "id": "M7Q286",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Hana has 4 shirts, 5 pairs of pants, and 2 pairs of shoes. How many different outfits with one of each are possible?",
+      "correctAnswer": 40,
+      "explanation": "4 × 5 × 2 = 40 outfits."
+    },
+    {
+      "id": "M7Q287",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Jordan has 2 shirts, 4 pairs of pants, and 4 pairs of shoes. How many different outfits with one of each are possible?",
+      "correctAnswer": 32,
+      "explanation": "2 × 4 × 4 = 32 outfits."
+    },
+    {
+      "id": "M7Q288",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A sandwich shop offers 4 kinds of bread and 3 kinds of filling. How many different sandwiches with one bread and one filling are possible?",
+      "correctAnswer": 12,
+      "explanation": "4 × 3 = 12 possible sandwiches."
+    },
+    {
+      "id": "M7Q289",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A sandwich shop offers 6 kinds of bread and 4 kinds of filling. How many different sandwiches with one bread and one filling are possible?",
+      "correctAnswer": 24,
+      "explanation": "6 × 4 = 24 possible sandwiches."
+    },
+    {
+      "id": "M7Q290",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A sandwich shop offers 5 kinds of bread and 5 kinds of filling. How many different sandwiches with one bread and one filling are possible?",
+      "correctAnswer": 25,
+      "explanation": "5 × 5 = 25 possible sandwiches."
+    },
+    {
+      "id": "M7Q291",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Maya has 3 shirts, 4 pairs of pants, and 3 pairs of shoes. How many different outfits with one of each are possible?",
+      "correctAnswer": 36,
+      "explanation": "3 × 4 × 3 = 36 outfits."
+    },
+    {
+      "id": "M7Q292",
+      "grade": 7,
+      "subject": "math",
+      "standard": "7.SP.C.8",
+      "domain": "Statistics and Probability",
+      "skill": "Find the number of outcomes in a sample space.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "Zoe has 3 shirts, 6 pairs of pants, and 2 pairs of shoes. How many different outfits with one of each are possible?",
+      "correctAnswer": 36,
+      "explanation": "3 × 6 × 2 = 36 outfits."
+    },
+    {
       "id": "E7Q001",
       "grade": 7,
       "subject": "ela",
@@ -3626,6 +5168,171 @@
       "id": "E7Q031",
       "grade": 7,
       "subject": "ela",
+      "standard": "RI.7.2",
+      "domain": "Reading Informational Text",
+      "skill": "Determine a central idea of a text and analyze its development.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "multiple_choice",
+      "question": "Which statement best expresses a central idea of the passage?",
+      "choices": [
+        "Horseshoe crabs are the oldest animals on Earth.",
+        "Red knots are the most important birds on the Delaware Bay.",
+        "Volunteer counts have given scientists valuable data that influenced decisions about protecting horseshoe crabs.",
+        "The fishing industry has always supported limits on harvesting crabs."
+      ],
+      "correctAnswer": "Volunteer counts have given scientists valuable data that influenced decisions about protecting horseshoe crabs.",
+      "explanation": "The passage traces how the volunteer survey began, what it revealed, and how it shaped protection decisions."
+    },
+    {
+      "id": "E7Q032",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "RI.7.3",
+      "domain": "Reading Informational Text",
+      "skill": "Analyze the interactions between individuals, events, and ideas in a text.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "evidence_based",
+      "question": "This question has two parts. Answer Part A, then answer Part B.",
+      "parts": [
+        {
+          "label": "Part A",
+          "question": "Part A: According to the passage, how did the decline of horseshoe crabs affect red knots?",
+          "choices": [
+            "Red knots had fewer eggs to eat, so many could not finish their migration.",
+            "Red knots stopped visiting the Delaware Bay entirely.",
+            "Red knots helped volunteers count the crabs.",
+            "Red knots began to eat fishing bait instead of eggs."
+          ],
+          "correctAnswers": [
+            "Red knots had fewer eggs to eat, so many could not finish their migration."
+          ]
+        },
+        {
+          "label": "Part B",
+          "question": "Part B: Which sentence from the passage best supports the answer to Part A?",
+          "choices": [
+            "The crab population has not fully recovered, and the debate continues.",
+            "Counts dropped sharply.",
+            "With fewer eggs available, many red knots could not gain enough weight to complete their journey, and their numbers fell dramatically.",
+            "During the 1990s, crabs were harvested in large numbers for use as fishing bait."
+          ],
+          "correctAnswers": [
+            "With fewer eggs available, many red knots could not gain enough weight to complete their journey, and their numbers fell dramatically."
+          ]
+        }
+      ],
+      "explanation": "Paragraph 4 links fewer crab eggs to red knots being unable to gain weight for migration."
+    },
+    {
+      "id": "E7Q033",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "RI.7.4",
+      "domain": "Reading Informational Text",
+      "skill": "Determine the meaning of words and phrases, including technical meanings.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "multiple_choice",
+      "question": "In paragraph 5, what does the word moratorium most likely mean?",
+      "choices": [
+        "a scientific survey method",
+        "a reward for catching more crabs",
+        "a type of fishing bait",
+        "an official stop to an activity"
+      ],
+      "correctAnswer": "an official stop to an activity",
+      "explanation": "New Jersey's moratorium is contrasted with other states that merely limited harvests, so it means a complete stop."
+    },
+    {
+      "id": "E7Q034",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "RI.7.6",
+      "domain": "Reading Informational Text",
+      "skill": "Determine an author's point of view or purpose and how the author addresses conflicting viewpoints.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "multiple_select",
+      "question": "Select two ways the author responds to the critics described in paragraph 5.",
+      "choices": [
+        "The author includes researchers' explanation that the survey used consistent methods.",
+        "The author argues that fishing should be banned in every state.",
+        "The author ignores the critics' concerns entirely.",
+        "The author admits that the crab population has not fully recovered.",
+        "The author claims that the critics have changed their minds."
+      ],
+      "correctAnswers": [
+        "The author includes researchers' explanation that the survey used consistent methods.",
+        "The author admits that the crab population has not fully recovered."
+      ],
+      "explanation": "The author presents the researchers' response and acknowledges that the debate continues."
+    },
+    {
+      "id": "E7Q035",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "RI.7.8",
+      "domain": "Reading Informational Text",
+      "skill": "Trace and evaluate the argument and specific claims in a text.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "multiple_choice",
+      "question": "Which evidence best supports the claim that the volunteer survey is reliable?",
+      "choices": [
+        "Volunteers carry flashlights and clipboards.",
+        "Spawning happens mostly at night.",
+        "Volunteers have used the same methods year after year since 1990.",
+        "Horseshoe crabs have existed for more than 400 million years."
+      ],
+      "correctAnswer": "Volunteers have used the same methods year after year since 1990.",
+      "explanation": "Consistent methods over many years make the data comparable and trustworthy."
+    },
+    {
+      "id": "E7Q036",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "RI.7.5",
+      "domain": "Reading Informational Text",
+      "skill": "Analyze the structure an author uses to organize a text.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "multiple_choice",
+      "question": "How do paragraphs 2 and 3 relate to each other?",
+      "choices": [
+        "Paragraph 2 tells a story, and paragraph 3 describes a setting.",
+        "Both paragraphs list facts about red knots.",
+        "Paragraph 2 describes a problem, and paragraph 3 explains how it was solved.",
+        "Paragraph 2 gives an opinion, and paragraph 3 disagrees with it."
+      ],
+      "correctAnswer": "Paragraph 2 describes a problem, and paragraph 3 explains how it was solved.",
+      "explanation": "Paragraph 2 explains why counting crabs was hard; paragraph 3 explains the volunteer solution."
+    },
+    {
+      "id": "E7Q037",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "RI.7.1",
+      "domain": "Reading Informational Text",
+      "skill": "Cite textual evidence that most strongly supports an analysis of what the text says.",
+      "difficulty": "on-grade",
+      "passageId": "P78-CRABS",
+      "itemType": "multiple_choice",
+      "question": "Which quotation best supports the idea that anyone can contribute to science?",
+      "choices": [
+        "\"No single research team could watch every beach at once.\"",
+        "\"Critics, including some people in the fishing industry, argued that the restrictions hurt their livelihoods.\"",
+        "\"You don't need a degree to count. You just need to show up.\"",
+        "\"Counts dropped sharply.\""
+      ],
+      "correctAnswer": "\"You don't need a degree to count. You just need to show up.\"",
+      "explanation": "The volunteer's quotation says that showing up, not training, is what matters."
+    },
+    {
+      "id": "E7Q038",
+      "grade": 7,
+      "subject": "ela",
       "standard": "L.7.1",
       "domain": "Language",
       "skill": "Explain the function of phrases and clauses.",
@@ -3642,7 +5349,7 @@
       "explanation": "A dependent clause has a subject and verb but cannot stand alone."
     },
     {
-      "id": "E7Q032",
+      "id": "E7Q039",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.1",
@@ -3653,15 +5360,15 @@
       "question": "Which is a complex sentence?",
       "choices": [
         "Although the forecast called for snow, the game continued.",
-        "The forecast called for snow.",
         "The game continued in the snow and the cold.",
+        "The forecast called for snow.",
         "The forecast called for snow, and the game continued."
       ],
       "correctAnswer": "Although the forecast called for snow, the game continued.",
       "explanation": "A complex sentence has one independent clause and at least one dependent clause."
     },
     {
-      "id": "E7Q033",
+      "id": "E7Q040",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.1",
@@ -3671,16 +5378,16 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is written correctly?",
       "choices": [
-        "Over the park walking to school a rainbow I saw.",
         "Walking to school, a rainbow appeared over the park.",
         "Walking to school, I saw a rainbow over the park.",
-        "I saw a rainbow walking to school over the park."
+        "I saw a rainbow walking to school over the park.",
+        "Over the park walking to school a rainbow I saw."
       ],
       "correctAnswer": "Walking to school, I saw a rainbow over the park.",
       "explanation": "The modifier “Walking to school” must describe the person who was walking."
     },
     {
-      "id": "E7Q034",
+      "id": "E7Q041",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.2",
@@ -3691,15 +5398,15 @@
       "question": "Which sentence is punctuated correctly?",
       "choices": [
         "It was a, long exhausting day.",
-        "It was a long exhausting, day.",
         "It was, a long exhausting day.",
-        "It was a long, exhausting day."
+        "It was a long, exhausting day.",
+        "It was a long exhausting, day."
       ],
       "correctAnswer": "It was a long, exhausting day.",
       "explanation": "Coordinate adjectives that equally describe a noun are separated by a comma."
     },
     {
-      "id": "E7Q035",
+      "id": "E7Q042",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.3",
@@ -3709,16 +5416,92 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is the most concise?",
       "choices": [
-        "The committee decided to postpone the meeting.",
         "The committee, after deciding, decided to postpone the meeting for later.",
         "The committee made a decision that they would postpone the meeting until a later time.",
-        "The committee decided that the meeting would be postponed to a time that was later."
+        "The committee decided that the meeting would be postponed to a time that was later.",
+        "The committee decided to postpone the meeting."
       ],
       "correctAnswer": "The committee decided to postpone the meeting.",
       "explanation": "The first sentence expresses the idea without repetition or extra words."
     },
     {
-      "id": "E7Q036",
+      "id": "E7Q043",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "L.7.2",
+      "domain": "Language",
+      "skill": "Use commas, parentheses, or dashes to set off nonrestrictive elements.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which sentence correctly uses parentheses?",
+      "choices": [
+        "The museum which (opened in 1910) is closed for repairs.",
+        "The museum (which opened in 1910) is closed for repairs.",
+        "(The museum which opened in 1910) is closed for repairs.",
+        "The museum (which opened) in 1910 is closed for repairs."
+      ],
+      "correctAnswer": "The museum (which opened in 1910) is closed for repairs.",
+      "explanation": "Parentheses enclose the extra information about the museum."
+    },
+    {
+      "id": "E7Q044",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "L.7.1",
+      "domain": "Language",
+      "skill": "Place phrases and clauses within a sentence correctly.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which sentence places the phrase correctly?",
+      "choices": [
+        "The kite flew high above the beach with a long tail, said Ana.",
+        "High above the beach with a long tail flew, the kite.",
+        "With a long tail, the kite flew high above the beach.",
+        "The kite flew high with a long tail above the beach."
+      ],
+      "correctAnswer": "With a long tail, the kite flew high above the beach.",
+      "explanation": "The phrase “with a long tail” should sit next to the noun it describes, the kite."
+    },
+    {
+      "id": "E7Q045",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "L.7.1",
+      "domain": "Language",
+      "skill": "Explain the function of phrases and clauses in specific sentences.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "In the sentence below, what is the function of the clause in brackets?\n\nThe book [that Sam recommended] was exciting.",
+      "choices": [
+        "It tells when the book was read.",
+        "It is the main clause of the sentence.",
+        "It shows why the book was exciting.",
+        "It describes which book."
+      ],
+      "correctAnswer": "It describes which book.",
+      "explanation": "“That Sam recommended” is an adjective clause that identifies the book."
+    },
+    {
+      "id": "E7Q046",
+      "grade": 7,
+      "subject": "ela",
+      "standard": "L.7.2",
+      "domain": "Language",
+      "skill": "Use correct spelling of commonly confused words.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which word correctly completes the sentence?\n\nThe new rule will ___ every student in the school.",
+      "choices": [
+        "affect",
+        "effects",
+        "effect",
+        "affection"
+      ],
+      "correctAnswer": "affect",
+      "explanation": "“Affect” is usually a verb meaning “to influence.”"
+    },
+    {
+      "id": "E7Q047",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.5",
@@ -3729,15 +5512,15 @@
       "question": "Which sentence uses personification?",
       "choices": [
         "The tall grass swayed in the wind.",
-        "The wind whispered through the tall grass.",
         "The wind was cold and strong.",
+        "The wind whispered through the tall grass.",
         "The grass was as tall as a fence."
       ],
       "correctAnswer": "The wind whispered through the tall grass.",
       "explanation": "Personification gives human qualities (whispering) to something that is not human."
     },
     {
-      "id": "E7Q037",
+      "id": "E7Q048",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.5",
@@ -3747,16 +5530,16 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is an example of hyperbole?",
       "choices": [
-        "Please clean your room today.",
         "Your room is like a jungle.",
-        "I have told you a million times to clean your room.",
-        "I have told you twice to clean your room."
+        "Please clean your room today.",
+        "I have told you twice to clean your room.",
+        "I have told you a million times to clean your room."
       ],
       "correctAnswer": "I have told you a million times to clean your room.",
       "explanation": "Hyperbole is an extreme exaggeration."
     },
     {
-      "id": "E7Q038",
+      "id": "E7Q049",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.5",
@@ -3766,16 +5549,16 @@
       "itemType": "multiple_choice",
       "question": "Which word has the most positive connotation to describe someone who saves money carefully?",
       "choices": [
+        "cheap",
         "stingy",
         "thrifty",
-        "tight-fisted",
-        "cheap"
+        "tight-fisted"
       ],
       "correctAnswer": "thrifty",
       "explanation": "“Thrifty” suggests wise saving; the other words suggest an unwillingness to share."
     },
     {
-      "id": "E7Q039",
+      "id": "E7Q050",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.5",
@@ -3785,16 +5568,16 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is an example of verbal irony?",
       "choices": [
+        "Jaden said the rain was cold.",
         "Jaden ran inside to escape the rain.",
-        "Stepping into the freezing rain, Jaden said, “What lovely weather for a picnic.”",
         "The rain fell like tiny needles.",
-        "Jaden said the rain was cold."
+        "Stepping into the freezing rain, Jaden said, “What lovely weather for a picnic.”"
       ],
       "correctAnswer": "Stepping into the freezing rain, Jaden said, “What lovely weather for a picnic.”",
       "explanation": "Verbal irony is saying the opposite of what you mean."
     },
     {
-      "id": "E7Q040",
+      "id": "E7Q051",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.5",
@@ -3804,16 +5587,16 @@
       "itemType": "multiple_choice",
       "question": "What does the allusion mean?\n\nWhen it came to puzzles, my little sister was a real Sherlock Holmes.",
       "choices": [
-        "She was very good at solving problems.",
-        "She lived in London.",
         "She often lost her puzzles.",
-        "She liked to read mystery books."
+        "She liked to read mystery books.",
+        "She was very good at solving problems.",
+        "She lived in London."
       ],
       "correctAnswer": "She was very good at solving problems.",
       "explanation": "Sherlock Holmes is a famous fictional detective known for solving mysteries."
     },
     {
-      "id": "E7Q041",
+      "id": "E7Q052",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3824,15 +5607,15 @@
       "question": "Read the sentence.\n\nThe coach was adamant that practice would continue, refusing to change her mind even when it rained.\n\nWhat does the word adamant mean?",
       "choices": [
         "refusing to change one's mind",
-        "unsure",
         "worried",
+        "unsure",
         "cheerful"
       ],
       "correctAnswer": "refusing to change one's mind",
       "explanation": "Clues in the sentence show that “adamant” means “refusing to change one's mind.”"
     },
     {
-      "id": "E7Q042",
+      "id": "E7Q053",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3842,16 +5625,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nThe scarcity of water during the drought forced farmers to limit how much they used.\n\nWhat does the word scarcity mean?",
       "choices": [
-        "a cleaning",
+        "a shortage",
         "a high price",
         "a flood",
-        "a shortage"
+        "a cleaning"
       ],
       "correctAnswer": "a shortage",
       "explanation": "Clues in the sentence show that “scarcity” means “a shortage.”"
     },
     {
-      "id": "E7Q043",
+      "id": "E7Q054",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3861,16 +5644,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nHis explanation was so convoluted that no one could follow the steps.\n\nWhat does the word convoluted mean?",
       "choices": [
-        "clear and simple",
         "very short",
         "extremely complicated",
-        "funny"
+        "funny",
+        "clear and simple"
       ],
       "correctAnswer": "extremely complicated",
       "explanation": "Clues in the sentence show that “convoluted” means “extremely complicated.”"
     },
     {
-      "id": "E7Q044",
+      "id": "E7Q055",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3880,16 +5663,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nThe mayor's speech was meant to placate the angry crowd, and soon people began to calm down.\n\nWhat does the word placate mean?",
       "choices": [
-        "to ignore",
-        "to excite",
         "to make less angry",
-        "to confuse"
+        "to excite",
+        "to confuse",
+        "to ignore"
       ],
       "correctAnswer": "to make less angry",
       "explanation": "Clues in the sentence show that “placate” means “to make less angry.”"
     },
     {
-      "id": "E7Q045",
+      "id": "E7Q056",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3900,15 +5683,15 @@
       "question": "Read the sentence.\n\nDespite the setbacks, the team remained tenacious, practicing every day until they won.\n\nWhat does the word tenacious mean?",
       "choices": [
         "lazy",
-        "persistent; not giving up",
         "confused",
+        "persistent; not giving up",
         "careless"
       ],
       "correctAnswer": "persistent; not giving up",
       "explanation": "Clues in the sentence show that “tenacious” means “persistent; not giving up.”"
     },
     {
-      "id": "E7Q046",
+      "id": "E7Q057",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3918,16 +5701,16 @@
       "itemType": "multiple_choice",
       "question": "The affix anti- means “against.” What does the word antibacterial mean?",
       "choices": [
-        "before bacteria",
+        "full of bacteria",
         "made of bacteria",
         "working against bacteria",
-        "full of bacteria"
+        "before bacteria"
       ],
       "correctAnswer": "working against bacteria",
       "explanation": "anti- means “against,” so antibacterial means “working against bacteria.”"
     },
     {
-      "id": "E7Q047",
+      "id": "E7Q058",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3938,15 +5721,15 @@
       "question": "The affix -ology means “study of.” What does the word geology mean?",
       "choices": [
         "a map of the earth",
+        "the study of the earth",
         "the center of the earth",
-        "fear of the earth",
-        "the study of the earth"
+        "fear of the earth"
       ],
       "correctAnswer": "the study of the earth",
       "explanation": "-ology means “study of,” so geology means “the study of the earth.”"
     },
     {
-      "id": "E7Q048",
+      "id": "E7Q059",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3957,15 +5740,15 @@
       "question": "The affix mal- means “bad; badly.” What does the word malfunction mean?",
       "choices": [
         "to work quickly",
-        "to work badly",
+        "to stop working forever",
         "to work again",
-        "to stop working forever"
+        "to work badly"
       ],
       "correctAnswer": "to work badly",
       "explanation": "mal- means “bad; badly,” so malfunction means “to work badly.”"
     },
     {
-      "id": "E7Q049",
+      "id": "E7Q060",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3975,16 +5758,16 @@
       "itemType": "multiple_choice",
       "question": "The affix circum- means “around.” What does the word circumnavigate mean?",
       "choices": [
-        "to sail away",
-        "to sail under",
+        "to sail slowly",
         "to sail around",
-        "to sail slowly"
+        "to sail under",
+        "to sail away"
       ],
       "correctAnswer": "to sail around",
       "explanation": "circum- means “around,” so circumnavigate means “to sail around.”"
     },
     {
-      "id": "E7Q050",
+      "id": "E7Q061",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -3995,15 +5778,15 @@
       "question": "The affix bene- means “good; well.” What does the word benefit mean?",
       "choices": [
         "something harmful",
-        "something heavy",
         "something old",
+        "something heavy",
         "something good or helpful"
       ],
       "correctAnswer": "something good or helpful",
       "explanation": "bene- means “good; well,” so benefit means “something good or helpful.”"
     },
     {
-      "id": "E7Q051",
+      "id": "E7Q062",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4013,16 +5796,16 @@
       "itemType": "multiple_choice",
       "question": "The root port means “carry.” What does the word portable most likely mean?",
       "choices": [
-        "very large",
-        "able to be eaten",
         "able to be carried",
-        "made of metal"
+        "very large",
+        "made of metal",
+        "able to be eaten"
       ],
       "correctAnswer": "able to be carried",
       "explanation": "The root port (“carry”) helps show that portable means “able to be carried.”"
     },
     {
-      "id": "E7Q052",
+      "id": "E7Q063",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4032,8 +5815,8 @@
       "itemType": "multiple_choice",
       "question": "The root aud means “hear.” What does the word audible most likely mean?",
       "choices": [
-        "easy to touch",
         "hard to understand",
+        "easy to touch",
         "able to be seen",
         "able to be heard"
       ],
@@ -4041,7 +5824,7 @@
       "explanation": "The root aud (“hear”) helps show that audible means “able to be heard.”"
     },
     {
-      "id": "E7Q053",
+      "id": "E7Q064",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4051,16 +5834,16 @@
       "itemType": "multiple_choice",
       "question": "The root spect means “look.” What does the word spectator most likely mean?",
       "choices": [
-        "a person who plays in an event",
         "a person who watches an event",
-        "a person who repairs things",
-        "a person who cooks"
+        "a person who cooks",
+        "a person who plays in an event",
+        "a person who repairs things"
       ],
       "correctAnswer": "a person who watches an event",
       "explanation": "The root spect (“look”) helps show that spectator means “a person who watches an event.”"
     },
     {
-      "id": "E7Q054",
+      "id": "E7Q065",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4070,16 +5853,16 @@
       "itemType": "multiple_choice",
       "question": "The root bio means “life.” What does the word biology most likely mean?",
       "choices": [
-        "the study of living things",
-        "the study of rocks",
         "the study of stars",
-        "the study of numbers"
+        "the study of living things",
+        "the study of numbers",
+        "the study of rocks"
       ],
       "correctAnswer": "the study of living things",
       "explanation": "The root bio (“life”) helps show that biology means “the study of living things.”"
     },
     {
-      "id": "E7Q055",
+      "id": "E7Q066",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4089,16 +5872,16 @@
       "itemType": "multiple_choice",
       "question": "The root chron means “time.” What does the word chronological most likely mean?",
       "choices": [
-        "arranged at random",
         "arranged in time order",
-        "arranged by size",
-        "arranged by color"
+        "arranged by color",
+        "arranged at random",
+        "arranged by size"
       ],
       "correctAnswer": "arranged in time order",
       "explanation": "The root chron (“time”) helps show that chronological means “arranged in time order.”"
     },
     {
-      "id": "E7Q056",
+      "id": "E7Q067",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4108,16 +5891,16 @@
       "itemType": "multiple_choice",
       "question": "The root dict means “say; speak.” What does the word predict most likely mean?",
       "choices": [
-        "to say what will happen before it happens",
         "to repeat a word",
-        "to write a letter",
-        "to remember the past"
+        "to say what will happen before it happens",
+        "to remember the past",
+        "to write a letter"
       ],
       "correctAnswer": "to say what will happen before it happens",
       "explanation": "The root dict (“say; speak”) helps show that predict means “to say what will happen before it happens.”"
     },
     {
-      "id": "E7Q057",
+      "id": "E7Q068",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4127,16 +5910,16 @@
       "itemType": "multiple_choice",
       "question": "The root struct means “build.” What does the word construct most likely mean?",
       "choices": [
-        "to measure",
-        "to build",
         "to destroy",
+        "to build",
+        "to measure",
         "to draw"
       ],
       "correctAnswer": "to build",
       "explanation": "The root struct (“build”) helps show that construct means “to build.”"
     },
     {
-      "id": "E7Q058",
+      "id": "E7Q069",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4147,15 +5930,15 @@
       "question": "The root photo means “light.” What does the word photosynthesis most likely mean?",
       "choices": [
         "the process of taking pictures",
-        "the process plants use to make food from light",
         "the process of making water",
-        "the process of breathing"
+        "the process of breathing",
+        "the process plants use to make food from light"
       ],
       "correctAnswer": "the process plants use to make food from light",
       "explanation": "The root photo (“light”) helps show that photosynthesis means “the process plants use to make food from light.”"
     },
     {
-      "id": "E7Q059",
+      "id": "E7Q070",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4166,15 +5949,15 @@
       "question": "The root micro means “small.” What does the word microscopic most likely mean?",
       "choices": [
         "too small to see without a microscope",
-        "large enough to hold",
         "very bright",
-        "very loud"
+        "very loud",
+        "large enough to hold"
       ],
       "correctAnswer": "too small to see without a microscope",
       "explanation": "The root micro (“small”) helps show that microscopic means “too small to see without a microscope.”"
     },
     {
-      "id": "E7Q060",
+      "id": "E7Q071",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4184,16 +5967,16 @@
       "itemType": "multiple_choice",
       "question": "The root rupt means “break.” What does the word disrupt most likely mean?",
       "choices": [
+        "to build up",
         "to repeat",
         "to agree with",
-        "to break apart or interrupt",
-        "to build up"
+        "to break apart or interrupt"
       ],
       "correctAnswer": "to break apart or interrupt",
       "explanation": "The root rupt (“break”) helps show that disrupt means “to break apart or interrupt.”"
     },
     {
-      "id": "E7Q061",
+      "id": "E7Q072",
       "grade": 7,
       "subject": "ela",
       "standard": "L.7.4",
@@ -4203,9 +5986,9 @@
       "itemType": "multiple_choice",
       "question": "The root vers/vert means “turn.” What does the word reverse most likely mean?",
       "choices": [
-        "to look closely",
-        "to turn back or go the opposite way",
         "to stay still",
+        "to turn back or go the opposite way",
+        "to look closely",
         "to go faster"
       ],
       "correctAnswer": "to turn back or go the opposite way",

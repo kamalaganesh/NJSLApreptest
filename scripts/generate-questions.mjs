@@ -22,6 +22,16 @@ function pad(n) {
   return String(n).padStart(3, "0");
 }
 
+// Templates with a fixed stem (e.g. "Which comparison is true?") still vary by answer,
+// so dedupe on the stem plus the answer key rather than the stem alone.
+function variantKey(raw) {
+  if (raw.type === "multiple_select") {
+    const sorted = (values) => values.map(String).sort().join("|");
+    return `${raw.question}||${sorted(raw.correct)}||${sorted(raw.wrong)}`;
+  }
+  return `${raw.question}||${raw.answer}`;
+}
+
 function toItem(raw, base, rng) {
   if (raw.type === "multiple_choice") {
     const choices = buildChoices(raw.answer, raw.distractors, rng, { allowNegative: raw.allowNegative !== false });
@@ -65,7 +75,8 @@ export function generateMath(grade) {
     let made = 0;
     for (let attempt = 0; attempt < MAX_ATTEMPTS && made < VARIANTS_PER_TEMPLATE; attempt += 1) {
       const raw = make(rng);
-      if (seen.has(raw.question)) continue;
+      const key = variantKey(raw);
+      if (seen.has(key)) continue;
       const base = {
         id: `M${grade}Q${pad(questions.length + 1)}`,
         grade,
@@ -77,7 +88,7 @@ export function generateMath(grade) {
       };
       const item = toItem(raw, base, rng);
       if (!item) continue;
-      seen.add(raw.question);
+      seen.add(key);
       made += 1;
       questions.push(item);
     }

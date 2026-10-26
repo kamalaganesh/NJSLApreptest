@@ -30,6 +30,12 @@
       "title": "The Old Oak (a poem)",
       "genre": "literary",
       "text": "I stood here when the road was dirt,\nWhen wagons creaked and horses snorted,\nI watched the town grow brick by brick,\nAnd every storm, my branches sorted.\n\nThe children climbed my knotted arms,\nThey carved their names, they swung from rope,\nAnd when they left for distant towns,\nI held their laughter, held their hope.\n\nNow cars rush by in shining lines,\nAnd towers rise where fields once lay,\nBut every spring I still unfold\nMy thousand leaves to greet the day.\n\nSo if you pass beneath my shade,\nRemember those who came before—\nI keep their stories in my rings,\nAnd I will keep a hundred more."
+    },
+    {
+      "id": "P56-PINES",
+      "title": "The Pine Barrens: New Jersey's Hidden Forest",
+      "genre": "informational",
+      "text": "Many people picture New Jersey as a state of busy highways and crowded cities. Yet in the southern part of the state lies a forest of more than one million acres. It is called the Pine Barrens, and it is one of the largest wild areas on the East Coast.\n\nEarly European settlers gave the forest its name. They tried to grow crops in the sandy soil, but the soil was too dry and poor in nutrients. To them, the land seemed \"barren,\" or unable to produce much. They were wrong about one thing, though: the Pine Barrens is full of life.\n\nPitch pines and oaks grow across the region. These trees have adapted to frequent wildfires. Pitch pines have thick bark that protects them from heat, and some of their cones open only after a fire. The fires clear away brush and make room for new seedlings. Without fire, the forest would slowly change into a different kind of forest.\n\nBeneath the sandy soil lies an enormous supply of fresh water, called an aquifer. Scientists estimate that it holds about seventeen trillion gallons. Rain soaks quickly through the sand and fills the aquifer. Streams fed by this water are stained the color of tea by minerals and fallen leaves.\n\nThe Pine Barrens is also home to rare plants and animals. Carnivorous plants, such as pitcher plants and sundews, trap insects to get the nutrients the soil lacks. The Pine Barrens tree frog, a bright green frog with lavender stripes, lives in the region's wetlands.\n\nIn 1978, the United States government made the area the first National Reserve in the country. Today, laws limit building in the most sensitive areas. Supporters say these protections keep the water clean for millions of people. Some landowners argue that the rules make it hard to use their own property. Both sides agree, however, that the Pine Barrens is a place worth understanding."
     }
   ],
   "questions": [
@@ -3116,6 +3122,1784 @@
       "explanation": "A statistical question expects variability in the answers."
     },
     {
+      "id": "M6Q206",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "How tall is the school flagpole?",
+        "What is my teacher's name?",
+        "What are the daily high temperatures in June?",
+        "How tall are the sunflowers in the community garden?"
+      ],
+      "correctAnswers": [
+        "What are the daily high temperatures in June?",
+        "How tall are the sunflowers in the community garden?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q207",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "How tall are the sunflowers in the community garden?",
+        "How tall is the school flagpole?",
+        "What are the daily high temperatures in June?",
+        "How many days are in a week?"
+      ],
+      "correctAnswers": [
+        "How tall are the sunflowers in the community garden?",
+        "What are the daily high temperatures in June?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q208",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "What is my teacher's name?",
+        "How tall is the school flagpole?",
+        "How tall are the sunflowers in the community garden?",
+        "How many pets do families on my street have?"
+      ],
+      "correctAnswers": [
+        "How many pets do families on my street have?",
+        "How tall are the sunflowers in the community garden?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q209",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "What is my teacher's name?",
+        "How tall is the school flagpole?",
+        "How many hours do students in my class sleep on school nights?",
+        "What are the daily high temperatures in June?"
+      ],
+      "correctAnswers": [
+        "What are the daily high temperatures in June?",
+        "How many hours do students in my class sleep on school nights?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q210",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "How many hours do students in my class sleep on school nights?",
+        "How many days are in a week?",
+        "How many pets do families on my street have?",
+        "How many states are in the United States?"
+      ],
+      "correctAnswers": [
+        "How many pets do families on my street have?",
+        "How many hours do students in my class sleep on school nights?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q211",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "What is my teacher's name?",
+        "How many states are in the United States?",
+        "How tall are the sunflowers in the community garden?",
+        "How many hours do students in my class sleep on school nights?"
+      ],
+      "correctAnswers": [
+        "How tall are the sunflowers in the community garden?",
+        "How many hours do students in my class sleep on school nights?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q212",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "How many days are in a week?",
+        "How tall is the school flagpole?",
+        "How many pets do families on my street have?",
+        "How tall are the sunflowers in the community garden?"
+      ],
+      "correctAnswers": [
+        "How many pets do families on my street have?",
+        "How tall are the sunflowers in the community garden?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q213",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "What is my teacher's name?",
+        "How many pets do families on my street have?",
+        "What are the daily high temperatures in June?",
+        "How many states are in the United States?"
+      ],
+      "correctAnswers": [
+        "How many pets do families on my street have?",
+        "What are the daily high temperatures in June?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q214",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "What is my teacher's name?",
+        "How many hours do students in my class sleep on school nights?",
+        "How tall is the school flagpole?",
+        "How tall are the sunflowers in the community garden?"
+      ],
+      "correctAnswers": [
+        "How tall are the sunflowers in the community garden?",
+        "How many hours do students in my class sleep on school nights?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q215",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "What is my teacher's name?",
+        "How tall are the sunflowers in the community garden?",
+        "How many states are in the United States?",
+        "How many pets do families on my street have?"
+      ],
+      "correctAnswers": [
+        "How tall are the sunflowers in the community garden?",
+        "How many pets do families on my street have?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q216",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.1",
+      "domain": "Statistics and Probability",
+      "skill": "Recognize statistical questions.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_select",
+      "question": "Select all of the statistical questions.",
+      "choices": [
+        "How many pets do families on my street have?",
+        "How tall is the school flagpole?",
+        "What are the daily high temperatures in June?",
+        "How many days are in a week?"
+      ],
+      "correctAnswers": [
+        "How many pets do families on my street have?",
+        "What are the daily high temperatures in June?"
+      ],
+      "explanation": "A statistical question expects variability in the answers."
+    },
+    {
+      "id": "M6Q217",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a depth of 13 feet below sea level?",
+      "choices": [
+        "-23",
+        "-13",
+        "0",
+        "13"
+      ],
+      "correctAnswer": "-13",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -13."
+    },
+    {
+      "id": "M6Q218",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a temperature of 59 degrees below zero?",
+      "choices": [
+        "0",
+        "-69",
+        "59",
+        "-59"
+      ],
+      "correctAnswer": "-59",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -59."
+    },
+    {
+      "id": "M6Q219",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a temperature of 60 degrees below zero?",
+      "choices": [
+        "-60",
+        "0",
+        "-70",
+        "60"
+      ],
+      "correctAnswer": "-60",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -60."
+    },
+    {
+      "id": "M6Q220",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents an elevation of 23 feet above sea level?",
+      "choices": [
+        "0",
+        "33",
+        "23",
+        "-23"
+      ],
+      "correctAnswer": "23",
+      "explanation": "Gains, deposits, and heights above sea level are positive, so the integer is 23."
+    },
+    {
+      "id": "M6Q221",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents an elevation of 25 feet above sea level?",
+      "choices": [
+        "0",
+        "25",
+        "35",
+        "-25"
+      ],
+      "correctAnswer": "25",
+      "explanation": "Gains, deposits, and heights above sea level are positive, so the integer is 25."
+    },
+    {
+      "id": "M6Q222",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a withdrawal of $46 from a bank account?",
+      "choices": [
+        "-46",
+        "-56",
+        "0",
+        "46"
+      ],
+      "correctAnswer": "-46",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -46."
+    },
+    {
+      "id": "M6Q223",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a temperature of 53 degrees below zero?",
+      "choices": [
+        "53",
+        "-53",
+        "0",
+        "-63"
+      ],
+      "correctAnswer": "-53",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -53."
+    },
+    {
+      "id": "M6Q224",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a deposit of $5 into a bank account?",
+      "choices": [
+        "15",
+        "0",
+        "-5",
+        "5"
+      ],
+      "correctAnswer": "5",
+      "explanation": "Gains, deposits, and heights above sea level are positive, so the integer is 5."
+    },
+    {
+      "id": "M6Q225",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a withdrawal of $55 from a bank account?",
+      "choices": [
+        "0",
+        "-55",
+        "55",
+        "-65"
+      ],
+      "correctAnswer": "-55",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -55."
+    },
+    {
+      "id": "M6Q226",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a withdrawal of $4 from a bank account?",
+      "choices": [
+        "-4",
+        "-14",
+        "0",
+        "4"
+      ],
+      "correctAnswer": "-4",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -4."
+    },
+    {
+      "id": "M6Q227",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a temperature of 44 degrees below zero?",
+      "choices": [
+        "0",
+        "-44",
+        "44",
+        "-54"
+      ],
+      "correctAnswer": "-44",
+      "explanation": "Below zero, below sea level, withdrawals, and losses are negative, so the integer is -44."
+    },
+    {
+      "id": "M6Q228",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.5",
+      "domain": "The Number System",
+      "skill": "Use positive and negative numbers to represent real-world quantities.",
+      "difficulty": "foundational",
+      "itemType": "multiple_choice",
+      "question": "Which integer represents a gain of 11 yards in a football game?",
+      "choices": [
+        "0",
+        "-11",
+        "21",
+        "11"
+      ],
+      "correctAnswer": "11",
+      "explanation": "Gains, deposits, and heights above sea level are positive, so the integer is 11."
+    },
+    {
+      "id": "M6Q229",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-4, -3). It is reflected across the x-axis and then the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-3, -4)",
+        "(-4, 3)",
+        "(4, -3)",
+        "(4, 3)"
+      ],
+      "correctAnswer": "(4, 3)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q230",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (5, -6). It is reflected across the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-5, -6)",
+        "(-6, 5)",
+        "(-5, 6)",
+        "(5, 6)"
+      ],
+      "correctAnswer": "(-5, -6)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q231",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-8, -5). It is reflected across the x-axis and then the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-5, -8)",
+        "(8, -5)",
+        "(-8, 5)",
+        "(8, 5)"
+      ],
+      "correctAnswer": "(8, 5)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q232",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-9, -1). It is reflected across the x-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(9, -1)",
+        "(-1, -9)",
+        "(9, 1)",
+        "(-9, 1)"
+      ],
+      "correctAnswer": "(-9, 1)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q233",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (2, 5). It is reflected across the x-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(2, -5)",
+        "(-2, -5)",
+        "(-2, 5)",
+        "(5, 2)"
+      ],
+      "correctAnswer": "(2, -5)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q234",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-7, 1). It is reflected across the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(7, -1)",
+        "(-7, -1)",
+        "(1, -7)",
+        "(7, 1)"
+      ],
+      "correctAnswer": "(7, 1)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q235",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-4, -8). It is reflected across the x-axis and then the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-8, -4)",
+        "(-4, 8)",
+        "(4, -8)",
+        "(4, 8)"
+      ],
+      "correctAnswer": "(4, 8)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q236",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-9, 6). It is reflected across the x-axis and then the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(9, 6)",
+        "(6, -9)",
+        "(-9, -6)",
+        "(9, -6)"
+      ],
+      "correctAnswer": "(9, -6)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q237",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (5, -6). It is reflected across the x-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-6, 5)",
+        "(5, 6)",
+        "(-5, 6)",
+        "(-5, -6)"
+      ],
+      "correctAnswer": "(5, 6)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q238",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (4, 6). It is reflected across the x-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(6, 4)",
+        "(-4, 6)",
+        "(4, -6)",
+        "(-4, -6)"
+      ],
+      "correctAnswer": "(4, -6)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q239",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (1, -5). It is reflected across the x-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-1, -5)",
+        "(-5, 1)",
+        "(1, 5)",
+        "(-1, 5)"
+      ],
+      "correctAnswer": "(1, 5)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q240",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.NS.C.6",
+      "domain": "The Number System",
+      "skill": "Reflect points across the axes of the coordinate plane.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Point P is at (-6, 8). It is reflected across the y-axis. What are the coordinates of the new point?",
+      "choices": [
+        "(-6, -8)",
+        "(6, 8)",
+        "(8, -6)",
+        "(6, -8)"
+      ],
+      "correctAnswer": "(6, 8)",
+      "explanation": "Reflecting across the x-axis changes the sign of the y-coordinate; reflecting across the y-axis changes the sign of the x-coordinate."
+    },
+    {
+      "id": "M6Q241",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Ava's brother is b years old. Ava is 6 years older than the brother. Which expression shows Ava's age?",
+      "choices": [
+        "6b",
+        "b - 6",
+        "6 - b",
+        "b + 6"
+      ],
+      "correctAnswer": "b + 6",
+      "explanation": "\"6 years older\" means add 6 to the brother's age: b + 6."
+    },
+    {
+      "id": "M6Q242",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Malik's brother is b years old. Malik is 12 years older than the brother. Which expression shows Malik's age?",
+      "choices": [
+        "12 - b",
+        "b + 12",
+        "12b",
+        "b - 12"
+      ],
+      "correctAnswer": "b + 12",
+      "explanation": "\"12 years older\" means add 12 to the brother's age: b + 12."
+    },
+    {
+      "id": "M6Q243",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Each ticket to the science museum costs $4. Which expression shows the cost, in dollars, of t tickets?",
+      "choices": [
+        "t ÷ 4",
+        "t + 4",
+        "4t",
+        "4 - t"
+      ],
+      "correctAnswer": "4t",
+      "explanation": "Each of the t tickets costs $4, so the cost is 4 × t = 4t."
+    },
+    {
+      "id": "M6Q244",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A ribbon 25 inches long is cut into p pieces of equal length. Which expression shows the length of each piece, in inches?",
+      "choices": [
+        "25 + p",
+        "p - 25",
+        "25p",
+        "25 ÷ p"
+      ],
+      "correctAnswer": "25 ÷ p",
+      "explanation": "Dividing 25 inches into p equal pieces gives 25 ÷ p inches per piece."
+    },
+    {
+      "id": "M6Q245",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Ravi's brother is b years old. Ravi is 12 years older than the brother. Which expression shows Ravi's age?",
+      "choices": [
+        "b - 12",
+        "b + 12",
+        "12b",
+        "12 - b"
+      ],
+      "correctAnswer": "b + 12",
+      "explanation": "\"12 years older\" means add 12 to the brother's age: b + 12."
+    },
+    {
+      "id": "M6Q246",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A ribbon 36 inches long is cut into p pieces of equal length. Which expression shows the length of each piece, in inches?",
+      "choices": [
+        "p - 36",
+        "36 + p",
+        "36p",
+        "36 ÷ p"
+      ],
+      "correctAnswer": "36 ÷ p",
+      "explanation": "Dividing 36 inches into p equal pieces gives 36 ÷ p inches per piece."
+    },
+    {
+      "id": "M6Q247",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Diego's brother is b years old. Diego is 10 years older than the brother. Which expression shows Diego's age?",
+      "choices": [
+        "10b",
+        "10 - b",
+        "b + 10",
+        "b - 10"
+      ],
+      "correctAnswer": "b + 10",
+      "explanation": "\"10 years older\" means add 10 to the brother's age: b + 10."
+    },
+    {
+      "id": "M6Q248",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A ribbon 44 inches long is cut into p pieces of equal length. Which expression shows the length of each piece, in inches?",
+      "choices": [
+        "44 ÷ p",
+        "44p",
+        "44 + p",
+        "p - 44"
+      ],
+      "correctAnswer": "44 ÷ p",
+      "explanation": "Dividing 44 inches into p equal pieces gives 44 ÷ p inches per piece."
+    },
+    {
+      "id": "M6Q249",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Kofi's brother is b years old. Kofi is 9 years older than the brother. Which expression shows Kofi's age?",
+      "choices": [
+        "b - 9",
+        "9 - b",
+        "b + 9",
+        "9b"
+      ],
+      "correctAnswer": "b + 9",
+      "explanation": "\"9 years older\" means add 9 to the brother's age: b + 9."
+    },
+    {
+      "id": "M6Q250",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Lena's brother is b years old. Lena is 2 years older than the brother. Which expression shows Lena's age?",
+      "choices": [
+        "b + 2",
+        "2b",
+        "2 - b",
+        "b - 2"
+      ],
+      "correctAnswer": "b + 2",
+      "explanation": "\"2 years older\" means add 2 to the brother's age: b + 2."
+    },
+    {
+      "id": "M6Q251",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Each ticket to the science museum costs $10. Which expression shows the cost, in dollars, of t tickets?",
+      "choices": [
+        "t + 10",
+        "10 - t",
+        "10t",
+        "t ÷ 10"
+      ],
+      "correctAnswer": "10t",
+      "explanation": "Each of the t tickets costs $10, so the cost is 10 × t = 10t."
+    },
+    {
+      "id": "M6Q252",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.B.6",
+      "domain": "Expressions and Equations",
+      "skill": "Use variables to write expressions for real-world problems.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Ava's brother is b years old. Ava is 9 years older than the brother. Which expression shows Ava's age?",
+      "choices": [
+        "9b",
+        "9 - b",
+        "b - 9",
+        "b + 9"
+      ],
+      "correctAnswer": "b + 9",
+      "explanation": "\"9 years older\" means add 9 to the brother's age: b + 9."
+    },
+    {
+      "id": "M6Q253",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Apples cost $15 per pound. Which equation represents the relationship, where c is the cost in dollars and p is the number of pounds?",
+      "choices": [
+        "c = 15 ÷ p",
+        "p = 15c",
+        "c = 15p",
+        "c = p + 15"
+      ],
+      "correctAnswer": "c = 15p",
+      "explanation": "c depends on p: each unit of p adds 15, so c = 15p."
+    },
+    {
+      "id": "M6Q254",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A printer prints 7 pages per minute. Which equation represents the relationship, where g is the number of pages and m is the number of minutes?",
+      "choices": [
+        "g = 7m",
+        "m = 7g",
+        "g = 7 ÷ m",
+        "g = m + 7"
+      ],
+      "correctAnswer": "g = 7m",
+      "explanation": "g depends on m: each unit of m adds 7, so g = 7m."
+    },
+    {
+      "id": "M6Q255",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A car travels at a constant speed of 52 miles per hour. Which equation represents the relationship, where d is the distance in miles and t is the time in hours?",
+      "choices": [
+        "d = 52 ÷ t",
+        "d = 52t",
+        "t = 52d",
+        "d = t + 52"
+      ],
+      "correctAnswer": "d = 52t",
+      "explanation": "d depends on t: each unit of t adds 52, so d = 52t."
+    },
+    {
+      "id": "M6Q256",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A car travels at a constant speed of 36 miles per hour. Which equation represents the relationship, where d is the distance in miles and t is the time in hours?",
+      "choices": [
+        "d = 36t",
+        "t = 36d",
+        "d = t + 36",
+        "d = 36 ÷ t"
+      ],
+      "correctAnswer": "d = 36t",
+      "explanation": "d depends on t: each unit of t adds 36, so d = 36t."
+    },
+    {
+      "id": "M6Q257",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Apples cost $3 per pound. Which equation represents the relationship, where c is the cost in dollars and p is the number of pounds?",
+      "choices": [
+        "c = 3 ÷ p",
+        "c = 3p",
+        "c = p + 3",
+        "p = 3c"
+      ],
+      "correctAnswer": "c = 3p",
+      "explanation": "c depends on p: each unit of p adds 3, so c = 3p."
+    },
+    {
+      "id": "M6Q258",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A printer prints 43 pages per minute. Which equation represents the relationship, where g is the number of pages and m is the number of minutes?",
+      "choices": [
+        "g = 43m",
+        "g = m + 43",
+        "g = 43 ÷ m",
+        "m = 43g"
+      ],
+      "correctAnswer": "g = 43m",
+      "explanation": "g depends on m: each unit of m adds 43, so g = 43m."
+    },
+    {
+      "id": "M6Q259",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A student earns $52 per hour walking dogs. Which equation represents the relationship, where e is the earnings in dollars and h is the number of hours?",
+      "choices": [
+        "e = 52 ÷ h",
+        "h = 52e",
+        "e = 52h",
+        "e = h + 52"
+      ],
+      "correctAnswer": "e = 52h",
+      "explanation": "e depends on h: each unit of h adds 52, so e = 52h."
+    },
+    {
+      "id": "M6Q260",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A car travels at a constant speed of 55 miles per hour. Which equation represents the relationship, where d is the distance in miles and t is the time in hours?",
+      "choices": [
+        "d = 55 ÷ t",
+        "d = t + 55",
+        "t = 55d",
+        "d = 55t"
+      ],
+      "correctAnswer": "d = 55t",
+      "explanation": "d depends on t: each unit of t adds 55, so d = 55t."
+    },
+    {
+      "id": "M6Q261",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A printer prints 50 pages per minute. Which equation represents the relationship, where g is the number of pages and m is the number of minutes?",
+      "choices": [
+        "g = 50m",
+        "g = m + 50",
+        "g = 50 ÷ m",
+        "m = 50g"
+      ],
+      "correctAnswer": "g = 50m",
+      "explanation": "g depends on m: each unit of m adds 50, so g = 50m."
+    },
+    {
+      "id": "M6Q262",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A printer prints 58 pages per minute. Which equation represents the relationship, where g is the number of pages and m is the number of minutes?",
+      "choices": [
+        "g = m + 58",
+        "g = 58 ÷ m",
+        "m = 58g",
+        "g = 58m"
+      ],
+      "correctAnswer": "g = 58m",
+      "explanation": "g depends on m: each unit of m adds 58, so g = 58m."
+    },
+    {
+      "id": "M6Q263",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A car travels at a constant speed of 64 miles per hour. Which equation represents the relationship, where d is the distance in miles and t is the time in hours?",
+      "choices": [
+        "d = 64t",
+        "d = 64 ÷ t",
+        "t = 64d",
+        "d = t + 64"
+      ],
+      "correctAnswer": "d = 64t",
+      "explanation": "d depends on t: each unit of t adds 64, so d = 64t."
+    },
+    {
+      "id": "M6Q264",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.EE.C.9",
+      "domain": "Expressions and Equations",
+      "skill": "Represent the relationship between dependent and independent variables.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "A car travels at a constant speed of 16 miles per hour. Which equation represents the relationship, where d is the distance in miles and t is the time in hours?",
+      "choices": [
+        "t = 16d",
+        "d = 16 ÷ t",
+        "d = t + 16",
+        "d = 16t"
+      ],
+      "correctAnswer": "d = 16t",
+      "explanation": "d depends on t: each unit of t adds 16, so d = 16t."
+    },
+    {
+      "id": "M6Q265",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 8.5 cm long, 2.5 cm wide, and 4 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 85,
+      "explanation": "V = l × w × h = 8.5 × 2.5 × 4 = 85 cubic centimeters."
+    },
+    {
+      "id": "M6Q266",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 3.5 cm long, 5 cm wide, and 2 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 35,
+      "explanation": "V = l × w × h = 3.5 × 5 × 2 = 35 cubic centimeters."
+    },
+    {
+      "id": "M6Q267",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 4.5 cm long, 1.5 cm wide, and 4 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 27,
+      "explanation": "V = l × w × h = 4.5 × 1.5 × 4 = 27 cubic centimeters."
+    },
+    {
+      "id": "M6Q268",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 7.5 cm long, 3 cm wide, and 4 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 90,
+      "explanation": "V = l × w × h = 7.5 × 3 × 4 = 90 cubic centimeters."
+    },
+    {
+      "id": "M6Q269",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 3.5 cm long, 5.5 cm wide, and 3 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 57.75,
+      "explanation": "V = l × w × h = 3.5 × 5.5 × 3 = 57.75 cubic centimeters."
+    },
+    {
+      "id": "M6Q270",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 3.5 cm long, 6.5 cm wide, and 4 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 91,
+      "explanation": "V = l × w × h = 3.5 × 6.5 × 4 = 91 cubic centimeters."
+    },
+    {
+      "id": "M6Q271",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 4.5 cm long, 1.5 cm wide, and 5 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 33.75,
+      "explanation": "V = l × w × h = 4.5 × 1.5 × 5 = 33.75 cubic centimeters."
+    },
+    {
+      "id": "M6Q272",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 5.5 cm long, 6 cm wide, and 4 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 132,
+      "explanation": "V = l × w × h = 5.5 × 6 × 4 = 132 cubic centimeters."
+    },
+    {
+      "id": "M6Q273",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 7.5 cm long, 6 cm wide, and 6 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 270,
+      "explanation": "V = l × w × h = 7.5 × 6 × 6 = 270 cubic centimeters."
+    },
+    {
+      "id": "M6Q274",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 6.5 cm long, 3 cm wide, and 6 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 117,
+      "explanation": "V = l × w × h = 6.5 × 3 × 6 = 117 cubic centimeters."
+    },
+    {
+      "id": "M6Q275",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 8.5 cm long, 6.5 cm wide, and 6 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 331.5,
+      "explanation": "V = l × w × h = 8.5 × 6.5 × 6 = 331.5 cubic centimeters."
+    },
+    {
+      "id": "M6Q276",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.2",
+      "domain": "Geometry",
+      "skill": "Find the volume of right rectangular prisms with fractional edge lengths.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "A rectangular prism is 2.5 cm long, 2 cm wide, and 2 cm tall. What is its volume, in cubic centimeters?",
+      "correctAnswer": 10,
+      "explanation": "V = l × w × h = 2.5 × 2 × 2 = 10 cubic centimeters."
+    },
+    {
+      "id": "M6Q277",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-6, -5), (5, -5), (5, 0), and (-6, 0). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 32,
+      "explanation": "The width is 5 - (-6) = 11 and the height is 0 - (-5) = 5. Perimeter = 2 × (11 + 5) = 32."
+    },
+    {
+      "id": "M6Q278",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-7, -1), (7, -1), (7, 2), and (-7, 2). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 34,
+      "explanation": "The width is 7 - (-7) = 14 and the height is 2 - (-1) = 3. Perimeter = 2 × (14 + 3) = 34."
+    },
+    {
+      "id": "M6Q279",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-7, -2), (6, -2), (6, 2), and (-7, 2). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 34,
+      "explanation": "The width is 6 - (-7) = 13 and the height is 2 - (-2) = 4. Perimeter = 2 × (13 + 4) = 34."
+    },
+    {
+      "id": "M6Q280",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-2, 0), (6, 0), (6, 6), and (-2, 6). What is the area of the rectangle, in square units?",
+      "correctAnswer": 48,
+      "explanation": "The width is 6 - (-2) = 8 and the height is 6 - (0) = 6. Area = 8 × 6 = 48."
+    },
+    {
+      "id": "M6Q281",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-7, -4), (5, -4), (5, -1), and (-7, -1). What is the area of the rectangle, in square units?",
+      "correctAnswer": 36,
+      "explanation": "The width is 5 - (-7) = 12 and the height is -1 - (-4) = 3. Area = 12 × 3 = 36."
+    },
+    {
+      "id": "M6Q282",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-3, -1), (7, -1), (7, 6), and (-3, 6). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 34,
+      "explanation": "The width is 7 - (-3) = 10 and the height is 6 - (-1) = 7. Perimeter = 2 × (10 + 7) = 34."
+    },
+    {
+      "id": "M6Q283",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-5, -6), (2, -6), (2, 1), and (-5, 1). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 28,
+      "explanation": "The width is 2 - (-5) = 7 and the height is 1 - (-6) = 7. Perimeter = 2 × (7 + 7) = 28."
+    },
+    {
+      "id": "M6Q284",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-5, -2), (3, -2), (3, 1), and (-5, 1). What is the area of the rectangle, in square units?",
+      "correctAnswer": 24,
+      "explanation": "The width is 3 - (-5) = 8 and the height is 1 - (-2) = 3. Area = 8 × 3 = 24."
+    },
+    {
+      "id": "M6Q285",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-2, -4), (5, -4), (5, -1), and (-2, -1). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 20,
+      "explanation": "The width is 5 - (-2) = 7 and the height is -1 - (-4) = 3. Perimeter = 2 × (7 + 3) = 20."
+    },
+    {
+      "id": "M6Q286",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-7, -1), (1, -1), (1, 7), and (-7, 7). What is the area of the rectangle, in square units?",
+      "correctAnswer": 64,
+      "explanation": "The width is 1 - (-7) = 8 and the height is 7 - (-1) = 8. Area = 8 × 8 = 64."
+    },
+    {
+      "id": "M6Q287",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-3, -2), (2, -2), (2, 5), and (-3, 5). What is the perimeter of the rectangle, in units?",
+      "correctAnswer": 24,
+      "explanation": "The width is 2 - (-3) = 5 and the height is 5 - (-2) = 7. Perimeter = 2 × (5 + 7) = 24."
+    },
+    {
+      "id": "M6Q288",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.G.A.3",
+      "domain": "Geometry",
+      "skill": "Use coordinates to find side lengths of polygons.",
+      "difficulty": "on-grade",
+      "itemType": "numeric_entry",
+      "question": "A rectangle has vertices at (-1, -2), (5, -2), (5, 2), and (-1, 2). What is the area of the rectangle, in square units?",
+      "correctAnswer": 24,
+      "explanation": "The width is 5 - (-1) = 6 and the height is 2 - (-2) = 4. Area = 6 × 4 = 24."
+    },
+    {
+      "id": "M6Q289",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes students read on several days was: 35, 6, 30, 36, 39, 19, 21. What is the range of the data?",
+      "correctAnswer": 33,
+      "explanation": "Range = greatest - least = 39 - 6 = 33."
+    },
+    {
+      "id": "M6Q290",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a team practiced on several days was: 5, 38, 40, 9, 46, 4. What is the range of the data?",
+      "correctAnswer": 42,
+      "explanation": "Range = greatest - least = 46 - 4 = 42."
+    },
+    {
+      "id": "M6Q291",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 45, 27, 34, 34, 57, 7, 46. What is the range of the data?",
+      "correctAnswer": 50,
+      "explanation": "Range = greatest - least = 57 - 7 = 50."
+    },
+    {
+      "id": "M6Q292",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 36, 45, 42, 4, 11, 26. What is the range of the data?",
+      "correctAnswer": 41,
+      "explanation": "Range = greatest - least = 45 - 4 = 41."
+    },
+    {
+      "id": "M6Q293",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes students read on several days was: 5, 35, 60, 9, 35, 30, 52, 4. What is the range of the data?",
+      "correctAnswer": 56,
+      "explanation": "Range = greatest - least = 60 - 4 = 56."
+    },
+    {
+      "id": "M6Q294",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 40, 23, 13, 55, 37, 45. What is the range of the data?",
+      "correctAnswer": 42,
+      "explanation": "Range = greatest - least = 55 - 13 = 42."
+    },
+    {
+      "id": "M6Q295",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 26, 43, 39, 16, 39, 48, 31, 57. What is the range of the data?",
+      "correctAnswer": 41,
+      "explanation": "Range = greatest - least = 57 - 16 = 41."
+    },
+    {
+      "id": "M6Q296",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes students read on several days was: 58, 23, 27, 22, 42, 7, 7. What is the range of the data?",
+      "correctAnswer": 51,
+      "explanation": "Range = greatest - least = 58 - 7 = 51."
+    },
+    {
+      "id": "M6Q297",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 28, 47, 57, 6, 44, 44, 59, 52. What is the range of the data?",
+      "correctAnswer": 53,
+      "explanation": "Range = greatest - least = 59 - 6 = 53."
+    },
+    {
+      "id": "M6Q298",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 11, 39, 41, 16, 15, 55, 54, 40. What is the range of the data?",
+      "correctAnswer": 44,
+      "explanation": "Range = greatest - least = 55 - 11 = 44."
+    },
+    {
+      "id": "M6Q299",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes students read on several days was: 19, 25, 46, 29, 52, 57, 31. What is the range of the data?",
+      "correctAnswer": 38,
+      "explanation": "Range = greatest - least = 57 - 19 = 38."
+    },
+    {
+      "id": "M6Q300",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.A.3",
+      "domain": "Statistics and Probability",
+      "skill": "Describe the variation in a data set using the range.",
+      "difficulty": "foundational",
+      "itemType": "numeric_entry",
+      "question": "The number of minutes a class spent outside on several days was: 54, 16, 10, 17, 10, 9, 22. What is the range of the data?",
+      "correctAnswer": 45,
+      "explanation": "Range = greatest - least = 54 - 9 = 45."
+    },
+    {
+      "id": "M6Q301",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 2, 3, 2, 9. Its mean is 4. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 2.5,
+      "explanation": "The distances from the mean are 2, 1, 2, 5. Their mean is 10 ÷ 4 = 2.5."
+    },
+    {
+      "id": "M6Q302",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 11, 18, 5, 18. Its mean is 13. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 5,
+      "explanation": "The distances from the mean are 2, 5, 8, 5. Their mean is 20 ÷ 4 = 5."
+    },
+    {
+      "id": "M6Q303",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 20, 17, 11, 16. Its mean is 16. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 2.5,
+      "explanation": "The distances from the mean are 4, 1, 5, 0. Their mean is 10 ÷ 4 = 2.5."
+    },
+    {
+      "id": "M6Q304",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 3, 2, 9, 18. Its mean is 8. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 5.5,
+      "explanation": "The distances from the mean are 5, 6, 1, 10. Their mean is 22 ÷ 4 = 5.5."
+    },
+    {
+      "id": "M6Q305",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 4, 5, 17, 14. Its mean is 10. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 5.5,
+      "explanation": "The distances from the mean are 6, 5, 7, 4. Their mean is 22 ÷ 4 = 5.5."
+    },
+    {
+      "id": "M6Q306",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 7, 16, 13, 20. Its mean is 14. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 4,
+      "explanation": "The distances from the mean are 7, 2, 1, 6. Their mean is 16 ÷ 4 = 4."
+    },
+    {
+      "id": "M6Q307",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 7, 8, 17, 16. Its mean is 12. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 4.5,
+      "explanation": "The distances from the mean are 5, 4, 5, 4. Their mean is 18 ÷ 4 = 4.5."
+    },
+    {
+      "id": "M6Q308",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 19, 12, 7, 6. Its mean is 11. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 4.5,
+      "explanation": "The distances from the mean are 8, 1, 4, 5. Their mean is 18 ÷ 4 = 4.5."
+    },
+    {
+      "id": "M6Q309",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 14, 5, 12, 13. Its mean is 11. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 3,
+      "explanation": "The distances from the mean are 3, 6, 1, 2. Their mean is 12 ÷ 4 = 3."
+    },
+    {
+      "id": "M6Q310",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 10, 7, 9, 6. Its mean is 8. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 1.5,
+      "explanation": "The distances from the mean are 2, 1, 1, 2. Their mean is 6 ÷ 4 = 1.5."
+    },
+    {
+      "id": "M6Q311",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 3, 2, 4, 19. Its mean is 7. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 6,
+      "explanation": "The distances from the mean are 4, 5, 3, 12. Their mean is 24 ÷ 4 = 6."
+    },
+    {
+      "id": "M6Q312",
+      "grade": 6,
+      "subject": "math",
+      "standard": "6.SP.B.5",
+      "domain": "Statistics and Probability",
+      "skill": "Find the mean absolute deviation of a data set.",
+      "difficulty": "advanced",
+      "itemType": "numeric_entry",
+      "question": "The data set is 17, 3, 4, 20. Its mean is 11. What is the mean absolute deviation (MAD)?",
+      "correctAnswer": 7.5,
+      "explanation": "The distances from the mean are 6, 8, 7, 9. Their mean is 30 ÷ 4 = 7.5."
+    },
+    {
       "id": "E6Q001",
       "grade": 6,
       "subject": "ela",
@@ -3806,6 +5590,153 @@
       "id": "E6Q029",
       "grade": 6,
       "subject": "ela",
+      "standard": "RI.6.2",
+      "domain": "Reading Informational Text",
+      "skill": "Determine two or more main ideas of a text and explain how they are supported by key details.",
+      "difficulty": "on-grade",
+      "passageId": "P56-PINES",
+      "itemType": "multiple_select",
+      "question": "Select two main ideas of the passage.",
+      "choices": [
+        "The Pine Barrens is the only forest in New Jersey.",
+        "The Pine Barrens is full of plants and animals adapted to its conditions.",
+        "Wildfires have destroyed most of the Pine Barrens.",
+        "Early settlers grew many crops in the Pine Barrens.",
+        "The Pine Barrens holds a large supply of fresh water that is now protected."
+      ],
+      "correctAnswers": [
+        "The Pine Barrens is full of plants and animals adapted to its conditions.",
+        "The Pine Barrens holds a large supply of fresh water that is now protected."
+      ],
+      "explanation": "The passage describes the forest's adapted life and its huge aquifer, which laws now protect."
+    },
+    {
+      "id": "E6Q030",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "RI.6.3",
+      "domain": "Reading Informational Text",
+      "skill": "Explain the relationships between ideas in a scientific text.",
+      "difficulty": "on-grade",
+      "passageId": "P56-PINES",
+      "itemType": "evidence_based",
+      "question": "This question has two parts. Answer Part A, then answer Part B.",
+      "parts": [
+        {
+          "label": "Part A",
+          "question": "Part A: According to the passage, how do wildfires affect the Pine Barrens?",
+          "choices": [
+            "They cause the streams to turn the color of tea.",
+            "They destroy the aquifer beneath the forest.",
+            "They help the forest by clearing brush and allowing new pines to grow.",
+            "They kill all of the pitch pines in the region."
+          ],
+          "correctAnswers": [
+            "They help the forest by clearing brush and allowing new pines to grow."
+          ]
+        },
+        {
+          "label": "Part B",
+          "question": "Part B: Which two sentences from the passage best support the answer to Part A?",
+          "choices": [
+            "The fires clear away brush and make room for new seedlings.",
+            "Today, laws limit building in the most sensitive areas.",
+            "Pitch pines and oaks grow across the region.",
+            "Pitch pines have thick bark that protects them from heat, and some of their cones open only after a fire.",
+            "Rain soaks quickly through the sand and fills the aquifer."
+          ],
+          "correctAnswers": [
+            "The fires clear away brush and make room for new seedlings.",
+            "Pitch pines have thick bark that protects them from heat, and some of their cones open only after a fire."
+          ]
+        }
+      ],
+      "explanation": "Paragraph 3 explains that fires clear brush and open pine cones, helping new trees grow."
+    },
+    {
+      "id": "E6Q031",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "RI.6.4",
+      "domain": "Reading Informational Text",
+      "skill": "Determine the meaning of general academic and domain-specific words.",
+      "difficulty": "on-grade",
+      "passageId": "P56-PINES",
+      "itemType": "multiple_choice",
+      "question": "In paragraph 2, what does the word barren mean?",
+      "choices": [
+        "covered with tall trees",
+        "unable to produce much",
+        "full of fresh water",
+        "crowded with people"
+      ],
+      "correctAnswer": "unable to produce much",
+      "explanation": "The passage defines barren right after the word: \"unable to produce much.\""
+    },
+    {
+      "id": "E6Q032",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "RI.6.6",
+      "domain": "Reading Informational Text",
+      "skill": "Analyze multiple points of view on the same topic.",
+      "difficulty": "on-grade",
+      "passageId": "P56-PINES",
+      "itemType": "multiple_choice",
+      "question": "How does the passage present the laws that protect the Pine Barrens?",
+      "choices": [
+        "It suggests the laws were passed by early settlers.",
+        "It argues that the laws should be removed.",
+        "It explains why supporters favor the laws and why some landowners oppose them.",
+        "It describes only the benefits of the laws."
+      ],
+      "correctAnswer": "It explains why supporters favor the laws and why some landowners oppose them.",
+      "explanation": "Paragraph 6 presents both the supporters' view and the landowners' view."
+    },
+    {
+      "id": "E6Q033",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "RI.6.8",
+      "domain": "Reading Informational Text",
+      "skill": "Explain how an author uses reasons and evidence to support particular points.",
+      "difficulty": "on-grade",
+      "passageId": "P56-PINES",
+      "itemType": "multiple_choice",
+      "question": "Which detail best supports the claim that early settlers \"were wrong\" about the land?",
+      "choices": [
+        "The forest covers more than one million acres.",
+        "The soil was too dry and poor in nutrients.",
+        "Carnivorous plants and rare tree frogs live in the region.",
+        "Laws limit building in the most sensitive areas."
+      ],
+      "correctAnswer": "Carnivorous plants and rare tree frogs live in the region.",
+      "explanation": "The settlers thought the land could not produce much, but rare plants and animals show it is full of life."
+    },
+    {
+      "id": "E6Q034",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "RI.6.5",
+      "domain": "Reading Informational Text",
+      "skill": "Analyze how a section fits into the overall structure of a text.",
+      "difficulty": "on-grade",
+      "passageId": "P56-PINES",
+      "itemType": "multiple_choice",
+      "question": "How does paragraph 1 contribute to the passage?",
+      "choices": [
+        "It explains how the aquifer was discovered.",
+        "It tells a story about a family visiting the forest.",
+        "It contrasts a common picture of New Jersey with the large forest that the passage describes.",
+        "It lists the laws that protect the forest."
+      ],
+      "correctAnswer": "It contrasts a common picture of New Jersey with the large forest that the passage describes.",
+      "explanation": "Paragraph 1 contrasts highways and cities with the surprising million-acre forest."
+    },
+    {
+      "id": "E6Q035",
+      "grade": 6,
+      "subject": "ela",
       "standard": "L.6.1",
       "domain": "Language",
       "skill": "Form and use the perfect verb tenses.",
@@ -3814,15 +5745,15 @@
       "question": "Which words correctly complete the sentence?\n\nBy the time we arrived at the theater, the movie ___ .",
       "choices": [
         "had already started",
-        "already starts",
+        "has already started",
         "will have started",
-        "has already started"
+        "already starts"
       ],
       "correctAnswer": "had already started",
       "explanation": "The past perfect (had + past participle) shows an action finished before another past action."
     },
     {
-      "id": "E6Q030",
+      "id": "E6Q036",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.1",
@@ -3833,15 +5764,15 @@
       "question": "Which sentence uses correlative conjunctions correctly?",
       "choices": [
         "Both the coach or the players wanted to cancel the game.",
-        "Neither the coach nor the players wanted to cancel the game.",
         "Either the coach nor the players wanted to cancel the game.",
+        "Neither the coach nor the players wanted to cancel the game.",
         "Neither the coach or the players wanted to cancel the game."
       ],
       "correctAnswer": "Neither the coach nor the players wanted to cancel the game.",
       "explanation": "“Neither” pairs with “nor.”"
     },
     {
-      "id": "E6Q031",
+      "id": "E6Q037",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.2",
@@ -3851,16 +5782,16 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is punctuated correctly?",
       "choices": [
-        "After the long hike we, rested by the lake.",
-        "After the long hike, we rested by the lake.",
         "After, the long hike we rested by the lake.",
-        "After the long, hike we rested by the lake."
+        "After the long hike we, rested by the lake.",
+        "After the long, hike we rested by the lake.",
+        "After the long hike, we rested by the lake."
       ],
       "correctAnswer": "After the long hike, we rested by the lake.",
       "explanation": "Use a comma after an introductory phrase."
     },
     {
-      "id": "E6Q032",
+      "id": "E6Q038",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.1",
@@ -3871,15 +5802,15 @@
       "question": "Which sentence is punctuated correctly?",
       "choices": [
         "Yes, I finished my science project.",
-        "Yes I, finished my science project.",
+        "Yes I finished my science project,",
         "Yes I finished, my science project.",
-        "Yes I finished my science project,"
+        "Yes I, finished my science project."
       ],
       "correctAnswer": "Yes, I finished my science project.",
       "explanation": "Use a comma after “yes” or “no” at the start of a sentence."
     },
     {
-      "id": "E6Q033",
+      "id": "E6Q039",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.1",
@@ -3889,16 +5820,16 @@
       "itemType": "multiple_choice",
       "question": "Which word correctly completes the sentence?\n\nGrandma gave the concert tickets to my brother and ___.",
       "choices": [
-        "myself",
         "I",
         "me",
+        "myself",
         "mine"
       ],
       "correctAnswer": "me",
       "explanation": "The pronoun is an object of the preposition “to,” so use the objective case “me.”"
     },
     {
-      "id": "E6Q034",
+      "id": "E6Q040",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.1",
@@ -3909,15 +5840,15 @@
       "question": "Which sentence uses an intensive pronoun?",
       "choices": [
         "The food drive was theirs.",
+        "The students themselves organized the food drive.",
         "The students organized the food drive for them.",
-        "They organized the food drive.",
-        "The students themselves organized the food drive."
+        "They organized the food drive."
       ],
       "correctAnswer": "The students themselves organized the food drive.",
       "explanation": "An intensive pronoun (themselves) emphasizes the noun before it."
     },
     {
-      "id": "E6Q035",
+      "id": "E6Q041",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.1",
@@ -3928,15 +5859,15 @@
       "question": "Which sentence avoids a vague pronoun?",
       "choices": [
         "When Ana called Rosa, Rosa was eating dinner.",
-        "When Ana called her, she was eating dinner.",
         "When she called her, she was eating dinner.",
+        "When Ana called her, she was eating dinner.",
         "When Ana called Rosa, she was eating dinner."
       ],
       "correctAnswer": "When Ana called Rosa, Rosa was eating dinner.",
       "explanation": "Naming Rosa makes it clear who was eating dinner."
     },
     {
-      "id": "E6Q036",
+      "id": "E6Q042",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.2",
@@ -3946,16 +5877,16 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is punctuated correctly?",
       "choices": [
-        "My uncle, who lives in Newark is a firefighter.",
         "My uncle who lives in Newark, is a firefighter.",
         "My uncle who, lives in Newark, is a firefighter.",
+        "My uncle, who lives in Newark is a firefighter.",
         "My uncle, who lives in Newark, is a firefighter."
       ],
       "correctAnswer": "My uncle, who lives in Newark, is a firefighter.",
       "explanation": "Nonessential information is set off by commas on both sides."
     },
     {
-      "id": "E6Q037",
+      "id": "E6Q043",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.1",
@@ -3965,16 +5896,73 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is written correctly?",
       "choices": [
-        "If a student wants to join the club, you should sign up by Friday.",
         "If students want to join the club, they should sign up by Friday.",
-        "If a student wants to join the club, we should sign up by Friday.",
-        "If students want to join the club, he should sign up by Friday."
+        "If students want to join the club, he should sign up by Friday.",
+        "If a student wants to join the club, you should sign up by Friday.",
+        "If a student wants to join the club, we should sign up by Friday."
       ],
       "correctAnswer": "If students want to join the club, they should sign up by Friday.",
       "explanation": "“Students” and “they” agree in number and person."
     },
     {
-      "id": "E6Q038",
+      "id": "E6Q044",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "L.6.2",
+      "domain": "Language",
+      "skill": "Spell grade-appropriate words correctly.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which sentence has all words spelled correctly?",
+      "choices": [
+        "The sientist received an award for her research.",
+        "The scientist recieved an award for her research.",
+        "The scientist received an awerd for her research.",
+        "The scientist received an award for her research."
+      ],
+      "correctAnswer": "The scientist received an award for her research.",
+      "explanation": "Remember “i before e except after c”: received."
+    },
+    {
+      "id": "E6Q045",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "L.6.3",
+      "domain": "Language",
+      "skill": "Maintain consistency in style and tone.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which sentence best fits the formal tone of a science report?",
+      "choices": [
+        "The plants in the sun totally crushed it.",
+        "The results indicate that plants grew faster in sunlight.",
+        "Sunlight plants were, like, way bigger.",
+        "So the sunny plants won, which was awesome."
+      ],
+      "correctAnswer": "The results indicate that plants grew faster in sunlight.",
+      "explanation": "Formal writing avoids slang and uses precise, objective language."
+    },
+    {
+      "id": "E6Q046",
+      "grade": 6,
+      "subject": "ela",
+      "standard": "L.6.2",
+      "domain": "Language",
+      "skill": "Use commas, parentheses, or dashes to set off nonrestrictive elements.",
+      "difficulty": "on-grade",
+      "itemType": "multiple_choice",
+      "question": "Which sentence correctly uses parentheses?",
+      "choices": [
+        "The museum (which opened) in 1910 is closed for repairs.",
+        "The museum which (opened in 1910) is closed for repairs.",
+        "(The museum which opened in 1910) is closed for repairs.",
+        "The museum (which opened in 1910) is closed for repairs."
+      ],
+      "correctAnswer": "The museum (which opened in 1910) is closed for repairs.",
+      "explanation": "Parentheses enclose the extra information about the museum."
+    },
+    {
+      "id": "E6Q047",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.5",
@@ -3984,16 +5972,16 @@
       "itemType": "multiple_choice",
       "question": "What does the idiom mean?\n\nDad said the new video game cost an arm and a leg.",
       "choices": [
-        "The game was easy to play.",
-        "Dad hurt himself playing the game.",
         "The game was about a robot.",
-        "The game was very expensive."
+        "Dad hurt himself playing the game.",
+        "The game was very expensive.",
+        "The game was easy to play."
       ],
       "correctAnswer": "The game was very expensive.",
       "explanation": "“Cost an arm and a leg” means something is very expensive."
     },
     {
-      "id": "E6Q039",
+      "id": "E6Q048",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.5",
@@ -4004,15 +5992,15 @@
       "question": "What does the idiom mean?\n\nLena was feeling under the weather, so she stayed home.",
       "choices": [
         "She was hiding under a blanket.",
-        "She was feeling sick.",
         "She was excited about a storm.",
-        "She was standing in the rain."
+        "She was standing in the rain.",
+        "She was feeling sick."
       ],
       "correctAnswer": "She was feeling sick.",
       "explanation": "“Under the weather” means feeling ill."
     },
     {
-      "id": "E6Q040",
+      "id": "E6Q049",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.5",
@@ -4023,15 +6011,15 @@
       "question": "Which sentence uses personification?",
       "choices": [
         "The wind whispered through the tall grass.",
-        "The tall grass swayed in the wind.",
         "The wind was cold and strong.",
-        "The grass was as tall as a fence."
+        "The grass was as tall as a fence.",
+        "The tall grass swayed in the wind."
       ],
       "correctAnswer": "The wind whispered through the tall grass.",
       "explanation": "Personification gives human qualities (whispering) to something that is not human."
     },
     {
-      "id": "E6Q041",
+      "id": "E6Q050",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.5",
@@ -4041,16 +6029,16 @@
       "itemType": "multiple_choice",
       "question": "Which sentence is an example of hyperbole?",
       "choices": [
-        "Your room is like a jungle.",
         "I have told you twice to clean your room.",
-        "I have told you a million times to clean your room.",
-        "Please clean your room today."
+        "Your room is like a jungle.",
+        "Please clean your room today.",
+        "I have told you a million times to clean your room."
       ],
       "correctAnswer": "I have told you a million times to clean your room.",
       "explanation": "Hyperbole is an extreme exaggeration."
     },
     {
-      "id": "E6Q042",
+      "id": "E6Q051",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.5",
@@ -4061,15 +6049,15 @@
       "question": "Which word has the most positive connotation to describe someone who saves money carefully?",
       "choices": [
         "tight-fisted",
-        "thrifty",
         "stingy",
+        "thrifty",
         "cheap"
       ],
       "correctAnswer": "thrifty",
       "explanation": "“Thrifty” suggests wise saving; the other words suggest an unwillingness to share."
     },
     {
-      "id": "E6Q043",
+      "id": "E6Q052",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.5",
@@ -4081,14 +6069,14 @@
       "choices": [
         "kind",
         "selfish",
-        "helpful",
-        "giving"
+        "giving",
+        "helpful"
       ],
       "correctAnswer": "selfish",
       "explanation": "An antonym has the opposite meaning; generous means willing to give."
     },
     {
-      "id": "E6Q044",
+      "id": "E6Q053",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4098,16 +6086,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nUnlike his gregarious sister, who loved parties, Sam preferred to spend time alone.\n\nWhat does the word gregarious mean?",
       "choices": [
-        "enjoying the company of others",
         "angry",
-        "quiet and shy",
-        "tired"
+        "tired",
+        "enjoying the company of others",
+        "quiet and shy"
       ],
       "correctAnswer": "enjoying the company of others",
       "explanation": "Clues in the sentence show that “gregarious” means “enjoying the company of others.”"
     },
     {
-      "id": "E6Q045",
+      "id": "E6Q054",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4126,7 +6114,7 @@
       "explanation": "Clues in the sentence show that “ambiguous” means “unclear; open to more than one meaning.”"
     },
     {
-      "id": "E6Q046",
+      "id": "E6Q055",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4136,16 +6124,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nThe coach was adamant that practice would continue, refusing to change her mind even when it rained.\n\nWhat does the word adamant mean?",
       "choices": [
-        "refusing to change one's mind",
-        "unsure",
         "cheerful",
-        "worried"
+        "unsure",
+        "worried",
+        "refusing to change one's mind"
       ],
       "correctAnswer": "refusing to change one's mind",
       "explanation": "Clues in the sentence show that “adamant” means “refusing to change one's mind.”"
     },
     {
-      "id": "E6Q047",
+      "id": "E6Q056",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4155,16 +6143,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nThe scarcity of water during the drought forced farmers to limit how much they used.\n\nWhat does the word scarcity mean?",
       "choices": [
+        "a shortage",
         "a flood",
         "a cleaning",
-        "a shortage",
         "a high price"
       ],
       "correctAnswer": "a shortage",
       "explanation": "Clues in the sentence show that “scarcity” means “a shortage.”"
     },
     {
-      "id": "E6Q048",
+      "id": "E6Q057",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4174,16 +6162,16 @@
       "itemType": "multiple_choice",
       "question": "Read the sentence.\n\nThe artist used vivid colors, like bright orange and electric blue, in her mural.\n\nWhat does the word vivid mean?",
       "choices": [
-        "dark",
-        "dull and faded",
         "invisible",
-        "bright and strong"
+        "bright and strong",
+        "dark",
+        "dull and faded"
       ],
       "correctAnswer": "bright and strong",
       "explanation": "Clues in the sentence show that “vivid” means “bright and strong.”"
     },
     {
-      "id": "E6Q049",
+      "id": "E6Q058",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4193,16 +6181,16 @@
       "itemType": "multiple_choice",
       "question": "The affix inter- means “between.” What does the word international mean?",
       "choices": [
-        "against a nation",
-        "before a nation",
+        "between nations",
         "inside one nation",
-        "between nations"
+        "against a nation",
+        "before a nation"
       ],
       "correctAnswer": "between nations",
       "explanation": "inter- means “between,” so international means “between nations.”"
     },
     {
-      "id": "E6Q050",
+      "id": "E6Q059",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4212,16 +6200,16 @@
       "itemType": "multiple_choice",
       "question": "The affix trans- means “across.” What does the word transatlantic mean?",
       "choices": [
-        "across the Atlantic",
-        "before the Atlantic",
         "near the Atlantic",
-        "under the Atlantic"
+        "across the Atlantic",
+        "under the Atlantic",
+        "before the Atlantic"
       ],
       "correctAnswer": "across the Atlantic",
       "explanation": "trans- means “across,” so transatlantic means “across the Atlantic.”"
     },
     {
-      "id": "E6Q051",
+      "id": "E6Q060",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4231,16 +6219,16 @@
       "itemType": "multiple_choice",
       "question": "The affix anti- means “against.” What does the word antibacterial mean?",
       "choices": [
-        "full of bacteria",
-        "working against bacteria",
         "made of bacteria",
-        "before bacteria"
+        "before bacteria",
+        "full of bacteria",
+        "working against bacteria"
       ],
       "correctAnswer": "working against bacteria",
       "explanation": "anti- means “against,” so antibacterial means “working against bacteria.”"
     },
     {
-      "id": "E6Q052",
+      "id": "E6Q061",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4250,16 +6238,16 @@
       "itemType": "multiple_choice",
       "question": "The affix -ology means “study of.” What does the word geology mean?",
       "choices": [
-        "the study of the earth",
-        "fear of the earth",
+        "a map of the earth",
         "the center of the earth",
-        "a map of the earth"
+        "fear of the earth",
+        "the study of the earth"
       ],
       "correctAnswer": "the study of the earth",
       "explanation": "-ology means “study of,” so geology means “the study of the earth.”"
     },
     {
-      "id": "E6Q053",
+      "id": "E6Q062",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4271,14 +6259,14 @@
       "choices": [
         "a loud sound",
         "a picture of a car",
-        "a type of map",
-        "a person's own signature"
+        "a person's own signature",
+        "a type of map"
       ],
       "correctAnswer": "a person's own signature",
       "explanation": "The root graph (“write”) helps show that autograph means “a person's own signature.”"
     },
     {
-      "id": "E6Q054",
+      "id": "E6Q063",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4288,16 +6276,16 @@
       "itemType": "multiple_choice",
       "question": "The root tele means “far.” What does the word telescope most likely mean?",
       "choices": [
-        "a tool for hearing",
         "a tool for writing",
-        "a tool for seeing things far away",
-        "a tool for measuring heat"
+        "a tool for measuring heat",
+        "a tool for hearing",
+        "a tool for seeing things far away"
       ],
       "correctAnswer": "a tool for seeing things far away",
       "explanation": "The root tele (“far”) helps show that telescope means “a tool for seeing things far away.”"
     },
     {
-      "id": "E6Q055",
+      "id": "E6Q064",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4309,14 +6297,14 @@
       "choices": [
         "able to be carried",
         "made of metal",
-        "very large",
-        "able to be eaten"
+        "able to be eaten",
+        "very large"
       ],
       "correctAnswer": "able to be carried",
       "explanation": "The root port (“carry”) helps show that portable means “able to be carried.”"
     },
     {
-      "id": "E6Q056",
+      "id": "E6Q065",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4328,14 +6316,14 @@
       "choices": [
         "able to be seen",
         "hard to understand",
-        "able to be heard",
-        "easy to touch"
+        "easy to touch",
+        "able to be heard"
       ],
       "correctAnswer": "able to be heard",
       "explanation": "The root aud (“hear”) helps show that audible means “able to be heard.”"
     },
     {
-      "id": "E6Q057",
+      "id": "E6Q066",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4345,16 +6333,16 @@
       "itemType": "multiple_choice",
       "question": "The root spect means “look.” What does the word spectator most likely mean?",
       "choices": [
+        "a person who watches an event",
         "a person who repairs things",
         "a person who plays in an event",
-        "a person who cooks",
-        "a person who watches an event"
+        "a person who cooks"
       ],
       "correctAnswer": "a person who watches an event",
       "explanation": "The root spect (“look”) helps show that spectator means “a person who watches an event.”"
     },
     {
-      "id": "E6Q058",
+      "id": "E6Q067",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4364,16 +6352,16 @@
       "itemType": "multiple_choice",
       "question": "The root bio means “life.” What does the word biology most likely mean?",
       "choices": [
-        "the study of rocks",
         "the study of living things",
-        "the study of numbers",
-        "the study of stars"
+        "the study of stars",
+        "the study of rocks",
+        "the study of numbers"
       ],
       "correctAnswer": "the study of living things",
       "explanation": "The root bio (“life”) helps show that biology means “the study of living things.”"
     },
     {
-      "id": "E6Q059",
+      "id": "E6Q068",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4383,16 +6371,16 @@
       "itemType": "multiple_choice",
       "question": "The root chron means “time.” What does the word chronological most likely mean?",
       "choices": [
-        "arranged by color",
-        "arranged by size",
         "arranged in time order",
-        "arranged at random"
+        "arranged by color",
+        "arranged at random",
+        "arranged by size"
       ],
       "correctAnswer": "arranged in time order",
       "explanation": "The root chron (“time”) helps show that chronological means “arranged in time order.”"
     },
     {
-      "id": "E6Q060",
+      "id": "E6Q069",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4402,16 +6390,16 @@
       "itemType": "multiple_choice",
       "question": "The root dict means “say; speak.” What does the word predict most likely mean?",
       "choices": [
-        "to say what will happen before it happens",
-        "to write a letter",
         "to remember the past",
-        "to repeat a word"
+        "to write a letter",
+        "to repeat a word",
+        "to say what will happen before it happens"
       ],
       "correctAnswer": "to say what will happen before it happens",
       "explanation": "The root dict (“say; speak”) helps show that predict means “to say what will happen before it happens.”"
     },
     {
-      "id": "E6Q061",
+      "id": "E6Q070",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4422,15 +6410,15 @@
       "question": "The root struct means “build.” What does the word construct most likely mean?",
       "choices": [
         "to destroy",
+        "to draw",
         "to measure",
-        "to build",
-        "to draw"
+        "to build"
       ],
       "correctAnswer": "to build",
       "explanation": "The root struct (“build”) helps show that construct means “to build.”"
     },
     {
-      "id": "E6Q062",
+      "id": "E6Q071",
       "grade": 6,
       "subject": "ela",
       "standard": "L.6.4",
@@ -4440,10 +6428,10 @@
       "itemType": "multiple_choice",
       "question": "The root photo means “light.” What does the word photosynthesis most likely mean?",
       "choices": [
-        "the process of breathing",
         "the process plants use to make food from light",
         "the process of taking pictures",
-        "the process of making water"
+        "the process of making water",
+        "the process of breathing"
       ],
       "correctAnswer": "the process plants use to make food from light",
       "explanation": "The root photo (“light”) helps show that photosynthesis means “the process plants use to make food from light.”"

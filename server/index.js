@@ -16,7 +16,7 @@ export const GRADES = [3, 4, 5, 6, 7, 8];
 export const SUBJECTS = ["math", "ela"];
 const TEST_LENGTH = 30;
 
-const app = express();
+export const app = express();
 app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 
@@ -100,6 +100,12 @@ app.use((error, _req, res, _next) => {
   res.status(500).json({ error: "Something went wrong on the server." });
 });
 
-app.listen(PORT, () => {
-  console.log(`NJSLA practice server running on http://localhost:${PORT}`);
-});
+const isEntryPoint = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isEntryPoint) {
+  app.listen(PORT, () => {
+    console.log(`NJSLA practice server running on http://localhost:${PORT}`);
+  });
+}
+
+export default app;

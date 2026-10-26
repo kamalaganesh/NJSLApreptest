@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 
 const API_BASE = import.meta.env.VITE_API_BASE || "/api";
@@ -15,11 +15,39 @@ const REFERENCE_SHEETS = {
   8: ["Volume of a cylinder: V = πr²h", "Volume of a cone: V = ⅓πr²h", "Volume of a sphere: V = (4/3)πr³", "Pythagorean Theorem: a² + b² = c²", "Area of a circle: A = πr²", "Circumference: C = 2πr", "π ≈ 3.14"]
 };
 
-function Shell({ children, wide = false }) {
+const STRONG_PERCENT = 70;
+
+function focusById(id) {
+  const target = document.getElementById(id);
+  if (!target) return;
+  if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
+  target.focus();
+  target.scrollIntoView?.({ block: "start" });
+}
+
+function SkipLink({ target, children }) {
   return (
-    <main className="page-shell">
-      <div className={`app-frame ${wide ? "app-frame-wide" : ""}`}>{children}</div>
-    </main>
+    <a
+      className="skip-link"
+      href={`#${target}`}
+      onClick={(event) => {
+        event.preventDefault();
+        focusById(target);
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+
+function Shell({ children, wide = false, skipTarget = "main-content", skipLabel = "Skip to main content" }) {
+  return (
+    <>
+      <SkipLink target={skipTarget}>{skipLabel}</SkipLink>
+      <main className="page-shell" id="main-content" tabIndex={-1}>
+        <div className={`app-frame ${wide ? "app-frame-wide" : ""}`}>{children}</div>
+      </main>
+    </>
   );
 }
 
@@ -77,9 +105,11 @@ function isAnswered(question, answer) {
   return answer !== undefined && answer !== null && String(answer).trim() !== "";
 }
 
-function ChoiceList({ choices, selected, selectCount = 1, onChange, name }) {
+function ChoiceList({ choices, selected, selectCount = 1, onChange, name, labelledBy, describedBy }) {
   const multi = selectCount > 1;
   const selectedList = multi ? (Array.isArray(selected) ? selected : []) : [];
+  const buttonRefs = useRef([]);
+  const selectedIndex = multi ? -1 : choices.indexOf(selected);
 
   function toggle(choice) {
     if (!multi) return onChange(choice);
@@ -88,14 +118,50 @@ function ChoiceList({ choices, selected, selectCount = 1, onChange, name }) {
     return onChange([...selectedList, choice]);
   }
 
+  function handleRadioKeyDown(event, index) {
+    const last = choices.length - 1;
+    const moves = { ArrowDown: index + 1, ArrowRight: index + 1, ArrowUp: index - 1, ArrowLeft: index - 1, Home: 0, End: last };
+    if (!(event.key in moves)) return;
+    event.preventDefault();
+    let next = moves[event.key];
+    if (next > last) next = 0;
+    if (next < 0) next = last;
+    onChange(choices[next]);
+    buttonRefs.current[next]?.focus();
+  }
+
   return (
-    <div className="choice-list" role={multi ? "group" : "radiogroup"} aria-label={name}>
+    <div
+      className="choice-list"
+      role={multi ? "group" : "radiogroup"}
+      aria-label={labelledBy ? undefined : name}
+      aria-labelledby={labelledBy}
+      aria-describedby={describedBy}
+    >
       {choices.map((choice, index) => {
         const isSelected = multi ? selectedList.includes(choice) : selected === choice;
+        const tabIndex = multi || index === (selectedIndex === -1 ? 0 : selectedIndex) ? 0 : -1;
         return (
-          <button className={`choice-button ${isSelected ? "selected" : ""}`} key={choice} type="button" aria-pressed={isSelected} onClick={() => toggle(choice)}>
-            <span className={`choice-letter ${multi ? "choice-square" : ""}`}>{String.fromCharCode(65 + index)}</span>
-            <span>{choice}</span>
+          <button
+            className={`choice-button ${isSelected ? "selected" : ""}`}
+            key={choice}
+            ref={(element) => {
+              buttonRefs.current[index] = element;
+            }}
+            type="button"
+            role={multi ? "checkbox" : "radio"}
+            aria-checked={isSelected}
+            tabIndex={tabIndex}
+            onClick={() => toggle(choice)}
+            onKeyDown={multi ? undefined : (event) => handleRadioKeyDown(event, index)}
+          >
+            <span className={`choice-letter ${multi ? "choice-square" : ""}`} aria-hidden="true">
+              {String.fromCharCode(65 + index)}
+            </span>
+            <span>
+              <span className="visually-hidden">{String.fromCharCode(65 + index)}. </span>
+              {choice}
+            </span>
           </button>
         );
       })}
@@ -123,12 +189,20 @@ function QuestionBody({ question, answer, onAnswer }) {
     const current = answer || {};
     return question.parts.map((part, index) => {
       const key = index === 0 ? "partA" : "partB";
+      const headingId = `${question.id}-${key}-question`;
+      const instructionId = `${question.id}-${key}-instruction`;
       return (
         <div className="ebsr-part" key={part.label}>
-          <h2>{part.question}</h2>
-          {part.selectCount > 1 && <p className="item-instruction">Select {part.selectCount} answers.</p>}
+          <h2 id={headingId}>{part.question}</h2>
+          {part.selectCount > 1 && (
+            <p className="item-instruction" id={instructionId}>
+              Select {part.selectCount} answers.
+            </p>
+          )}
           <ChoiceList
             name={part.label}
+            labelledBy={headingId}
+            describedBy={part.selectCount > 1 ? instructionId : undefined}
             choices={part.choices}
             selectCount={part.selectCount}
             selected={current[key]}
@@ -141,9 +215,15 @@ function QuestionBody({ question, answer, onAnswer }) {
 
   return (
     <>
-      {question.itemType === "multiple_select" && <p className="item-instruction">Select {question.selectCount} answers.</p>}
+      {question.itemType === "multiple_select" && (
+        <p className="item-instruction" id={`${question.id}-instruction`}>
+          Select {question.selectCount} answers.
+        </p>
+      )}
       <ChoiceList
         name="Answer choices"
+        labelledBy={QUESTION_STEM_ID}
+        describedBy={question.itemType === "multiple_select" ? `${question.id}-instruction` : undefined}
         choices={question.choices}
         selectCount={question.itemType === "multiple_select" ? question.selectCount : 1}
         selected={answer}
@@ -152,6 +232,8 @@ function QuestionBody({ question, answer, onAnswer }) {
     </>
   );
 }
+
+const QUESTION_STEM_ID = "question-stem";
 
 function PassagePanel({ passage }) {
   return (
@@ -261,7 +343,7 @@ export function TestPage() {
   }
 
   return (
-    <Shell wide={Boolean(passage)}>
+    <Shell wide={Boolean(passage)} skipTarget="question-panel" skipLabel="Skip to question">
       <div className="test-topbar">
         <Link className="back-link" to={`/subjects/${grade}`}>
           Exit test
@@ -270,15 +352,21 @@ export function TestPage() {
           Grade {grade} {subjectLabel} · {answeredCount}/{questions.length} answered
         </span>
         {referenceSheet && (
-          <button className="secondary-button small-button" type="button" onClick={() => setShowReference((value) => !value)}>
+          <button
+            className="secondary-button small-button"
+            type="button"
+            aria-expanded={showReference}
+            aria-controls="reference-sheet"
+            onClick={() => setShowReference((value) => !value)}
+          >
             {showReference ? "Hide" : "Show"} Reference Sheet
           </button>
         )}
       </div>
 
-      {showReference && referenceSheet && (
-        <aside className="reference-sheet">
-          <h2>Grade {grade} Mathematics Reference Sheet</h2>
+      {referenceSheet && (
+        <aside className="reference-sheet" id="reference-sheet" aria-labelledby="reference-sheet-title" hidden={!showReference}>
+          <h2 id="reference-sheet-title">Grade {grade} Mathematics Reference Sheet</h2>
           <ul>
             {referenceSheet.map((line) => (
               <li key={line}>{line}</li>
@@ -288,34 +376,47 @@ export function TestPage() {
       )}
 
       <nav className="question-nav" aria-label="Question navigator">
-        {questions.map((question, index) => (
-          <button
-            key={question.id}
-            type="button"
-            className={`nav-dot ${index === currentIndex ? "current" : ""} ${isAnswered(question, answers[question.id]) ? "answered" : ""}`}
-            onClick={() => setCurrentIndex(index)}
-            aria-label={`Question ${index + 1}`}
-          >
-            {index + 1}
-          </button>
-        ))}
+        {questions.map((question, index) => {
+          const answered = isAnswered(question, answers[question.id]);
+          const current = index === currentIndex;
+          return (
+            <button
+              key={question.id}
+              type="button"
+              className={`nav-dot ${current ? "current" : ""} ${answered ? "answered" : ""}`}
+              onClick={() => setCurrentIndex(index)}
+              aria-current={current ? "step" : undefined}
+              aria-label={`Question ${index + 1}, ${answered ? "answered" : "not answered"}`}
+            >
+              {index + 1}
+            </button>
+          );
+        })}
       </nav>
 
       <div className={passage ? "split-layout" : ""}>
         {passage && <PassagePanel passage={passage} />}
 
-        <section className="question-panel">
+        <section className="question-panel" id="question-panel" tabIndex={-1} aria-labelledby={QUESTION_STEM_ID}>
           <div className="question-meta">
             <span>{formatItemType(currentQuestion.itemType)}</span>
             <span>{currentQuestion.standard}</span>
             <span>{currentQuestion.domain}</span>
           </div>
-          <p className="question-number">Question {currentIndex + 1} of {questions.length}</p>
-          <h1 className="question-stem">{currentQuestion.question}</h1>
+          <p className="question-number" aria-live="polite">
+            Question {currentIndex + 1} of {questions.length}
+          </p>
+          <h1 className="question-stem" id={QUESTION_STEM_ID}>
+            {currentQuestion.question}
+          </h1>
 
           <QuestionBody key={currentQuestion.id} question={currentQuestion} answer={answers[currentQuestion.id]} onAnswer={setAnswer} />
 
-          {error && <p className="warning-text">{error}</p>}
+          {error && (
+            <p className="warning-text" role="alert">
+              {error}
+            </p>
+          )}
 
           <div className="action-row">
             {currentIndex > 0 && (
@@ -359,12 +460,17 @@ export function ResultsPage() {
   }
 
   const { grade, subject, subjectId } = location.state;
+  const { strengths, focusAreas } = rankStandards(result.skillBreakdown);
+  const domains = result.domainBreakdown || [];
 
   return (
     <Shell>
       <section className="header-block">
         <p className="eyebrow">Grade {grade} {subject}</p>
         <h1>Score Report</h1>
+        <button className="secondary-button small-button print-button no-print" type="button" onClick={() => window.print()}>
+          Print / Save report
+        </button>
       </section>
 
       <div className="summary-grid">
@@ -376,6 +482,53 @@ export function ResultsPage() {
       <p className="performance-label">
         {result.performance.label} <span>(estimate based on this practice test, not an official NJSLA score)</span>
       </p>
+
+      <section className="results-section callout-grid" aria-label="Strongest and weakest standards">
+        <StandardCallout
+          tone="strong"
+          title="Strongest standards"
+          items={strengths}
+          empty={`No standard reached ${STRONG_PERCENT}% yet. Review the explanations below and try another test.`}
+        />
+        <StandardCallout
+          tone="weak"
+          title="Standards to practice"
+          items={focusAreas}
+          empty={`Every standard on this test was ${STRONG_PERCENT}% or higher. Great work!`}
+        />
+      </section>
+
+      {domains.length > 0 && (
+        <section className="results-section">
+          <h2>Domain Summary</h2>
+          <div className="domain-summary">
+            {domains.map((item) => (
+              <article className="domain-card" key={item.domain}>
+                <div className="domain-card-header">
+                  <strong>{item.domain}</strong>
+                  <b>
+                    {item.earned} / {item.possible} <span>({item.percent}%)</span>
+                  </b>
+                </div>
+                <div
+                  className="domain-meter"
+                  role="meter"
+                  aria-label={`${item.domain} score`}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-valuenow={item.percent}
+                  aria-valuetext={`${item.percent}%, ${item.earned} of ${item.possible} points`}
+                >
+                  <span className={meterTone(item.percent)} style={{ width: `${item.percent}%` }} />
+                </div>
+                <small>
+                  {item.standards.length} standard{item.standards.length === 1 ? "" : "s"}: {item.standards.join(", ")}
+                </small>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="results-section">
         <h2>Skill Breakdown</h2>
@@ -417,7 +570,7 @@ export function ResultsPage() {
         )}
       </section>
 
-      <div className="action-row">
+      <div className="action-row no-print">
         <button className="secondary-button" type="button" onClick={() => navigate("/")}>
           Choose Another Grade
         </button>
@@ -426,6 +579,54 @@ export function ResultsPage() {
         </button>
       </div>
     </Shell>
+  );
+}
+
+function standardPercent(item) {
+  return item.possible ? Math.round((item.earned / item.possible) * 100) : 0;
+}
+
+export function rankStandards(skillBreakdown = [], limit = 3) {
+  const ranked = skillBreakdown.map((item) => ({ ...item, percent: standardPercent(item) }));
+  const strengths = ranked
+    .filter((item) => item.percent >= STRONG_PERCENT)
+    .sort((a, b) => b.percent - a.percent || b.possible - a.possible || a.standard.localeCompare(b.standard, undefined, { numeric: true }))
+    .slice(0, limit);
+  const focusAreas = ranked
+    .filter((item) => item.percent < STRONG_PERCENT)
+    .sort((a, b) => a.percent - b.percent || b.possible - a.possible || a.standard.localeCompare(b.standard, undefined, { numeric: true }))
+    .slice(0, limit);
+  return { strengths, focusAreas };
+}
+
+function meterTone(percent) {
+  if (percent >= STRONG_PERCENT) return "meter-strong";
+  if (percent >= 40) return "meter-mid";
+  return "meter-weak";
+}
+
+function StandardCallout({ tone, title, items, empty }) {
+  return (
+    <article className={`standard-callout standard-callout-${tone}`}>
+      <h2>{title}</h2>
+      {items.length === 0 ? (
+        <p>{empty}</p>
+      ) : (
+        <ul>
+          {items.map((item) => (
+            <li key={item.standard}>
+              <div>
+                <strong>{item.standard}</strong>
+                <span>{item.skill}</span>
+              </div>
+              <b>
+                {item.earned} / {item.possible} ({item.percent}%)
+              </b>
+            </li>
+          ))}
+        </ul>
+      )}
+    </article>
   );
 }
 

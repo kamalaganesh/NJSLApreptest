@@ -147,5 +147,33 @@ Ruby grinned. Losing didn't feel so bad after all.`,
       { type: "mc", standard: "RL.{g}.5", skill: "Explain how a part of a story fits into its overall structure.", q: "How does picturing the foggy mirror help Ruby during the spelling bee?", a: "It reminds her of how she practiced, so she spells the word correctly.", d: ["It makes her forget the word.", "It helps her see the audience better.", "It makes her laugh and relax."], expl: "Ruby connects back to her practice from paragraph 1 and spells “necessary” correctly." },
       { type: "ms", standard: "RL.{g}.3", skill: "Describe characters' traits using details.", q: "Select two words that describe Felix based on his actions at the end of the story.", correct: ["kind", "generous"], wrong: ["boastful", "careless", "angry"], expl: "Felix compliments Ruby and invites her to help pick the book." }
     ]
+  },
+  {
+    id: "P34-MAPLE",
+    title: "From Tree to Table: How Maple Syrup Is Made",
+    genre: "informational",
+    text: `Have you ever poured maple syrup on your pancakes? That sweet, sticky syrup starts out as a watery liquid inside a tree.
+
+Maple trees store sugar in their roots during the winter. In early spring, the days turn warm while the nights stay below freezing. This change makes the sap inside the tree flow up and down the trunk. Sap is mostly water, with only a little sugar mixed in.
+
+To collect the sap, farmers drill a small hole, called a tap hole, into the trunk. They push a spout into the hole. Then they hang a bucket or connect a plastic tube to the spout. Drip by drip, the sap flows out. One tree can give about ten gallons of sap in a season.
+
+Next, the sap goes to a building called a sugarhouse. There, it is boiled in a wide, flat pan. As the sap boils, the water turns to steam and floats away. The sugar stays behind, and the liquid becomes thicker and darker. It takes about forty gallons of sap to make just one gallon of syrup!
+
+Farmers are careful not to harm their trees. They make only one or two tap holes in each tree, and the holes heal over by summer. A healthy maple tree can be tapped every spring for more than one hundred years.
+
+So the next time you taste maple syrup, remember the long journey it took, from a cold spring night to your breakfast plate.`,
+    items: [
+      { type: "mc", standard: "RI.{g}.2", skill: "Determine the main idea of a text and explain how key details support it.", q: "What is the main idea of the passage?", a: "Maple syrup is made by collecting sap from trees and boiling it until it becomes thick and sweet.", d: ["Maple trees store sugar in their roots during the winter.", "Pancakes taste best with maple syrup.", "Sugarhouses are buildings that farmers use for storing buckets."], expl: "Most of the passage explains the steps that turn sap into syrup." },
+      { type: "ebsr", standard: "RI.{g}.3", skill: "Explain how and why events or steps happen in a scientific text.",
+        a: { q: "Part A: Why does boiling turn sap into syrup?", a: "The water in the sap turns to steam, leaving the sugar behind.", d: ["Boiling adds more sugar to the sap.", "Boiling makes the sap flow faster from the tree.", "Boiling mixes the sap with tree roots."] },
+        b: { q: "Part B: Which sentence from the passage best supports the answer to Part A?", correct: ["As the sap boils, the water turns to steam and floats away."], wrong: ["Sap is mostly water, with only a little sugar mixed in.", "Drip by drip, the sap flows out.", "There, it is boiled in a wide, flat pan."] },
+        expl: "Paragraph 4 explains that the water leaves as steam while the sugar stays behind." },
+      { type: "mc", standard: "RI.{g}.4", skill: "Determine the meaning of domain-specific words.", q: "In paragraph 3, what does the phrase tap hole mean?", a: "a small hole drilled into a tree to collect sap", d: ["a crack in the ground near a tree", "a hole in the bottom of a bucket", "the place where a tree's roots grow"], expl: "The passage says farmers drill a small hole, called a tap hole, into the trunk to collect sap." },
+      { type: "ms", standard: "RI.{g}.1", skill: "Use details from the text to answer questions.", q: "Select two details that show farmers protect their maple trees.", correct: ["They make only one or two tap holes in each tree.", "The holes heal over by summer."], wrong: ["One tree can give about ten gallons of sap.", "The sap goes to a building called a sugarhouse.", "The liquid becomes thicker and darker."], expl: "Paragraph 5 explains how farmers avoid harming their trees." },
+      { type: "mc", standard: "RI.{g}.5", skill: "Describe the overall structure of a text.", q: "How is the information in paragraphs 2 through 4 mainly organized?", a: "in sequence, from how sap flows to how it becomes syrup", d: ["as a comparison of two kinds of trees", "as a problem followed by a solution", "as a list of opinions about syrup"], expl: "These paragraphs follow the steps in order: sap flows, farmers collect it, and then it is boiled." },
+      { type: "mc", standard: "RI.{g}.8", skill: "Explain how an author uses reasons and evidence to support points.", q: "Which detail best supports the author's point that making syrup takes a lot of sap?", a: "It takes about forty gallons of sap to make just one gallon of syrup.", d: ["Maple trees store sugar in their roots during the winter.", "They push a spout into the hole.", "A healthy maple tree can be tapped every spring for more than one hundred years."], expl: "Forty gallons of sap for one gallon of syrup shows how much sap is needed." },
+      { type: "mc", standard: "RI.{g}.6", skill: "Distinguish one's own point of view from that of the author.", q: "How does the author most likely feel about maple syrup?", a: "The author thinks it is special because of the long process it takes to make.", d: ["The author thinks it is too sweet to eat.", "The author thinks farmers should stop making it.", "The author thinks it is easy to make at home."], expl: "The last paragraph asks readers to remember the long journey the syrup took, showing the author values it." }
+    ]
   }
 ];
