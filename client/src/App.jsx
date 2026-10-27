@@ -292,6 +292,8 @@ export function TestPage() {
   const [error, setError] = useState("");
   const [showReference, setShowReference] = useState(false);
   const [studentName, setStudentName] = useState(() => localStorage.getItem(USER_NAME_KEY) || "");
+  const timeLimitSeconds = (subject === "ela" && Number(grade) === 3 ? 150 : 180) * 60;
+  const [secondsLeft, setSecondsLeft] = useState(timeLimitSeconds);
 
   if (!studentName) return <Shell><section className="header-block"><p className="eyebrow">Before you begin</p><h1>Who is taking the test?</h1></section><NameEntry onSave={setStudentName} /></Shell>;
 
@@ -312,6 +314,7 @@ export function TestPage() {
         setPassages(Object.fromEntries(data.passages.map((passage) => [passage.id, passage])));
         setAnswers({});
         setCurrentIndex(0);
+        setSecondsLeft(timeLimitSeconds);
         setStatus("ready");
       } catch (requestError) {
         if (requestError.name !== "AbortError") {
@@ -323,7 +326,7 @@ export function TestPage() {
 
     loadQuestions();
     return () => controller.abort();
-  }, [grade, subject]);
+  }, [grade, subject, timeLimitSeconds]);
 
   const currentQuestion = questions[currentIndex];
   const passage = currentQuestion?.passageId ? passages[currentQuestion.passageId] : null;
@@ -335,9 +338,9 @@ export function TestPage() {
     setAnswers((previous) => ({ ...previous, [currentQuestion.id]: value }));
   }
 
-  async function submitTest() {
+  async function submitTest(timeExpired = false) {
     const unanswered = questions.length - answeredCount;
-    if (unanswered > 0 && !window.confirm(`You have ${unanswered} unanswered question${unanswered === 1 ? "" : "s"}. Submit anyway?`)) return;
+    if (!timeExpired && unanswered > 0 && !window.confirm(`You have ${unanswered} unanswered question${unanswered === 1 ? "" : "s"}. Submit anyway?`)) return;
 
     setStatus("submitting");
     try {
@@ -357,6 +360,16 @@ export function TestPage() {
       setStatus("ready");
     }
   }
+
+  useEffect(() => {
+    if (status !== "ready") return undefined;
+    const timer = window.setInterval(() => setSecondsLeft((remaining) => Math.max(0, remaining - 1)), 1000);
+    return () => window.clearInterval(timer);
+  }, [status]);
+
+  useEffect(() => {
+    if (status === "ready" && secondsLeft === 0) submitTest(true);
+  }, [secondsLeft, status]);
 
   if (status === "loading") {
     return (
@@ -388,6 +401,9 @@ export function TestPage() {
         </Link>
         <span>
           Grade {grade} {subjectLabel} · {answeredCount}/{questions.length} answered
+        </span>
+        <span className={`timer ${secondsLeft <= 300 ? "timer-warning" : ""}`} role="timer" aria-live="off">
+          Time left: {Math.floor(secondsLeft / 60)}:{String(secondsLeft % 60).padStart(2, "0")}
         </span>
         {referenceSheet && (
           <button

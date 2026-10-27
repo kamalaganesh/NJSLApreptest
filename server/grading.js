@@ -1,7 +1,9 @@
 export function parseNumber(value) {
   if (typeof value === "number") return value;
   if (value === undefined || value === null) return NaN;
-  const cleaned = String(value).trim().replace(/[$,°%]/g, "");
+  // Numeric-entry items are scored on the value. Students may include the
+  // requested unit (for example, "64 cm"), which is presentation, not value.
+  const cleaned = String(value).trim().replace(/\s*(?:[a-zA-Z]+(?:\s+[a-zA-Z]+)?)\s*$/, "").replace(/[$,°%]/g, "");
   const mixed = cleaned.match(/^(-?\d+)\s+(\d+)\s*\/\s*(\d+)$/);
   if (mixed) {
     const whole = Number(mixed[1]);

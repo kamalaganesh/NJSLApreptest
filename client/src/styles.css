@@ -132,6 +132,9 @@ h1 {
   padding-bottom: 14px;
 }
 
+.timer { color: #14213d; font-variant-numeric: tabular-nums; font-weight: 800; white-space: nowrap; }
+.timer-warning { color: #b42318; }
+
 .progress-row {
   margin-bottom: 22px;
 }
