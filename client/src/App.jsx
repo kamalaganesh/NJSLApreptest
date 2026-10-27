@@ -16,6 +16,34 @@ const REFERENCE_SHEETS = {
 };
 
 const STRONG_PERCENT = 70;
+const USER_NAME_KEY = "njsla-user-name";
+const RESULT_HISTORY_KEY = "njsla-result-history";
+const RESULT_HISTORY_LIMIT = 5;
+
+function readResultHistory() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(RESULT_HISTORY_KEY) || "[]");
+    return Array.isArray(saved) ? saved.slice(0, RESULT_HISTORY_LIMIT) : [];
+  } catch {
+    return [];
+  }
+}
+
+function NameEntry({ onSave }) {
+  const [name, setName] = useState(() => localStorage.getItem(USER_NAME_KEY) || "");
+  function submit(event) {
+    event.preventDefault();
+    const cleaned = name.trim();
+    if (!cleaned) return;
+    localStorage.setItem(USER_NAME_KEY, cleaned);
+    onSave(cleaned);
+  }
+  return <form className="name-entry" onSubmit={submit}>
+    <label htmlFor="student-name">Your name</label>
+    <input id="student-name" value={name} onChange={(event) => setName(event.target.value)} autoComplete="name" required placeholder="Enter your name" />
+    <button className="primary-button" type="submit">Save name</button>
+  </form>;
+}
 
 function focusById(id) {
   const target = document.getElementById(id);
@@ -52,6 +80,7 @@ function Shell({ children, wide = false, skipTarget = "main-content", skipLabel 
 }
 
 export function HomePage() {
+  const [studentName, setStudentName] = useState(() => localStorage.getItem(USER_NAME_KEY) || "");
   return (
     <Shell>
       <section className="header-block">
@@ -60,8 +89,11 @@ export function HomePage() {
         <p className="lead">Practice the kinds of questions you will see on the NJSLA in ELA and Math. Every test is a new mix of questions.</p>
       </section>
 
+      <NameEntry onSave={setStudentName} />
+      <p className="history-link"><Link to="/previous-results">Review previous results</Link></p>
+
       <div className="button-grid" aria-label="Choose a grade">
-        {GRADES.map((grade) => (
+        {studentName && GRADES.map((grade) => (
           <Link className="grade-button" key={grade} to={`/subjects/${grade}`}>
             Grade {grade}
           </Link>
@@ -259,6 +291,9 @@ export function TestPage() {
   const [status, setStatus] = useState("loading");
   const [error, setError] = useState("");
   const [showReference, setShowReference] = useState(false);
+  const [studentName, setStudentName] = useState(() => localStorage.getItem(USER_NAME_KEY) || "");
+
+  if (!studentName) return <Shell><section className="header-block"><p className="eyebrow">Before you begin</p><h1>Who is taking the test?</h1></section><NameEntry onSave={setStudentName} /></Shell>;
 
   useEffect(() => {
     const controller = new AbortController();
@@ -313,7 +348,10 @@ export function TestPage() {
       });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || "Unable to submit test.");
-      navigate("/results", { state: { result: data, grade, subject: subjectLabel, subjectId: subject } });
+      const record = { result: data, grade, subject: subjectLabel, subjectId: subject, name: localStorage.getItem(USER_NAME_KEY) || "Student", completedAt: new Date().toISOString() };
+      const history = [record, ...readResultHistory()].slice(0, RESULT_HISTORY_LIMIT);
+      localStorage.setItem(RESULT_HISTORY_KEY, JSON.stringify(history));
+      navigate("/results", { state: record });
     } catch (submitError) {
       setError(submitError.message);
       setStatus("ready");
@@ -440,6 +478,20 @@ export function TestPage() {
   );
 }
 
+export function PreviousResultsPage() {
+  const history = readResultHistory();
+  return <Shell>
+    <Link className="back-link" to="/">Back to grades</Link>
+    <section className="header-block"><p className="eyebrow">Saved on this device</p><h1>Previous Results</h1><p className="lead">Your five most recent practice test results are saved here.</p></section>
+    {history.length === 0 ? <p className="status-card">No results saved yet. Complete a practice test and it will appear here.</p> : <div className="history-list">
+      {history.map((record, index) => <article className="history-card" key={`${record.completedAt}-${index}`}>
+        <div><p className="eyebrow">{record.name} · Grade {record.grade} {record.subject}</p><h2>{record.result.percent}%</h2><p>{record.result.earned} / {record.result.possible} points · {new Date(record.completedAt).toLocaleString()}</p></div>
+        <Link className="primary-link" to="/results" state={record}>Review report</Link>
+      </article>)}
+    </div>}
+  </Shell>;
+}
+
 export function ResultsPage() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -467,7 +519,7 @@ export function ResultsPage() {
     <Shell>
       <section className="header-block">
         <p className="eyebrow">Grade {grade} {subject}</p>
-        <h1>Score Report</h1>
+        <h1>Score Report for {location.state?.name || "Student"}</h1>
         <button className="secondary-button small-button print-button no-print" type="button" onClick={() => window.print()}>
           Print / Save report
         </button>

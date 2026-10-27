@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { HomePage, ResultsPage, SubjectSelection, TestPage } from "./App.jsx";
+import { HomePage, PreviousResultsPage, ResultsPage, SubjectSelection, TestPage } from "./App.jsx";
 import "./styles.css";
 
 class ErrorBoundary extends React.Component {
@@ -39,6 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/subjects/:grade" element={<SubjectSelection />} />
           <Route path="/test/:grade/:subject" element={<TestPage />} />
           <Route path="/results" element={<ResultsPage />} />
+          <Route path="/previous-results" element={<PreviousResultsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>

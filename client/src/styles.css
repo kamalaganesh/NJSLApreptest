@@ -422,6 +422,19 @@ h1 {
   max-width: 560px;
 }
 
+.name-entry { align-items: end; display: flex; gap: 12px; margin: 0 auto 18px; max-width: 620px; }
+.name-entry label { font-weight: 800; }
+.name-entry input { border: 2px solid #d8e0ea; border-radius: 8px; flex: 1; min-height: 52px; padding: 12px 14px; }
+.name-entry .primary-button { margin-left: 0; }
+.history-link { margin: 0 0 26px; text-align: center; }
+.history-list { display: grid; gap: 14px; }
+.history-card { align-items: center; background: #f7fafc; border: 1px solid #d8e0ea; border-radius: 8px; display: flex; justify-content: space-between; gap: 20px; padding: 20px; }
+.history-card h2 { font-size: 1.8rem; margin-bottom: 6px; }
+.history-card p:last-child { color: #526173; margin-bottom: 0; }
+.history-card .primary-link { font-size: 1rem; min-height: 48px; white-space: nowrap; }
+
+@media (max-width: 640px) { .name-entry, .history-card { align-items: stretch; flex-direction: column; } }
+
 .subject-button {
   display: flex;
   flex-direction: column;
